@@ -173,5 +173,23 @@ namespace lab_1_2
                     }
             }
         }
+
+        private void panelMethod_1_textBox_in_Enter(object sender, EventArgs e)
+        {
+            if(this.panelMethod_1_textBox_k.Text == "")
+            {
+                this.panelMethod_1_textBox_k.Text = "0";
+            }
+        }
+        private void panelMethod_1_rbRU_Click(object sender, EventArgs e)
+        {
+            this.panelMethod_1_l3.Text = "Введите число(смещение) от 0 до 33:";
+        }
+
+        private void panelMethod_1_rbEN_Click(object sender, EventArgs e)
+        {
+            this.panelMethod_1_l3.Text = "Введите число(смещение) от 0 до 25:";
+        }
+
     }
 }
