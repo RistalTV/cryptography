@@ -47,15 +47,16 @@ namespace lab_1_2
             this.panelMethod_1 = new System.Windows.Forms.Panel();
             this.l1_panelMainRight = new System.Windows.Forms.Label();
             this.l1_panelMethod_1 = new System.Windows.Forms.Label();
-            this.label1 = new System.Windows.Forms.Label();
-            this.textBox_k = new System.Windows.Forms.TextBox();
-            this.label2 = new System.Windows.Forms.Label();
-            this.rbRU = new System.Windows.Forms.RadioButton();
-            this.rbEN = new System.Windows.Forms.RadioButton();
-            this.label3 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.label4 = new System.Windows.Forms.Label();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.panelMethod_1_l3 = new System.Windows.Forms.Label();
+            this.panelMethod_1_textBox_k = new System.Windows.Forms.TextBox();
+            this.panelMethod_1_l2 = new System.Windows.Forms.Label();
+            this.panelMethod_1_rbRU = new System.Windows.Forms.RadioButton();
+            this.panelMethod_1_rbEN = new System.Windows.Forms.RadioButton();
+            this.panelMethod_1_l4 = new System.Windows.Forms.Label();
+            this.panelMethod_1_textBox_in = new System.Windows.Forms.TextBox();
+            this.panelMethod_1_l5 = new System.Windows.Forms.Label();
+            this.panelMethod_1_textBox_out = new System.Windows.Forms.TextBox();
+            this.panelMethod_1_btn_encrypt = new System.Windows.Forms.Button();
             this.panelMainLeft.SuspendLayout();
             this.panelMainRight.SuspendLayout();
             this.panelMethod_1.SuspendLayout();
@@ -236,15 +237,16 @@ namespace lab_1_2
             // 
             // panelMethod_1
             // 
-            this.panelMethod_1.Controls.Add(this.rbEN);
-            this.panelMethod_1.Controls.Add(this.rbRU);
-            this.panelMethod_1.Controls.Add(this.textBox2);
-            this.panelMethod_1.Controls.Add(this.textBox1);
-            this.panelMethod_1.Controls.Add(this.label4);
-            this.panelMethod_1.Controls.Add(this.textBox_k);
-            this.panelMethod_1.Controls.Add(this.label3);
-            this.panelMethod_1.Controls.Add(this.label2);
-            this.panelMethod_1.Controls.Add(this.label1);
+            this.panelMethod_1.Controls.Add(this.panelMethod_1_btn_encrypt);
+            this.panelMethod_1.Controls.Add(this.panelMethod_1_rbEN);
+            this.panelMethod_1.Controls.Add(this.panelMethod_1_rbRU);
+            this.panelMethod_1.Controls.Add(this.panelMethod_1_textBox_out);
+            this.panelMethod_1.Controls.Add(this.panelMethod_1_textBox_in);
+            this.panelMethod_1.Controls.Add(this.panelMethod_1_l5);
+            this.panelMethod_1.Controls.Add(this.panelMethod_1_textBox_k);
+            this.panelMethod_1.Controls.Add(this.panelMethod_1_l4);
+            this.panelMethod_1.Controls.Add(this.panelMethod_1_l2);
+            this.panelMethod_1.Controls.Add(this.panelMethod_1_l3);
             this.panelMethod_1.Controls.Add(this.l1_panelMethod_1);
             this.panelMethod_1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panelMethod_1.Enabled = false;
@@ -280,100 +282,114 @@ namespace lab_1_2
             this.l1_panelMethod_1.Text = "Система Цезаря  с ключевым словом";
             this.l1_panelMethod_1.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             // 
-            // label1
+            // panelMethod_1_l3
             // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Impact", 14.25F);
-            this.label1.Location = new System.Drawing.Point(492, 46);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(228, 23);
-            this.label1.TabIndex = 1;
-            this.label1.Text = "Введите ключевое слово:";
+            this.panelMethod_1_l3.AutoSize = true;
+            this.panelMethod_1_l3.Font = new System.Drawing.Font("Impact", 14.25F);
+            this.panelMethod_1_l3.Location = new System.Drawing.Point(492, 46);
+            this.panelMethod_1_l3.Name = "panelMethod_1_l3";
+            this.panelMethod_1_l3.Size = new System.Drawing.Size(228, 23);
+            this.panelMethod_1_l3.TabIndex = 1;
+            this.panelMethod_1_l3.Text = "Введите ключевое слово:";
             // 
-            // textBox_k
+            // panelMethod_1_textBox_k
             // 
-            this.textBox_k.Font = new System.Drawing.Font("Arial", 15.75F);
-            this.textBox_k.Location = new System.Drawing.Point(496, 72);
-            this.textBox_k.MaxLength = 2;
-            this.textBox_k.Name = "textBox_k";
-            this.textBox_k.Size = new System.Drawing.Size(203, 32);
-            this.textBox_k.TabIndex = 2;
+            this.panelMethod_1_textBox_k.Font = new System.Drawing.Font("Arial", 15.75F);
+            this.panelMethod_1_textBox_k.Location = new System.Drawing.Point(496, 72);
+            this.panelMethod_1_textBox_k.MaxLength = 2;
+            this.panelMethod_1_textBox_k.Name = "panelMethod_1_textBox_k";
+            this.panelMethod_1_textBox_k.Size = new System.Drawing.Size(203, 32);
+            this.panelMethod_1_textBox_k.TabIndex = 2;
+            this.panelMethod_1_textBox_k.Leave += new System.EventHandler(this.panelMethod_1_textBox_k_Leave);
             // 
-            // label2
+            // panelMethod_1_l2
             // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Impact", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label2.Location = new System.Drawing.Point(7, 46);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(202, 23);
-            this.label2.TabIndex = 1;
-            this.label2.Text = "Выберите расскладку:";
+            this.panelMethod_1_l2.AutoSize = true;
+            this.panelMethod_1_l2.Font = new System.Drawing.Font("Impact", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.panelMethod_1_l2.Location = new System.Drawing.Point(7, 46);
+            this.panelMethod_1_l2.Name = "panelMethod_1_l2";
+            this.panelMethod_1_l2.Size = new System.Drawing.Size(202, 23);
+            this.panelMethod_1_l2.TabIndex = 1;
+            this.panelMethod_1_l2.Text = "Выберите расскладку:";
             // 
-            // rbRU
+            // panelMethod_1_rbRU
             // 
-            this.rbRU.AutoSize = true;
-            this.rbRU.Font = new System.Drawing.Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.rbRU.Location = new System.Drawing.Point(32, 72);
-            this.rbRU.Name = "rbRU";
-            this.rbRU.Size = new System.Drawing.Size(130, 28);
-            this.rbRU.TabIndex = 3;
-            this.rbRU.TabStop = true;
-            this.rbRU.Text = "Кириллица";
-            this.rbRU.UseVisualStyleBackColor = true;
+            this.panelMethod_1_rbRU.AutoSize = true;
+            this.panelMethod_1_rbRU.Checked = true;
+            this.panelMethod_1_rbRU.Font = new System.Drawing.Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.panelMethod_1_rbRU.Location = new System.Drawing.Point(32, 72);
+            this.panelMethod_1_rbRU.Name = "panelMethod_1_rbRU";
+            this.panelMethod_1_rbRU.Size = new System.Drawing.Size(130, 28);
+            this.panelMethod_1_rbRU.TabIndex = 3;
+            this.panelMethod_1_rbRU.TabStop = true;
+            this.panelMethod_1_rbRU.Text = "Кириллица";
+            this.panelMethod_1_rbRU.UseVisualStyleBackColor = true;
             // 
-            // rbEN
+            // panelMethod_1_rbEN
             // 
-            this.rbEN.AutoSize = true;
-            this.rbEN.Font = new System.Drawing.Font("Arial", 15.75F);
-            this.rbEN.Location = new System.Drawing.Point(32, 106);
-            this.rbEN.Name = "rbEN";
-            this.rbEN.Size = new System.Drawing.Size(121, 28);
-            this.rbEN.TabIndex = 3;
-            this.rbEN.TabStop = true;
-            this.rbEN.Text = "Латиница";
-            this.rbEN.UseVisualStyleBackColor = true;
+            this.panelMethod_1_rbEN.AutoSize = true;
+            this.panelMethod_1_rbEN.Font = new System.Drawing.Font("Arial", 15.75F);
+            this.panelMethod_1_rbEN.Location = new System.Drawing.Point(32, 106);
+            this.panelMethod_1_rbEN.Name = "panelMethod_1_rbEN";
+            this.panelMethod_1_rbEN.Size = new System.Drawing.Size(121, 28);
+            this.panelMethod_1_rbEN.TabIndex = 3;
+            this.panelMethod_1_rbEN.Text = "Латиница";
+            this.panelMethod_1_rbEN.UseVisualStyleBackColor = true;
+            this.panelMethod_1_rbEN.CheckedChanged += new System.EventHandler(this.panelMethod_1_rbEN_CheckedChanged);
             // 
-            // label3
+            // panelMethod_1_l4
             // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Impact", 14.25F);
-            this.label3.Location = new System.Drawing.Point(7, 195);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(228, 23);
-            this.label3.TabIndex = 1;
-            this.label3.Text = "Введите ключевое слово:";
+            this.panelMethod_1_l4.AutoSize = true;
+            this.panelMethod_1_l4.Font = new System.Drawing.Font("Impact", 14.25F);
+            this.panelMethod_1_l4.Location = new System.Drawing.Point(7, 195);
+            this.panelMethod_1_l4.Name = "panelMethod_1_l4";
+            this.panelMethod_1_l4.Size = new System.Drawing.Size(228, 23);
+            this.panelMethod_1_l4.TabIndex = 1;
+            this.panelMethod_1_l4.Text = "Введите ключевое слово:";
             // 
-            // textBox1
+            // panelMethod_1_textBox_in
             // 
-            this.textBox1.Font = new System.Drawing.Font("Arial", 15.75F);
-            this.textBox1.Location = new System.Drawing.Point(0, 220);
-            this.textBox1.MaxLength = 9999;
-            this.textBox1.Multiline = true;
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(816, 93);
-            this.textBox1.TabIndex = 2;
+            this.panelMethod_1_textBox_in.Font = new System.Drawing.Font("Arial", 15.75F);
+            this.panelMethod_1_textBox_in.Location = new System.Drawing.Point(0, 220);
+            this.panelMethod_1_textBox_in.MaxLength = 9999;
+            this.panelMethod_1_textBox_in.Multiline = true;
+            this.panelMethod_1_textBox_in.Name = "panelMethod_1_textBox_in";
+            this.panelMethod_1_textBox_in.Size = new System.Drawing.Size(816, 93);
+            this.panelMethod_1_textBox_in.TabIndex = 2;
+            this.panelMethod_1_textBox_in.Leave += new System.EventHandler(this.panelMethod_1_textBox_in_Leave);
             // 
-            // label4
+            // panelMethod_1_l5
             // 
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Impact", 14.25F);
-            this.label4.Location = new System.Drawing.Point(7, 401);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(96, 23);
-            this.label4.TabIndex = 1;
-            this.label4.Text = "Результат";
+            this.panelMethod_1_l5.AutoSize = true;
+            this.panelMethod_1_l5.Font = new System.Drawing.Font("Impact", 14.25F);
+            this.panelMethod_1_l5.Location = new System.Drawing.Point(7, 401);
+            this.panelMethod_1_l5.Name = "panelMethod_1_l5";
+            this.panelMethod_1_l5.Size = new System.Drawing.Size(96, 23);
+            this.panelMethod_1_l5.TabIndex = 1;
+            this.panelMethod_1_l5.Text = "Результат";
             // 
-            // textBox2
+            // panelMethod_1_textBox_out
             // 
-            this.textBox2.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox2.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.textBox2.Font = new System.Drawing.Font("Arial", 15.75F);
-            this.textBox2.Location = new System.Drawing.Point(0, 437);
-            this.textBox2.MaxLength = 9999;
-            this.textBox2.Multiline = true;
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(816, 93);
-            this.textBox2.TabIndex = 2;
+            this.panelMethod_1_textBox_out.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.panelMethod_1_textBox_out.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.panelMethod_1_textBox_out.Font = new System.Drawing.Font("Arial", 15.75F);
+            this.panelMethod_1_textBox_out.Location = new System.Drawing.Point(0, 437);
+            this.panelMethod_1_textBox_out.MaxLength = 9999;
+            this.panelMethod_1_textBox_out.Multiline = true;
+            this.panelMethod_1_textBox_out.Name = "panelMethod_1_textBox_out";
+            this.panelMethod_1_textBox_out.Size = new System.Drawing.Size(816, 93);
+            this.panelMethod_1_textBox_out.TabIndex = 2;
+            // 
+            // panelMethod_1_btn_encrypt
+            // 
+            this.panelMethod_1_btn_encrypt.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold);
+            this.panelMethod_1_btn_encrypt.Location = new System.Drawing.Point(6, 332);
+            this.panelMethod_1_btn_encrypt.Name = "panelMethod_1_btn_encrypt";
+            this.panelMethod_1_btn_encrypt.Size = new System.Drawing.Size(802, 57);
+            this.panelMethod_1_btn_encrypt.TabIndex = 4;
+            this.panelMethod_1_btn_encrypt.Text = "Зашифровать";
+            this.panelMethod_1_btn_encrypt.UseVisualStyleBackColor = true;
+            this.panelMethod_1_btn_encrypt.Click += new System.EventHandler(this.panelMethod_1_btn_encrypt_Click);
             // 
             // MainForm
             // 
@@ -414,16 +430,17 @@ namespace lab_1_2
         private System.Windows.Forms.Panel panelMethod_3;
         private System.Windows.Forms.Panel panelMethod_2;
         private System.Windows.Forms.Panel panelMethod_1;
-        private RadioButton rbEN;
-        private RadioButton rbRU;
-        private TextBox textBox2;
-        private TextBox textBox1;
-        private Label label4;
-        private TextBox textBox_k;
-        private Label label3;
-        private Label label2;
-        private Label label1;
+        private RadioButton panelMethod_1_rbEN;
+        private RadioButton panelMethod_1_rbRU;
+        private TextBox panelMethod_1_textBox_out;
+        private TextBox panelMethod_1_textBox_in;
+        private Label panelMethod_1_l5;
+        private TextBox panelMethod_1_textBox_k;
+        private Label panelMethod_1_l4;
+        private Label panelMethod_1_l2;
+        private Label panelMethod_1_l3;
         private Label l1_panelMethod_1;
+        private Button panelMethod_1_btn_encrypt;
     }
 }
 
