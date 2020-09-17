@@ -191,6 +191,9 @@ namespace lab_1_2
             }
         }
 
+        private void panelMethod_2_Paint(object sender, PaintEventArgs e)
+        {
 
+        }
     }
 }
