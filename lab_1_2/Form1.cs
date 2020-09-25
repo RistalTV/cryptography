@@ -51,9 +51,11 @@ namespace lab_1_2
 
         private void RadButMethod_2_Click(object sender, EventArgs e)
         {
+
             change_Dock(2);
             change_Enabled(2);
             change_Visible(2);
+
         }
 
         private void RadButMethod_3_Click(object sender, EventArgs e)
@@ -191,9 +193,6 @@ namespace lab_1_2
             }
         }
 
-        private void panelMethod_2_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
+        
     }
 }
