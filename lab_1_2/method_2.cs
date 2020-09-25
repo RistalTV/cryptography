@@ -14,7 +14,7 @@ namespace lab_1_2
     public partial class MainForm : Form
     {
 
-        private void panelMethod_2_generate_alphavite_afin()
+        private void PanelMethod_2_generate_alphavite_afin()
         {
             List<char> alph_EN_u = new List<char> { };
             List<char> alph_EN_l = new List<char> { };
@@ -36,7 +36,7 @@ namespace lab_1_2
                 int NumCharU, NumCharL;
                 for (var i = 1; i<=26; i++)
                 {
-                    NumCharU = panelMethod_2_main_func
+                    NumCharU = PanelMethod_2_main_func
                                 (
                                     Convert.ToInt32(chisl),
                                     Convert.ToInt32(panelMethod_2_textBox_B.Text),
@@ -46,7 +46,7 @@ namespace lab_1_2
                                 64 +
                                 i
                             ;
-                    NumCharL = panelMethod_2_main_func
+                    NumCharL = PanelMethod_2_main_func
                                 (
                                     Convert.ToInt32(chisl),
                                     Convert.ToInt32(panelMethod_2_textBox_B.Text),
@@ -119,7 +119,7 @@ namespace lab_1_2
                 }
                 for (var i = 1; i <= 33; i++)
                 {
-                    alph_RU_offset.Add(panelMethod_2_main_func(Convert.ToInt32(chisl),Convert.ToInt32(panelMethod_2_textBox_B.Text),33,i));
+                    alph_RU_offset.Add(PanelMethod_2_main_func(Convert.ToInt32(chisl),Convert.ToInt32(panelMethod_2_textBox_B.Text),33,i));
                 }
 
                 for (var i = 0; i < 33; i++)
@@ -167,7 +167,7 @@ namespace lab_1_2
                 int NumCharU, NumCharL;
                 for (var i = 1; i <= 26; i++)
                 {
-                    NumCharU = panelMethod_2_main_func
+                    NumCharU = PanelMethod_2_main_func
                                 (
                                     Convert.ToInt32(chisl),
                                     Convert.ToInt32(panelMethod_2_textBox_B.Text),
@@ -177,7 +177,7 @@ namespace lab_1_2
                                 64 +
                                 i
                             ;
-                    NumCharL = panelMethod_2_main_func
+                    NumCharL = PanelMethod_2_main_func
                                 (
                                     Convert.ToInt32(chisl),
                                     Convert.ToInt32(panelMethod_2_textBox_B.Text),
@@ -247,7 +247,7 @@ namespace lab_1_2
                 }
                 for (var i = 1; i <= 33; i++)
                 {
-                    alph_RU_offset.Add(panelMethod_2_main_func(Convert.ToInt32(chisl), Convert.ToInt32(panelMethod_2_textBox_B.Text), 33, i));
+                    alph_RU_offset.Add(PanelMethod_2_main_func(Convert.ToInt32(chisl), Convert.ToInt32(panelMethod_2_textBox_B.Text), 33, i));
                 }
                 for (var i = 0; i < 33; i++)
                 {
@@ -291,7 +291,7 @@ namespace lab_1_2
         }
 
 
-        private int panelMethod_2_nod(int val1, int val2)
+        private int PanelMethod_2_nod(int val1, int val2)
         {
             while ((val1 != 0) && (val2 != 0))
             {
@@ -304,20 +304,20 @@ namespace lab_1_2
         }
 
 
-        private int panelMethod_2_main_func(int a, int b, int m, int x)
+        private int PanelMethod_2_main_func(int a, int b, int m, int x)
         {
             return (a * x + b) % m;
         }
 
 
-        private void panelMethod_2_textBox_A_Leave(object sender, EventArgs e)
+        private void PanelMethod_2_textBox_A_Leave(object sender, EventArgs e)
         {
             if (panelMethod_2_textBox_A.Text == "")
             {
                 MessageBox.Show("Введите простые числа:\n\n\nВот список простых чисел\n  Если надо зашифровать только латинцу: 1, 3, 5, 7, 9, 11, 15, 17, 19, 21, 23, 26;\n\n  Если надо зашифровать только кириллицу: 1, 2, 4, 5, 7, 8, 10, 13, 14, 16, 17, 19, 20, 23, 25, 26, 28, 29, 31, 32;\n\n  Если надо зашифровать смешенно(кирилица и латиница): 1, 5, 7, 17, 19, 23, 25", "Ошибка", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 this.panelMethod_2_textBox_A.Text = "1";
             }
-            else if (panelMethod_2_validatecisl(panelMethod_2_textBox_A.Text))
+            else if (PanelMethod_2_validatecisl(panelMethod_2_textBox_A.Text))
             {
                 //List<int> possibleValEN = new List<int> { 1, 3, 5, 7, 9, 11, 15, 17, 19, 21, 23, 25 };
                 //List<int> possibleValRU = new List<int> { 1, 2, 4, 5, 7, 8, 10, 13, 14, 16, 17, 19, 20, 23, 25, 26, 28, 29, 31, 32 };
@@ -328,10 +328,10 @@ namespace lab_1_2
                     MessageBox.Show("Введите простые числа:\n\n\nВот список простых чисел\n  Если надо зашифровать только латинцу: 1, 3, 5, 7, 9, 11, 15, 17, 19, 21, 23, 26;\n\n  Если надо зашифровать только кириллицу: 1, 2, 4, 5, 7, 8, 10, 13, 14, 16, 17, 19, 20, 23, 25, 26, 28, 29, 31, 32;\n\n  Если надо зашифровать смешенно(кирилица и латиница): 1, 5, 7, 17, 19, 23, 25", "Ошибка", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                     this.panelMethod_2_textBox_A.Text = "25";
                     chisl = Convert.ToInt16(panelMethod_2_textBox_A.Text);
-                    int nodEN = panelMethod_2_nod(chisl, 26), nodRU = panelMethod_2_nod(chisl, 33);
-                    this.panelMethod_2_l5.Text = "НОД (" + chisl + ", 33) = " + Convert.ToString(panelMethod_2_nod(chisl, 33));
+                    int nodEN = PanelMethod_2_nod(chisl, 26), nodRU = PanelMethod_2_nod(chisl, 33);
+                    this.panelMethod_2_l5.Text = "НОД (" + chisl + ", 33) = " + Convert.ToString(PanelMethod_2_nod(chisl, 33));
                     if (chisl <26)
-                        this.panelMethod_2_l6.Text = "НОД (" + chisl + ", 26) = " + Convert.ToString(panelMethod_2_nod(chisl, 26));
+                        this.panelMethod_2_l6.Text = "НОД (" + chisl + ", 26) = " + Convert.ToString(PanelMethod_2_nod(chisl, 26));
                     else
                         this.panelMethod_2_l6.Text = "НОД (" + chisl + ", 26) = ???";
                     if (nodEN == 1 && nodRU != 1)
@@ -347,10 +347,10 @@ namespace lab_1_2
                 }
                 else 
                 {
-                    int nodEN = panelMethod_2_nod(chisl, 26), nodRU = panelMethod_2_nod(chisl, 33);
-                    this.panelMethod_2_l5.Text = "НОД (" + chisl + ", 33) = " + Convert.ToString(panelMethod_2_nod(chisl, 33));
+                    int nodEN = PanelMethod_2_nod(chisl, 26), nodRU = PanelMethod_2_nod(chisl, 33);
+                    this.panelMethod_2_l5.Text = "НОД (" + chisl + ", 33) = " + Convert.ToString(PanelMethod_2_nod(chisl, 33));
                     if (chisl < 26)
-                        this.panelMethod_2_l6.Text = "НОД (" + chisl + ", 26) = " + Convert.ToString(panelMethod_2_nod(chisl, 26));
+                        this.panelMethod_2_l6.Text = "НОД (" + chisl + ", 26) = " + Convert.ToString(PanelMethod_2_nod(chisl, 26));
                     else
                         this.panelMethod_2_l6.Text = "НОД (" + chisl + ", 26) = ???"; 
                     if (nodEN == 1 && nodRU != 1)
@@ -362,7 +362,7 @@ namespace lab_1_2
                             else if (nodEN != 1 && nodRU != 1)
                                 { this.panelMethod_2_l9_stata.Text = "00"; }
                     if(panelMethod_2_textBox_B.Text == "1")
-                        panelMethod_2_generate_alphavite_afin();
+                        PanelMethod_2_generate_alphavite_afin();
                 }
             }
             else
@@ -373,7 +373,7 @@ namespace lab_1_2
         }
         
         
-        private bool panelMethod_2_validatecisl(string Text)
+        private bool PanelMethod_2_validatecisl(string Text)
         {
             if ( Text[0] >= '0'  &&  Text[0] <= '9' )
             {
@@ -394,15 +394,15 @@ namespace lab_1_2
         }
         
         
-        private void panelMethod_2_textBox_B_Leave(object sender, EventArgs e)
+        private void PanelMethod_2_textBox_B_Leave(object sender, EventArgs e)
         {
             if ( panelMethod_2_textBox_B.Text == "" )
             {
                 MessageBox.Show("Введите числа от 0 до 9999", "Ошибка", MessageBoxButtons.OK, MessageBoxIcon.Warning);
             }
-            else if (panelMethod_2_validatecisl(panelMethod_2_textBox_B.Text))
+            else if (PanelMethod_2_validatecisl(panelMethod_2_textBox_B.Text))
             {
-                panelMethod_2_generate_alphavite_afin();
+                PanelMethod_2_generate_alphavite_afin();
             }
             else
             {
@@ -413,14 +413,14 @@ namespace lab_1_2
         }
         
         
-        private void panelMethod_2_pictureBoxHelp_Click(object sender, EventArgs e)
+        private void PanelMethod_2_pictureBoxHelp_Click(object sender, EventArgs e)
         {
             MessageBox.Show("Введите в поле A простое число:\n\n\nВот список простых чисел\n  Если надо зашифровать только латинцу: 1, 3, 5, 7, 9, 11, 15, 17, 19, 21, 23, 26;\n\n  Если надо зашифровать только кириллицу: 1, 2, 4, 5, 7, 8, 10, 13, 14, 16, 17, 19, 20, 23, 25, 26, 28, 29, 31, 32;\n\n  Если надо зашифровать смешенно(кирилица и латиница): 1, 5, 7, 17, 19, 23, 25", "Справочная информация", MessageBoxButtons.OK, MessageBoxIcon.Information);
 
         }
 
 
-        private void panelMethod_2_btn_encrypt_Click(object sender, EventArgs e)
+        private void PanelMethod_2_btn_encrypt_Click(object sender, EventArgs e)
         {
             if(panelMethod_2_l9_stata.Text == "00")
             {
@@ -445,7 +445,7 @@ namespace lab_1_2
                 int NumCharU, NumCharL;
                 for (var i = 1; i <= 26; i++)
                 {
-                    NumCharU = panelMethod_2_main_func
+                    NumCharU = PanelMethod_2_main_func
                                 (
                                     Convert.ToInt32(chisl),
                                     Convert.ToInt32(panelMethod_2_textBox_B.Text),
@@ -455,7 +455,7 @@ namespace lab_1_2
                                 64 +
                                 i
                             ;
-                    NumCharL = panelMethod_2_main_func
+                    NumCharL = PanelMethod_2_main_func
                                 (
                                     Convert.ToInt32(chisl),
                                     Convert.ToInt32(panelMethod_2_textBox_B.Text),
@@ -494,7 +494,7 @@ namespace lab_1_2
                 }
                 for (var i = 1; i <= 33; i++)
                 {
-                    alph_RU_offset.Add(panelMethod_2_main_func(Convert.ToInt32(chisl), Convert.ToInt32(panelMethod_2_textBox_B.Text), 33, i));
+                    alph_RU_offset.Add(PanelMethod_2_main_func(Convert.ToInt32(chisl), Convert.ToInt32(panelMethod_2_textBox_B.Text), 33, i));
                 }
                 for (var i = 0; i < 33; i++)
                 {

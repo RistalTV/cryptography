@@ -30,8 +30,8 @@ namespace lab_1_2
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle7 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle8 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
             this.panelMainLeft = new System.Windows.Forms.Panel();
             this.buttonAcceptMainLeft = new System.Windows.Forms.Button();
             this.rbNoFill = new System.Windows.Forms.RadioButton();
@@ -150,7 +150,7 @@ namespace lab_1_2
             this.buttonAcceptMainLeft.TabIndex = 6;
             this.buttonAcceptMainLeft.Text = "Выбрать";
             this.buttonAcceptMainLeft.UseVisualStyleBackColor = true;
-            this.buttonAcceptMainLeft.Click += new System.EventHandler(this.buttonAcceptMainLeft_Click);
+            this.buttonAcceptMainLeft.Click += new System.EventHandler(this.ButtonAcceptMainLeft_Click);
             // 
             // rbNoFill
             // 
@@ -265,7 +265,7 @@ namespace lab_1_2
             this.panelMethod_5.MaximumSize = new System.Drawing.Size(1100, 530);
             this.panelMethod_5.MinimumSize = new System.Drawing.Size(1100, 530);
             this.panelMethod_5.Name = "panelMethod_5";
-            this.panelMethod_5.Size = new System.Drawing.Size(1200, 530);
+            this.panelMethod_5.Size = new System.Drawing.Size(1100, 530);
             this.panelMethod_5.TabIndex = 1;
             // 
             // panelMethod_4
@@ -274,7 +274,7 @@ namespace lab_1_2
             this.panelMethod_4.MaximumSize = new System.Drawing.Size(1100, 530);
             this.panelMethod_4.MinimumSize = new System.Drawing.Size(1100, 530);
             this.panelMethod_4.Name = "panelMethod_4";
-            this.panelMethod_4.Size = new System.Drawing.Size(1200, 530);
+            this.panelMethod_4.Size = new System.Drawing.Size(1100, 530);
             this.panelMethod_4.TabIndex = 1;
             // 
             // panelMethod_3
@@ -316,7 +316,7 @@ namespace lab_1_2
             this.panelMethod_2_btn_encrypt.TabIndex = 7;
             this.panelMethod_2_btn_encrypt.Text = "Зашифровать";
             this.panelMethod_2_btn_encrypt.UseVisualStyleBackColor = true;
-            this.panelMethod_2_btn_encrypt.Click += new System.EventHandler(this.panelMethod_2_btn_encrypt_Click);
+            this.panelMethod_2_btn_encrypt.Click += new System.EventHandler(this.PanelMethod_2_btn_encrypt_Click);
             // 
             // panelMethod_2_dataGridView
             // 
@@ -325,14 +325,14 @@ namespace lab_1_2
             this.panelMethod_2_dataGridView.BackgroundColor = System.Drawing.SystemColors.ButtonFace;
             this.panelMethod_2_dataGridView.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.panelMethod_2_dataGridView.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.None;
-            dataGridViewCellStyle7.Alignment = System.Windows.Forms.DataGridViewContentAlignment.TopCenter;
-            dataGridViewCellStyle7.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle7.Font = new System.Drawing.Font("Impact", 14.25F);
-            dataGridViewCellStyle7.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle7.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle7.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle7.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.panelMethod_2_dataGridView.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle7;
+            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.TopCenter;
+            dataGridViewCellStyle1.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle1.Font = new System.Drawing.Font("Impact", 14.25F);
+            dataGridViewCellStyle1.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.panelMethod_2_dataGridView.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1;
             this.panelMethod_2_dataGridView.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.panelMethod_2_dataGridView.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.panelMethod_2_lang,
@@ -369,14 +369,14 @@ namespace lab_1_2
             this.panelMethod_2_Column31,
             this.panelMethod_2_Column32,
             this.panelMethod_2_Column33});
-            dataGridViewCellStyle8.Alignment = System.Windows.Forms.DataGridViewContentAlignment.TopCenter;
-            dataGridViewCellStyle8.BackColor = System.Drawing.SystemColors.Window;
-            dataGridViewCellStyle8.Font = new System.Drawing.Font("Impact", 14.25F);
-            dataGridViewCellStyle8.ForeColor = System.Drawing.SystemColors.ControlText;
-            dataGridViewCellStyle8.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle8.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle8.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.panelMethod_2_dataGridView.DefaultCellStyle = dataGridViewCellStyle8;
+            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.TopCenter;
+            dataGridViewCellStyle2.BackColor = System.Drawing.SystemColors.Window;
+            dataGridViewCellStyle2.Font = new System.Drawing.Font("Impact", 14.25F);
+            dataGridViewCellStyle2.ForeColor = System.Drawing.SystemColors.ControlText;
+            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.panelMethod_2_dataGridView.DefaultCellStyle = dataGridViewCellStyle2;
             this.panelMethod_2_dataGridView.Dock = System.Windows.Forms.DockStyle.Top;
             this.panelMethod_2_dataGridView.Location = new System.Drawing.Point(0, 160);
             this.panelMethod_2_dataGridView.Name = "panelMethod_2_dataGridView";
@@ -796,7 +796,7 @@ namespace lab_1_2
             this.panelMethod_2_pictureBoxHelp.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.panelMethod_2_pictureBoxHelp.TabIndex = 2;
             this.panelMethod_2_pictureBoxHelp.TabStop = false;
-            this.panelMethod_2_pictureBoxHelp.Click += new System.EventHandler(this.panelMethod_2_pictureBoxHelp_Click);
+            this.panelMethod_2_pictureBoxHelp.Click += new System.EventHandler(this.PanelMethod_2_pictureBoxHelp_Click);
             // 
             // panelMethod_2_textBox_B
             // 
@@ -809,7 +809,7 @@ namespace lab_1_2
             this.panelMethod_2_textBox_B.TabIndex = 1;
             this.panelMethod_2_textBox_B.Text = "1";
             this.panelMethod_2_textBox_B.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.panelMethod_2_textBox_B.Leave += new System.EventHandler(this.panelMethod_2_textBox_B_Leave);
+            this.panelMethod_2_textBox_B.Leave += new System.EventHandler(this.PanelMethod_2_textBox_B_Leave);
             // 
             // panelMethod_2_textBox_A
             // 
@@ -822,7 +822,7 @@ namespace lab_1_2
             this.panelMethod_2_textBox_A.TabIndex = 0;
             this.panelMethod_2_textBox_A.Text = "1";
             this.panelMethod_2_textBox_A.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.panelMethod_2_textBox_A.Leave += new System.EventHandler(this.panelMethod_2_textBox_A_Leave);
+            this.panelMethod_2_textBox_A.Leave += new System.EventHandler(this.PanelMethod_2_textBox_A_Leave);
             // 
             // panelMethod_2_input_data_text
             // 
@@ -906,7 +906,7 @@ namespace lab_1_2
             this.panelMethod_1.MaximumSize = new System.Drawing.Size(1100, 530);
             this.panelMethod_1.MinimumSize = new System.Drawing.Size(1100, 530);
             this.panelMethod_1.Name = "panelMethod_1";
-            this.panelMethod_1.Size = new System.Drawing.Size(1200, 530);
+            this.panelMethod_1.Size = new System.Drawing.Size(1100, 530);
             this.panelMethod_1.TabIndex = 1;
             this.panelMethod_1.Visible = false;
             // 
@@ -919,7 +919,7 @@ namespace lab_1_2
             this.panelMethod_1_btn_encrypt.TabIndex = 4;
             this.panelMethod_1_btn_encrypt.Text = "Зашифровать";
             this.panelMethod_1_btn_encrypt.UseVisualStyleBackColor = true;
-            this.panelMethod_1_btn_encrypt.Click += new System.EventHandler(this.panelMethod_1_btn_encrypt_Click);
+            this.panelMethod_1_btn_encrypt.Click += new System.EventHandler(this.PanelMethod_1_btn_encrypt_Click);
             // 
             // panelMethod_1_rbEN
             // 
@@ -931,7 +931,7 @@ namespace lab_1_2
             this.panelMethod_1_rbEN.TabIndex = 3;
             this.panelMethod_1_rbEN.Text = "Латиница";
             this.panelMethod_1_rbEN.UseVisualStyleBackColor = true;
-            this.panelMethod_1_rbEN.Click += new System.EventHandler(this.panelMethod_1_rbEN_Click);
+            this.panelMethod_1_rbEN.Click += new System.EventHandler(this.PanelMethod_1_rbEN_Click);
             // 
             // panelMethod_1_rbRU
             // 
@@ -945,7 +945,7 @@ namespace lab_1_2
             this.panelMethod_1_rbRU.TabStop = true;
             this.panelMethod_1_rbRU.Text = "Кириллица";
             this.panelMethod_1_rbRU.UseVisualStyleBackColor = true;
-            this.panelMethod_1_rbRU.Click += new System.EventHandler(this.panelMethod_1_rbRU_Click);
+            this.panelMethod_1_rbRU.Click += new System.EventHandler(this.PanelMethod_1_rbRU_Click);
             // 
             // panelMethod_1_textBox_out
             // 
@@ -956,7 +956,7 @@ namespace lab_1_2
             this.panelMethod_1_textBox_out.MaxLength = 9999;
             this.panelMethod_1_textBox_out.Multiline = true;
             this.panelMethod_1_textBox_out.Name = "panelMethod_1_textBox_out";
-            this.panelMethod_1_textBox_out.Size = new System.Drawing.Size(1200, 93);
+            this.panelMethod_1_textBox_out.Size = new System.Drawing.Size(1100, 93);
             this.panelMethod_1_textBox_out.TabIndex = 2;
             // 
             // panelMethod_1_textBox_in
@@ -968,8 +968,8 @@ namespace lab_1_2
             this.panelMethod_1_textBox_in.Name = "panelMethod_1_textBox_in";
             this.panelMethod_1_textBox_in.Size = new System.Drawing.Size(1099, 93);
             this.panelMethod_1_textBox_in.TabIndex = 2;
-            this.panelMethod_1_textBox_in.Enter += new System.EventHandler(this.panelMethod_1_textBox_in_Enter);
-            this.panelMethod_1_textBox_in.Leave += new System.EventHandler(this.panelMethod_1_textBox_in_Leave);
+            this.panelMethod_1_textBox_in.Enter += new System.EventHandler(this.PanelMethod_1_textBox_in_Enter);
+            this.panelMethod_1_textBox_in.Leave += new System.EventHandler(this.PanelMethod_1_textBox_in_Leave);
             // 
             // panelMethod_1_l5
             // 
@@ -989,7 +989,7 @@ namespace lab_1_2
             this.panelMethod_1_textBox_k.Name = "panelMethod_1_textBox_k";
             this.panelMethod_1_textBox_k.Size = new System.Drawing.Size(319, 32);
             this.panelMethod_1_textBox_k.TabIndex = 2;
-            this.panelMethod_1_textBox_k.Leave += new System.EventHandler(this.panelMethod_1_textBox_k_Leave);
+            this.panelMethod_1_textBox_k.Leave += new System.EventHandler(this.PanelMethod_1_textBox_k_Leave);
             // 
             // panelMethod_1_l4
             // 
@@ -1027,7 +1027,7 @@ namespace lab_1_2
             this.l1_panelMethod_1.Font = new System.Drawing.Font("Impact", 20.25F, System.Drawing.FontStyle.Bold);
             this.l1_panelMethod_1.Location = new System.Drawing.Point(0, 0);
             this.l1_panelMethod_1.Name = "l1_panelMethod_1";
-            this.l1_panelMethod_1.Size = new System.Drawing.Size(1200, 46);
+            this.l1_panelMethod_1.Size = new System.Drawing.Size(1100, 46);
             this.l1_panelMethod_1.TabIndex = 0;
             this.l1_panelMethod_1.Text = "Система Цезаря  с ключевым словом";
             this.l1_panelMethod_1.TextAlign = System.Drawing.ContentAlignment.TopCenter;

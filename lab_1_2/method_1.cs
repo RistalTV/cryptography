@@ -13,7 +13,7 @@ namespace lab_1_2
     public partial class MainForm : Form
     {
 
-        private void panelMethod_1_textBox_k_Leave(object sender, EventArgs e)
+        private void PanelMethod_1_textBox_k_Leave(object sender, EventArgs e)
         {
             if (this.panelMethod_1_textBox_k.Text == "")
             {
@@ -73,7 +73,8 @@ namespace lab_1_2
             }
         }
 
-        private void panelMethod_1_rbEN_CheckedChanged(object sender, EventArgs e)
+
+        private void PanelMethod_1_rbEN_CheckedChanged(object sender, EventArgs e)
         {
             if (Convert.ToInt16(this.panelMethod_1_textBox_k.Text) > 25)
             {
@@ -82,7 +83,8 @@ namespace lab_1_2
             }
         }
 
-        private void panelMethod_1_btn_encrypt_Click(object sender, EventArgs e)
+
+        private void PanelMethod_1_btn_encrypt_Click(object sender, EventArgs e)
         {
             var k = Convert.ToInt16(panelMethod_1_textBox_k.Text);
             var text = "";
@@ -158,7 +160,8 @@ namespace lab_1_2
             this.panelMethod_1_textBox_out.Text = text;
         }
 
-        private void panelMethod_1_textBox_in_Leave(object sender, EventArgs e)
+
+        private void PanelMethod_1_textBox_in_Leave(object sender, EventArgs e)
         {
             if (!this.panelMethod_1_rbEN.Checked)
             {
@@ -174,19 +177,23 @@ namespace lab_1_2
             }
         }
 
-        private void panelMethod_1_textBox_in_Enter(object sender, EventArgs e)
+
+        private void PanelMethod_1_textBox_in_Enter(object sender, EventArgs e)
         {
             if(this.panelMethod_1_textBox_k.Text == "")
             {
                 this.panelMethod_1_textBox_k.Text = "0";
             }
         }
-        private void panelMethod_1_rbRU_Click(object sender, EventArgs e)
+        
+        
+        private void PanelMethod_1_rbRU_Click(object sender, EventArgs e)
         {
             this.panelMethod_1_l3.Text = "Введите число(смещение) от 0 до 33:";
         }
 
-        private void panelMethod_1_rbEN_Click(object sender, EventArgs e)
+
+        private void PanelMethod_1_rbEN_Click(object sender, EventArgs e)
         {
             this.panelMethod_1_l3.Text = "Введите число(смещение) от 0 до 25:";
         }

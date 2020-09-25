@@ -17,7 +17,8 @@ namespace lab_1_2
             InitializeComponent();
         }
 
-        private void buttonAcceptMainLeft_Click(object sender, EventArgs e)
+
+        private void ButtonAcceptMainLeft_Click(object sender, EventArgs e)
         {
             if (this.RadButMethod_1.Checked == true)
             {
@@ -42,44 +43,50 @@ namespace lab_1_2
             
         }
 
+
         private void RadButMethod_1_Click(object sender, EventArgs e)
         {
-            change_Dock(1);
-            change_Enabled(1);
-            change_Visible(1);
+            Change_Dock(1);
+            Change_Enabled(1);
+            Change_Visible(1);
         }
+
 
         private void RadButMethod_2_Click(object sender, EventArgs e)
         {
 
-            change_Dock(2);
-            change_Enabled(2);
-            change_Visible(2);
+            Change_Dock(2);
+            Change_Enabled(2);
+            Change_Visible(2);
 
         }
+
 
         private void RadButMethod_3_Click(object sender, EventArgs e)
         {
-            change_Dock(3);
-            change_Enabled(3);
-            change_Visible(3);
+            Change_Dock(3);
+            Change_Enabled(3);
+            Change_Visible(3);
         }
+
 
         private void RadButMethod_4_Click(object sender, EventArgs e)
         {
-            change_Dock(4);
-            change_Enabled(4);
-            change_Visible(4);
+            Change_Dock(4);
+            Change_Enabled(4);
+            Change_Visible(4);
         }
+
 
         private void RadButMethod_5_Click(object sender, EventArgs e)
         {
-            change_Dock(5);
-            change_Enabled(5);
-            change_Visible(5);
+            Change_Dock(5);
+            Change_Enabled(5);
+            Change_Visible(5);
         }
 
-        private void change_Dock(Int16 num)
+
+        private void Change_Dock(Int16 num)
         {
             this.panelMethod_1.Dock = System.Windows.Forms.DockStyle.None;
             this.panelMethod_2.Dock = System.Windows.Forms.DockStyle.None;
@@ -117,7 +124,9 @@ namespace lab_1_2
             }
 
         }
-        private void change_Visible(Int16 num)
+        
+
+        private void Change_Visible(Int16 num)
         {
             this.panelMethod_1.Visible = false;
             this.panelMethod_2.Visible = false;
@@ -155,7 +164,9 @@ namespace lab_1_2
             }
 
         }
-        private void change_Enabled(Int16 num)
+        
+        
+        private void Change_Enabled(Int16 num)
         {
             this.panelMethod_1.Enabled = false;
             this.panelMethod_2.Enabled = false;
