@@ -30,8 +30,8 @@ namespace lab_1_2
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle7 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle8 = new System.Windows.Forms.DataGridViewCellStyle();
             this.panelMainLeft = new System.Windows.Forms.Panel();
             this.buttonAcceptMainLeft = new System.Windows.Forms.Button();
             this.rbNoFill = new System.Windows.Forms.RadioButton();
@@ -253,37 +253,38 @@ namespace lab_1_2
             this.panelMainRight.Controls.Add(this.l1_panelMainRight);
             this.panelMainRight.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panelMainRight.Location = new System.Drawing.Point(334, 0);
-            this.panelMainRight.MaximumSize = new System.Drawing.Size(1200, 530);
-            this.panelMainRight.MinimumSize = new System.Drawing.Size(1200, 530);
+            this.panelMainRight.MaximumSize = new System.Drawing.Size(1100, 530);
+            this.panelMainRight.MinimumSize = new System.Drawing.Size(1100, 530);
             this.panelMainRight.Name = "panelMainRight";
-            this.panelMainRight.Size = new System.Drawing.Size(1200, 530);
+            this.panelMainRight.Size = new System.Drawing.Size(1100, 530);
             this.panelMainRight.TabIndex = 1;
             // 
             // panelMethod_5
             // 
             this.panelMethod_5.Location = new System.Drawing.Point(2000, 0);
-            this.panelMethod_5.MaximumSize = new System.Drawing.Size(1000, 530);
-            this.panelMethod_5.MinimumSize = new System.Drawing.Size(1000, 530);
+            this.panelMethod_5.MaximumSize = new System.Drawing.Size(1100, 530);
+            this.panelMethod_5.MinimumSize = new System.Drawing.Size(1100, 530);
             this.panelMethod_5.Name = "panelMethod_5";
-            this.panelMethod_5.Size = new System.Drawing.Size(1000, 530);
+            this.panelMethod_5.Size = new System.Drawing.Size(1200, 530);
             this.panelMethod_5.TabIndex = 1;
             // 
             // panelMethod_4
             // 
             this.panelMethod_4.Location = new System.Drawing.Point(2000, 0);
-            this.panelMethod_4.MaximumSize = new System.Drawing.Size(1000, 530);
-            this.panelMethod_4.MinimumSize = new System.Drawing.Size(1000, 530);
+            this.panelMethod_4.MaximumSize = new System.Drawing.Size(1100, 530);
+            this.panelMethod_4.MinimumSize = new System.Drawing.Size(1100, 530);
             this.panelMethod_4.Name = "panelMethod_4";
-            this.panelMethod_4.Size = new System.Drawing.Size(1000, 530);
+            this.panelMethod_4.Size = new System.Drawing.Size(1200, 530);
             this.panelMethod_4.TabIndex = 1;
             // 
             // panelMethod_3
             // 
-            this.panelMethod_3.Location = new System.Drawing.Point(2000, 0);
-            this.panelMethod_3.MaximumSize = new System.Drawing.Size(1000, 530);
-            this.panelMethod_3.MinimumSize = new System.Drawing.Size(1000, 530);
+            this.panelMethod_3.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panelMethod_3.Location = new System.Drawing.Point(0, 0);
+            this.panelMethod_3.MaximumSize = new System.Drawing.Size(1100, 530);
+            this.panelMethod_3.MinimumSize = new System.Drawing.Size(1100, 530);
             this.panelMethod_3.Name = "panelMethod_3";
-            this.panelMethod_3.Size = new System.Drawing.Size(1000, 530);
+            this.panelMethod_3.Size = new System.Drawing.Size(1100, 530);
             this.panelMethod_3.TabIndex = 1;
             // 
             // panelMethod_2
@@ -311,7 +312,7 @@ namespace lab_1_2
             // 
             this.panelMethod_2_btn_encrypt.Location = new System.Drawing.Point(13, 414);
             this.panelMethod_2_btn_encrypt.Name = "panelMethod_2_btn_encrypt";
-            this.panelMethod_2_btn_encrypt.Size = new System.Drawing.Size(1087, 34);
+            this.panelMethod_2_btn_encrypt.Size = new System.Drawing.Size(1074, 34);
             this.panelMethod_2_btn_encrypt.TabIndex = 7;
             this.panelMethod_2_btn_encrypt.Text = "Зашифровать";
             this.panelMethod_2_btn_encrypt.UseVisualStyleBackColor = true;
@@ -324,14 +325,14 @@ namespace lab_1_2
             this.panelMethod_2_dataGridView.BackgroundColor = System.Drawing.SystemColors.ButtonFace;
             this.panelMethod_2_dataGridView.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.panelMethod_2_dataGridView.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.None;
-            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.TopCenter;
-            dataGridViewCellStyle3.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle3.Font = new System.Drawing.Font("Impact", 14.25F);
-            dataGridViewCellStyle3.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle3.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.panelMethod_2_dataGridView.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle3;
+            dataGridViewCellStyle7.Alignment = System.Windows.Forms.DataGridViewContentAlignment.TopCenter;
+            dataGridViewCellStyle7.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle7.Font = new System.Drawing.Font("Impact", 14.25F);
+            dataGridViewCellStyle7.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle7.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle7.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle7.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.panelMethod_2_dataGridView.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle7;
             this.panelMethod_2_dataGridView.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.panelMethod_2_dataGridView.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.panelMethod_2_lang,
@@ -368,14 +369,14 @@ namespace lab_1_2
             this.panelMethod_2_Column31,
             this.panelMethod_2_Column32,
             this.panelMethod_2_Column33});
-            dataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.TopCenter;
-            dataGridViewCellStyle4.BackColor = System.Drawing.SystemColors.Window;
-            dataGridViewCellStyle4.Font = new System.Drawing.Font("Impact", 14.25F);
-            dataGridViewCellStyle4.ForeColor = System.Drawing.SystemColors.ControlText;
-            dataGridViewCellStyle4.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle4.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle4.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.panelMethod_2_dataGridView.DefaultCellStyle = dataGridViewCellStyle4;
+            dataGridViewCellStyle8.Alignment = System.Windows.Forms.DataGridViewContentAlignment.TopCenter;
+            dataGridViewCellStyle8.BackColor = System.Drawing.SystemColors.Window;
+            dataGridViewCellStyle8.Font = new System.Drawing.Font("Impact", 14.25F);
+            dataGridViewCellStyle8.ForeColor = System.Drawing.SystemColors.ControlText;
+            dataGridViewCellStyle8.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle8.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle8.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.panelMethod_2_dataGridView.DefaultCellStyle = dataGridViewCellStyle8;
             this.panelMethod_2_dataGridView.Dock = System.Windows.Forms.DockStyle.Top;
             this.panelMethod_2_dataGridView.Location = new System.Drawing.Point(0, 160);
             this.panelMethod_2_dataGridView.Name = "panelMethod_2_dataGridView";
@@ -750,18 +751,18 @@ namespace lab_1_2
             // 
             // panelMethod_2_textBox_out
             // 
-            this.panelMethod_2_textBox_out.Location = new System.Drawing.Point(8, 477);
+            this.panelMethod_2_textBox_out.Location = new System.Drawing.Point(13, 477);
             this.panelMethod_2_textBox_out.Multiline = true;
             this.panelMethod_2_textBox_out.Name = "panelMethod_2_textBox_out";
-            this.panelMethod_2_textBox_out.Size = new System.Drawing.Size(1086, 50);
+            this.panelMethod_2_textBox_out.Size = new System.Drawing.Size(1071, 50);
             this.panelMethod_2_textBox_out.TabIndex = 0;
             // 
             // panelMethod_2_textBox_in
             // 
-            this.panelMethod_2_textBox_in.Location = new System.Drawing.Point(19, 358);
+            this.panelMethod_2_textBox_in.Location = new System.Drawing.Point(13, 358);
             this.panelMethod_2_textBox_in.Multiline = true;
             this.panelMethod_2_textBox_in.Name = "panelMethod_2_textBox_in";
-            this.panelMethod_2_textBox_in.Size = new System.Drawing.Size(1086, 50);
+            this.panelMethod_2_textBox_in.Size = new System.Drawing.Size(1074, 50);
             this.panelMethod_2_textBox_in.TabIndex = 0;
             // 
             // panelMethod_2_l7
@@ -902,8 +903,8 @@ namespace lab_1_2
             this.panelMethod_1.Controls.Add(this.l1_panelMethod_1);
             this.panelMethod_1.Enabled = false;
             this.panelMethod_1.Location = new System.Drawing.Point(2000, 0);
-            this.panelMethod_1.MaximumSize = new System.Drawing.Size(1200, 530);
-            this.panelMethod_1.MinimumSize = new System.Drawing.Size(1200, 530);
+            this.panelMethod_1.MaximumSize = new System.Drawing.Size(1100, 530);
+            this.panelMethod_1.MinimumSize = new System.Drawing.Size(1100, 530);
             this.panelMethod_1.Name = "panelMethod_1";
             this.panelMethod_1.Size = new System.Drawing.Size(1200, 530);
             this.panelMethod_1.TabIndex = 1;
@@ -1038,7 +1039,7 @@ namespace lab_1_2
             this.l1_panelMainRight.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
             this.l1_panelMainRight.Location = new System.Drawing.Point(0, 0);
             this.l1_panelMainRight.Name = "l1_panelMainRight";
-            this.l1_panelMainRight.Size = new System.Drawing.Size(1200, 530);
+            this.l1_panelMainRight.Size = new System.Drawing.Size(1100, 530);
             this.l1_panelMainRight.TabIndex = 0;
             this.l1_panelMainRight.Text = "Лабораторная работа №1-2\r\n\r\nподготовили: Кутузов Л., Чернуцкая Е., Скребнев Л.\r\n\r" +
     "\n\r\n\r\n\r\n\r\nДля начала работы выберите нужный метод из списка";
