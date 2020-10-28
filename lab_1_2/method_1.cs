@@ -86,80 +86,83 @@ namespace lab_1_2
 
         private void PanelMethod_1_btn_encrypt_Click(object sender, EventArgs e)
         {
-            var k = Convert.ToInt16(panelMethod_1_textBox_k.Text);
-            var text = "";
-            foreach (char c in panelMethod_1_textBox_in.Text)
+            if (panelMethod_1_textBox_k.Text != "")
             {
-                // кириллица
-                if (c > 1039 && c < 1103)
+                var k = Convert.ToInt16(panelMethod_1_textBox_k.Text);
+                var text = "";
+                foreach (char c in panelMethod_1_textBox_in.Text)
                 {
-                    // большие буквы
-                    if (c > 1039 && c < 1071)
+                    // кириллица
+                    if (c > 1039 && c < 1103)
                     {
-                        if (c + k > 1071)
+                        // большие буквы
+                        if (c > 1039 && c < 1071)
                         {
-                            text += Convert.ToChar(1040 + (c + k - 1071));
-                        }
-                        else
-                        {
-                            text += Convert.ToChar(c + k);
-                        }
-                    }
-                    // маленькие  буквы
-                    else
-                    {
-                        if (c + k > 1103)
-                        {
-                            text += Convert.ToChar(1072 + (c + k - 1103));
-                        }
-                        else
-                        {
-                            text += Convert.ToChar(c + k);
-                        }
-                    }
-                }
-                // латиница
-                else
-                {
-                    // Большие буквы
-                    if (c > 64 && c < 90)
-                    {
-
-                        if (c + k > 90)
-                        {
-                            text += Convert.ToChar(65 + (c + k - 90));
-                        }
-                        else
-                        {
-                            text += Convert.ToChar(c + k);
-                        }
-                    }
-                    else
-                    {
-                        // маленькие буквы
-                        if (c > 96 && c < 122)
-                        {
-
-                            if (c + k > 122)
+                            if (c + k > 1071)
                             {
-                                text += Convert.ToChar(97 + (c + k - 122));
+                                text += Convert.ToChar(1040 + (c + k - 1071));
                             }
                             else
                             {
                                 text += Convert.ToChar(c + k);
                             }
                         }
-                        // остальной текст
+                        // маленькие  буквы
                         else
                         {
-                            text += c;
+                            if (c + k > 1103)
+                            {
+                                text += Convert.ToChar(1072 + (c + k - 1103));
+                            }
+                            else
+                            {
+                                text += Convert.ToChar(c + k);
+                            }
+                        }
+                    }
+                    // латиница
+                    else
+                    {
+                        // Большие буквы
+                        if (c > 64 && c < 90)
+                        {
+
+                            if (c + k > 90)
+                            {
+                                text += Convert.ToChar(65 + (c + k - 90));
+                            }
+                            else
+                            {
+                                text += Convert.ToChar(c + k);
+                            }
+                        }
+                        else
+                        {
+                            // маленькие буквы
+                            if (c > 96 && c < 122)
+                            {
+
+                                if (c + k > 122)
+                                {
+                                    text += Convert.ToChar(97 + (c + k - 122));
+                                }
+                                else
+                                {
+                                    text += Convert.ToChar(c + k);
+                                }
+                            }
+                            // остальной текст
+                            else
+                            {
+                                text += c;
+                            }
                         }
                     }
                 }
-            }
-            this.panelMethod_1_textBox_out.Text = text;
-        }
+                this.panelMethod_1_textBox_out.Text = text;
 
+            }
+        }
 
         private void PanelMethod_1_textBox_in_Leave(object sender, EventArgs e)
         {

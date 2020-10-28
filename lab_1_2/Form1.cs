@@ -20,23 +20,23 @@ namespace lab_1_2
 
         private void ButtonAcceptMainLeft_Click(object sender, EventArgs e)
         {
-            if (this.RadButMethod_1.Checked == true)
+            if (this.panelMainLeft_rb_Method_1.Checked == true)
             {
                 RadButMethod_1_Click(sender, e);
             }
-            else if (this.RadButMethod_2.Checked == true)
+            else if (this.panelMainLeft_rb_Method_2.Checked == true)
             {
                 RadButMethod_2_Click(sender, e);
             }
-            else if (this.RadButMethod_3.Checked == true)
+            else if (this.panelMainLeft_rb_Method_3.Checked == true)
             {
                 RadButMethod_3_Click(sender, e);
             }
-            else if(this.RadButMethod_4.Checked == true)
+            else if(this.panelMainLeft_rb_Method_4.Checked == true)
             {
                 RadButMethod_4_Click(sender, e);
             }
-            else if (this.RadButMethod_5.Checked == true)
+            else if (this.panelMainLeft_rb_Method_5.Checked == true)
             {
                 RadButMethod_5_Click(sender, e);
             }
@@ -204,6 +204,5 @@ namespace lab_1_2
             }
         }
 
-        
-    }
+    } 
 }
