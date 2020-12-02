@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Configuration;
 using System.Linq;
 using System.Windows.Forms;
 using System.Windows.Input;
@@ -8,10 +9,10 @@ namespace lab_1_2
 {
     public partial class MainForm : Form
     {
-        public struct Bigramms 
+        public struct Bigramms
         {
             private readonly string a;
-            private readonly string b;
+            private string b;
             private readonly bool Count; // Count = 1 значит полная биграмма
 
             public Bigramms(string a, string b, bool count = true)
@@ -20,6 +21,9 @@ namespace lab_1_2
                 this.b = b;
                 this.Count = count;
             }
+
+            public void SetB(string B)
+            { this.b = B; }
 
             public string A => a;
             public string B => b;

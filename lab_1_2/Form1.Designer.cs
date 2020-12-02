@@ -30,9 +30,10 @@ namespace lab_1_2
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle6 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainForm));
             this.panelMainLeft = new System.Windows.Forms.Panel();
             this.panelMainLeft_btn_Accept = new System.Windows.Forms.Button();
             this.panelMainLeft_rb_NoFill = new System.Windows.Forms.RadioButton();
@@ -188,6 +189,8 @@ namespace lab_1_2
             this.panelMethod_1_l3 = new System.Windows.Forms.Label();
             this.panelMethod_1_l1 = new System.Windows.Forms.Label();
             this.panelMainRight_l1 = new System.Windows.Forms.Label();
+            this.panelMethod_4_add_label_1 = new System.Windows.Forms.Label();
+            this.panelMethod_4_p_table_label = new System.Windows.Forms.Label();
             this.panelMainLeft.SuspendLayout();
             this.panelMainRight.SuspendLayout();
             this.panelMethod_4.SuspendLayout();
@@ -388,6 +391,7 @@ namespace lab_1_2
             // 
             // panelMethod_4_p_table
             // 
+            this.panelMethod_4_p_table.Controls.Add(this.panelMethod_4_p_table_label);
             this.panelMethod_4_p_table.Controls.Add(this.panelMethod_4_p_table_dataGrid);
             this.panelMethod_4_p_table.Dock = System.Windows.Forms.DockStyle.Right;
             this.panelMethod_4_p_table.Location = new System.Drawing.Point(841, 46);
@@ -397,14 +401,14 @@ namespace lab_1_2
             // 
             // panelMethod_4_p_table_dataGrid
             // 
-            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle1.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            dataGridViewCellStyle1.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.panelMethod_4_p_table_dataGrid.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1;
+            dataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle4.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            dataGridViewCellStyle4.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle4.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle4.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle4.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.panelMethod_4_p_table_dataGrid.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle4;
             this.panelMethod_4_p_table_dataGrid.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.panelMethod_4_p_table_dataGrid.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.panelMethod_4_p_table_dataGrid_Column_1,
@@ -413,10 +417,12 @@ namespace lab_1_2
             this.panelMethod_4_p_table_dataGrid_Column_4,
             this.panelMethod_4_p_table_dataGrid_Column_5});
             this.panelMethod_4_p_table_dataGrid.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panelMethod_4_p_table_dataGrid.Enabled = false;
             this.panelMethod_4_p_table_dataGrid.Location = new System.Drawing.Point(0, 0);
             this.panelMethod_4_p_table_dataGrid.Name = "panelMethod_4_p_table_dataGrid";
             this.panelMethod_4_p_table_dataGrid.Size = new System.Drawing.Size(259, 484);
             this.panelMethod_4_p_table_dataGrid.TabIndex = 1;
+            this.panelMethod_4_p_table_dataGrid.Visible = false;
             // 
             // panelMethod_4_p_table_dataGrid_Column_1
             // 
@@ -476,6 +482,7 @@ namespace lab_1_2
             // panelMethod_4_p_encrypt_in
             // 
             this.panelMethod_4_p_encrypt_in.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.panelMethod_4_p_encrypt_in.Enabled = false;
             this.panelMethod_4_p_encrypt_in.Font = new System.Drawing.Font("Impact", 14.25F);
             this.panelMethod_4_p_encrypt_in.ForeColor = System.Drawing.Color.Silver;
             this.panelMethod_4_p_encrypt_in.Location = new System.Drawing.Point(0, -5);
@@ -492,6 +499,7 @@ namespace lab_1_2
             // panelMethod_4_p_encrypt_btn
             // 
             this.panelMethod_4_p_encrypt_btn.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.panelMethod_4_p_encrypt_btn.Enabled = false;
             this.panelMethod_4_p_encrypt_btn.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold);
             this.panelMethod_4_p_encrypt_btn.Location = new System.Drawing.Point(0, 120);
             this.panelMethod_4_p_encrypt_btn.Name = "panelMethod_4_p_encrypt_btn";
@@ -504,6 +512,7 @@ namespace lab_1_2
             // panelMethod_4_p_encrypt_out
             // 
             this.panelMethod_4_p_encrypt_out.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.panelMethod_4_p_encrypt_out.Enabled = false;
             this.panelMethod_4_p_encrypt_out.Font = new System.Drawing.Font("Impact", 14.25F);
             this.panelMethod_4_p_encrypt_out.ForeColor = System.Drawing.Color.Black;
             this.panelMethod_4_p_encrypt_out.Location = new System.Drawing.Point(0, 172);
@@ -560,7 +569,7 @@ namespace lab_1_2
             this.panelMethod_4_p_generate_table_p_Method_otions_Method_3_seed_tb.Name = "panelMethod_4_p_generate_table_p_Method_otions_Method_3_seed_tb";
             this.panelMethod_4_p_generate_table_p_Method_otions_Method_3_seed_tb.Size = new System.Drawing.Size(0, 0);
             this.panelMethod_4_p_generate_table_p_Method_otions_Method_3_seed_tb.TabIndex = 2;
-            this.panelMethod_4_p_generate_table_p_Method_otions_Method_3_seed_tb.Text = "Введите число семени рандомайзера или не трогайте данное поле для генерации случа" +
+            this.panelMethod_4_p_generate_table_p_Method_otions_Method_3_seed_tb.Text = "введите число семени рандомайзера или не трогайте данное поле для генерации случа" +
     "йного семени";
             this.panelMethod_4_p_generate_table_p_Method_otions_Method_3_seed_tb.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.panelMethod_4_p_generate_table_p_Method_otions_Method_3_seed_tb.Enter += new System.EventHandler(this.PanelMethod_4_p_generate_table_p_Method_otions_Method_3_seed_tb_Enter);
@@ -569,7 +578,7 @@ namespace lab_1_2
             // panelMethod_4_p_generate_table_p_Method_otions_Method_3_seed
             // 
             this.panelMethod_4_p_generate_table_p_Method_otions_Method_3_seed.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panelMethod_4_p_generate_table_p_Method_otions_Method_3_seed.Font = new System.Drawing.Font("Impact", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.panelMethod_4_p_generate_table_p_Method_otions_Method_3_seed.Font = new System.Drawing.Font("Impact", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.panelMethod_4_p_generate_table_p_Method_otions_Method_3_seed.Location = new System.Drawing.Point(0, -24);
             this.panelMethod_4_p_generate_table_p_Method_otions_Method_3_seed.Name = "panelMethod_4_p_generate_table_p_Method_otions_Method_3_seed";
             this.panelMethod_4_p_generate_table_p_Method_otions_Method_3_seed.Size = new System.Drawing.Size(0, 24);
@@ -627,6 +636,8 @@ namespace lab_1_2
             this.panelMethod_4_p_generate_table_p_Method_otions_Method_1_key.TabIndex = 0;
             this.panelMethod_4_p_generate_table_p_Method_otions_Method_1_key.Text = "введите секретное слово";
             this.panelMethod_4_p_generate_table_p_Method_otions_Method_1_key.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.panelMethod_4_p_generate_table_p_Method_otions_Method_1_key.Enter += new System.EventHandler(this.PanelMethod_4_p_generate_table_p_Method_otions_Method_1_Enter);
+            this.panelMethod_4_p_generate_table_p_Method_otions_Method_1_key.Leave += new System.EventHandler(this.PanelMethod_4_p_generate_table_p_Method_otions_Method_1_Leave);
             // 
             // panelMethod_4_p_generate_table_p_Method_generate
             // 
@@ -678,7 +689,7 @@ namespace lab_1_2
             this.panelMethod_4_p_generate_table_p_Method_generate_key.Size = new System.Drawing.Size(360, 27);
             this.panelMethod_4_p_generate_table_p_Method_generate_key.TabIndex = 1;
             this.panelMethod_4_p_generate_table_p_Method_generate_key.TabStop = true;
-            this.panelMethod_4_p_generate_table_p_Method_generate_key.Text = "Секретны ключ";
+            this.panelMethod_4_p_generate_table_p_Method_generate_key.Text = "Секретный ключ";
             this.panelMethod_4_p_generate_table_p_Method_generate_key.UseVisualStyleBackColor = true;
             this.panelMethod_4_p_generate_table_p_Method_generate_key.Click += new System.EventHandler(this.PanelMethod_4_p_generate_table_p_Method_generate_key_Click);
             // 
@@ -694,6 +705,7 @@ namespace lab_1_2
             // 
             // panelMethod_4_p_generate_table_p_lang
             // 
+            this.panelMethod_4_p_generate_table_p_lang.Controls.Add(this.panelMethod_4_add_label_1);
             this.panelMethod_4_p_generate_table_p_lang.Controls.Add(this.panelMethod_4_p_generate_table_p_lang_RU);
             this.panelMethod_4_p_generate_table_p_lang.Controls.Add(this.panelMethod_4_p_generate_table_p_lang_EN);
             this.panelMethod_4_p_generate_table_p_lang.Controls.Add(this.panelMethod_4_p_generate_table_p_lang_label);
@@ -1338,14 +1350,14 @@ namespace lab_1_2
             this.panelMethod_2_dataGridView.BackgroundColor = System.Drawing.SystemColors.ButtonFace;
             this.panelMethod_2_dataGridView.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.panelMethod_2_dataGridView.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.None;
-            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.TopCenter;
-            dataGridViewCellStyle2.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle2.Font = new System.Drawing.Font("Impact", 14.25F);
-            dataGridViewCellStyle2.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.panelMethod_2_dataGridView.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle2;
+            dataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.TopCenter;
+            dataGridViewCellStyle5.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle5.Font = new System.Drawing.Font("Impact", 14.25F);
+            dataGridViewCellStyle5.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle5.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle5.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle5.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.panelMethod_2_dataGridView.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle5;
             this.panelMethod_2_dataGridView.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.panelMethod_2_dataGridView.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.panelMethod_2_lang,
@@ -1382,14 +1394,14 @@ namespace lab_1_2
             this.panelMethod_2_Column31,
             this.panelMethod_2_Column32,
             this.panelMethod_2_Column33});
-            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.TopCenter;
-            dataGridViewCellStyle3.BackColor = System.Drawing.SystemColors.Window;
-            dataGridViewCellStyle3.Font = new System.Drawing.Font("Impact", 14.25F);
-            dataGridViewCellStyle3.ForeColor = System.Drawing.SystemColors.ControlText;
-            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle3.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.panelMethod_2_dataGridView.DefaultCellStyle = dataGridViewCellStyle3;
+            dataGridViewCellStyle6.Alignment = System.Windows.Forms.DataGridViewContentAlignment.TopCenter;
+            dataGridViewCellStyle6.BackColor = System.Drawing.SystemColors.Window;
+            dataGridViewCellStyle6.Font = new System.Drawing.Font("Impact", 14.25F);
+            dataGridViewCellStyle6.ForeColor = System.Drawing.SystemColors.ControlText;
+            dataGridViewCellStyle6.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle6.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle6.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.panelMethod_2_dataGridView.DefaultCellStyle = dataGridViewCellStyle6;
             this.panelMethod_2_dataGridView.Dock = System.Windows.Forms.DockStyle.Top;
             this.panelMethod_2_dataGridView.Location = new System.Drawing.Point(0, 160);
             this.panelMethod_2_dataGridView.Name = "panelMethod_2_dataGridView";
@@ -2054,9 +2066,31 @@ namespace lab_1_2
             this.panelMainRight_l1.Name = "panelMainRight_l1";
             this.panelMainRight_l1.Size = new System.Drawing.Size(1100, 530);
             this.panelMainRight_l1.TabIndex = 0;
-            this.panelMainRight_l1.Text = "Лабораторная работа №1-2\r\n\r\nподготовили: Кутузов Л., Чернуцкая Е., Скребнев Л.\r\n\r" +
-    "\n\r\n\r\n\r\n\r\nДля начала работы выберите нужный метод из списка";
+            this.panelMainRight_l1.Text = "Лабораторная работа №1\r\n\r\nподготовили: Кутузов Л., Чернуцкая Е., Скребнев Л.\r\n\r\n\r" +
+    "\n\r\n\r\n\r\nДля начала работы выберите нужный метод из списка";
             this.panelMainRight_l1.TextAlign = System.Drawing.ContentAlignment.TopCenter;
+            // 
+            // panelMethod_4_add_label_1
+            // 
+            this.panelMethod_4_add_label_1.AutoSize = true;
+            this.panelMethod_4_add_label_1.Font = new System.Drawing.Font("Microsoft Sans Serif", 5F);
+            this.panelMethod_4_add_label_1.Location = new System.Drawing.Point(7, 89);
+            this.panelMethod_4_add_label_1.Name = "panelMethod_4_add_label_1";
+            this.panelMethod_4_add_label_1.Size = new System.Drawing.Size(0, 7);
+            this.panelMethod_4_add_label_1.TabIndex = 2;
+            this.panelMethod_4_add_label_1.Visible = false;
+            // 
+            // panelMethod_4_p_table_label
+            // 
+            this.panelMethod_4_p_table_label.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panelMethod_4_p_table_label.Font = new System.Drawing.Font("Impact", 14.25F);
+            this.panelMethod_4_p_table_label.Location = new System.Drawing.Point(0, 0);
+            this.panelMethod_4_p_table_label.MaximumSize = new System.Drawing.Size(259, 484);
+            this.panelMethod_4_p_table_label.MinimumSize = new System.Drawing.Size(259, 484);
+            this.panelMethod_4_p_table_label.Name = "panelMethod_4_p_table_label";
+            this.panelMethod_4_p_table_label.Size = new System.Drawing.Size(259, 484);
+            this.panelMethod_4_p_table_label.TabIndex = 2;
+            this.panelMethod_4_p_table_label.Text = resources.GetString("panelMethod_4_p_table_label.Text");
             // 
             // MainForm
             // 
@@ -2070,7 +2104,7 @@ namespace lab_1_2
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.Name = "MainForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Лабораторная работа №1-2";
+            this.Text = "Лабораторная работа №1";
             this.panelMainLeft.ResumeLayout(false);
             this.panelMainLeft.PerformLayout();
             this.panelMainRight.ResumeLayout(false);
@@ -2279,6 +2313,8 @@ namespace lab_1_2
         private DataGridViewTextBoxColumn panelMethod_4_p_table_dataGrid_Column_3;
         private DataGridViewTextBoxColumn panelMethod_4_p_table_dataGrid_Column_4;
         private DataGridViewTextBoxColumn panelMethod_4_p_table_dataGrid_Column_5;
+        private Label panelMethod_4_add_label_1;
+        private Label panelMethod_4_p_table_label;
     }
 }
 
