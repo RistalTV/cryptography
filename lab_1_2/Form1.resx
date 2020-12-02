@@ -171,15 +171,9 @@
   <metadata name="panelMainRight.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
-  <data name="panelMethod_4_p_table_label.Text" xml:space="preserve">
-    <value>Для начала работы:
-1) Выберите раскладку
-2) Выберите метод генерации таблицы
-3) Выберие дополнительные опции
-4) Нажмите "Сгенерировать таблицу"
-5) Введите сообщение, которое надо зашифровать
-6) Нажмите на кнопку зашифровать</value>
-  </data>
+  <metadata name="panelMainRight_l1.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
   <metadata name="panelMethod_4_p_table_dataGrid_Column_1.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
@@ -193,9 +187,6 @@
     <value>True</value>
   </metadata>
   <metadata name="panelMethod_4_p_table_dataGrid_Column_5.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <metadata name="panelMainRight_l1.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
   <metadata name="panelMethod_4_add_label_1.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
@@ -384,4 +375,13 @@
   <metadata name="panelMethod_4_add_label_1.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
+  <data name="panelMethod_4_p_table_label.Text" xml:space="preserve">
+    <value>Для начала работы:
+1) Выберите раскладку
+2) Выберите метод генерации таблицы
+3) Выберие дополнительные опции
+4) Нажмите "Сгенерировать таблицу"
+5) Введите сообщение, которое надо зашифровать
+6) Нажмите на кнопку зашифровать</value>
+  </data>
 </root>
