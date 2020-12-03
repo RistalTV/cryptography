@@ -30,10 +30,10 @@ namespace lab_1_2
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle7 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle8 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle9 = new System.Windows.Forms.DataGridViewCellStyle();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainForm));
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle6 = new System.Windows.Forms.DataGridViewCellStyle();
             this.panelMainLeft = new System.Windows.Forms.Panel();
             this.panelMainLeft_btn_Accept = new System.Windows.Forms.Button();
             this.panelMainLeft_rb_NoFill = new System.Windows.Forms.RadioButton();
@@ -45,8 +45,16 @@ namespace lab_1_2
             this.panelMainLeft_l1 = new System.Windows.Forms.Label();
             this.panelMainRight = new System.Windows.Forms.Panel();
             this.panelMethod_5 = new System.Windows.Forms.Panel();
+            this.panelMethod_5_p_keys = new System.Windows.Forms.Panel();
+            this.panelMethod_5_p_encrypt = new System.Windows.Forms.Panel();
+            this.panelMethod_5_p_encrypt_in = new System.Windows.Forms.TextBox();
+            this.panelMethod_5_p_encrypt_btn = new System.Windows.Forms.Button();
+            this.panelMethod_5_p_encrypt_out = new System.Windows.Forms.TextBox();
+            this.panelMethod_5_p_up = new System.Windows.Forms.Panel();
+            this.panelMethod_5_p_up_text = new System.Windows.Forms.Label();
             this.panelMethod_4 = new System.Windows.Forms.Panel();
             this.panelMethod_4_p_table = new System.Windows.Forms.Panel();
+            this.panelMethod_4_p_table_label = new System.Windows.Forms.Label();
             this.panelMethod_4_p_table_dataGrid = new System.Windows.Forms.DataGridView();
             this.panelMethod_4_p_table_dataGrid_Column_1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.panelMethod_4_p_table_dataGrid_Column_2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -72,6 +80,7 @@ namespace lab_1_2
             this.panelMethod_4_p_generate_table_p_Method_generate_key = new System.Windows.Forms.RadioButton();
             this.panelMethod_4_p_generate_table_p_Method_generate_label = new System.Windows.Forms.Label();
             this.panelMethod_4_p_generate_table_p_lang = new System.Windows.Forms.Panel();
+            this.panelMethod_4_add_label_1 = new System.Windows.Forms.Label();
             this.panelMethod_4_p_generate_table_p_lang_RU = new System.Windows.Forms.RadioButton();
             this.panelMethod_4_p_generate_table_p_lang_EN = new System.Windows.Forms.RadioButton();
             this.panelMethod_4_p_generate_table_p_lang_label = new System.Windows.Forms.Label();
@@ -189,10 +198,49 @@ namespace lab_1_2
             this.panelMethod_1_l3 = new System.Windows.Forms.Label();
             this.panelMethod_1_l1 = new System.Windows.Forms.Label();
             this.panelMainRight_l1 = new System.Windows.Forms.Label();
-            this.panelMethod_4_add_label_1 = new System.Windows.Forms.Label();
-            this.panelMethod_4_p_table_label = new System.Windows.Forms.Label();
+            this.panelMethod_5_p_keys_key_1 = new System.Windows.Forms.TextBox();
+            this.panelMethod_5_p_keys_key_2 = new System.Windows.Forms.TextBox();
+            this.panelMethod_5_p_tsble = new System.Windows.Forms.Panel();
+            this.panelMethod_5_p_tsble_dataGrid = new System.Windows.Forms.DataGridView();
+            this.panelMethod_5_p_tsble_dataGrid_Column_1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.panelMethod_5_p_tsble_dataGrid_Column_2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.panelMethod_5_p_tsble_dataGrid_Column_3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.panelMethod_5_p_tsble_dataGrid_Column_4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.panelMethod_5_p_tsble_dataGrid_Column_5 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.panelMethod_5_p_tsble_dataGrid_Column_6 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.panelMethod_5_p_tsble_dataGrid_Column_7 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.panelMethod_5_p_tsble_dataGrid_Column_8 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.panelMethod_5_p_tsble_dataGrid_Column_9 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.panelMethod_5_p_tsble_dataGrid_Column_10 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.panelMethod_5_p_tsble_dataGrid_Column_11 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.panelMethod_5_p_tsble_dataGrid_Column_12 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.panelMethod_5_p_tsble_dataGrid_Column_13 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.panelMethod_5_p_tsble_dataGrid_Column_14 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.panelMethod_5_p_tsble_dataGrid_Column_15 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.panelMethod_5_p_tsble_dataGrid_Column_16 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.panelMethod_5_p_tsble_dataGrid_Column_17 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.panelMethod_5_p_tsble_dataGrid_Column_18 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.panelMethod_5_p_tsble_dataGrid_Column_19 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.panelMethod_5_p_tsble_dataGrid_Column_20 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.panelMethod_5_p_tsble_dataGrid_Column_21 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.panelMethod_5_p_tsble_dataGrid_Column_22 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.panelMethod_5_p_tsble_dataGrid_Column_23 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.panelMethod_5_p_tsble_dataGrid_Column_24 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.panelMethod_5_p_tsble_dataGrid_Column_25 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.panelMethod_5_btn_next_slide = new System.Windows.Forms.Button();
+            this.panelMethod_5_btn_back_slide = new System.Windows.Forms.Button();
+            this.panelMethod_5_p_slide_1 = new System.Windows.Forms.Panel();
+            this.panelMethod_5_p_slide_2 = new System.Windows.Forms.Panel();
+            this.panelMethod_5_p_slide_3 = new System.Windows.Forms.Panel();
+            this.panelMethod_5_slide_label_1 = new System.Windows.Forms.Label();
+            this.panelMethod_5_slide_label_2 = new System.Windows.Forms.Label();
+            this.panelMethod_5_slide_label_3 = new System.Windows.Forms.Label();
             this.panelMainLeft.SuspendLayout();
             this.panelMainRight.SuspendLayout();
+            this.panelMethod_5.SuspendLayout();
+            this.panelMethod_5_p_keys.SuspendLayout();
+            this.panelMethod_5_p_encrypt.SuspendLayout();
+            this.panelMethod_5_p_up.SuspendLayout();
             this.panelMethod_4.SuspendLayout();
             this.panelMethod_4_p_table.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.panelMethod_4_p_table_dataGrid)).BeginInit();
@@ -224,6 +272,11 @@ namespace lab_1_2
             ((System.ComponentModel.ISupportInitialize)(this.panelMethod_2_pictureBoxHelp)).BeginInit();
             this.panelMethod_2_input_data_text.SuspendLayout();
             this.panelMethod_1.SuspendLayout();
+            this.panelMethod_5_p_tsble.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.panelMethod_5_p_tsble_dataGrid)).BeginInit();
+            this.panelMethod_5_p_slide_1.SuspendLayout();
+            this.panelMethod_5_p_slide_2.SuspendLayout();
+            this.panelMethod_5_p_slide_3.SuspendLayout();
             this.SuspendLayout();
             // 
             // panelMainLeft
@@ -364,8 +417,13 @@ namespace lab_1_2
             // 
             // panelMethod_5
             // 
+            this.panelMethod_5.Controls.Add(this.panelMethod_5_p_tsble);
+            this.panelMethod_5.Controls.Add(this.panelMethod_5_p_keys);
+            this.panelMethod_5.Controls.Add(this.panelMethod_5_p_encrypt);
+            this.panelMethod_5.Controls.Add(this.panelMethod_5_p_up);
+            this.panelMethod_5.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panelMethod_5.Enabled = false;
-            this.panelMethod_5.Location = new System.Drawing.Point(2000, 0);
+            this.panelMethod_5.Location = new System.Drawing.Point(0, 0);
             this.panelMethod_5.MaximumSize = new System.Drawing.Size(1100, 530);
             this.panelMethod_5.MinimumSize = new System.Drawing.Size(1100, 530);
             this.panelMethod_5.Name = "panelMethod_5";
@@ -373,15 +431,101 @@ namespace lab_1_2
             this.panelMethod_5.TabIndex = 1;
             this.panelMethod_5.Visible = false;
             // 
+            // panelMethod_5_p_keys
+            // 
+            this.panelMethod_5_p_keys.Controls.Add(this.panelMethod_5_p_slide_3);
+            this.panelMethod_5_p_keys.Controls.Add(this.panelMethod_5_p_slide_2);
+            this.panelMethod_5_p_keys.Controls.Add(this.panelMethod_5_p_slide_1);
+            this.panelMethod_5_p_keys.Controls.Add(this.panelMethod_5_btn_back_slide);
+            this.panelMethod_5_p_keys.Controls.Add(this.panelMethod_5_p_keys_key_2);
+            this.panelMethod_5_p_keys.Controls.Add(this.panelMethod_5_p_keys_key_1);
+            this.panelMethod_5_p_keys.Controls.Add(this.panelMethod_5_btn_next_slide);
+            this.panelMethod_5_p_keys.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panelMethod_5_p_keys.Location = new System.Drawing.Point(0, 46);
+            this.panelMethod_5_p_keys.Name = "panelMethod_5_p_keys";
+            this.panelMethod_5_p_keys.Size = new System.Drawing.Size(814, 100);
+            this.panelMethod_5_p_keys.TabIndex = 6;
+            // 
+            // panelMethod_5_p_encrypt
+            // 
+            this.panelMethod_5_p_encrypt.Controls.Add(this.panelMethod_5_p_encrypt_in);
+            this.panelMethod_5_p_encrypt.Controls.Add(this.panelMethod_5_p_encrypt_btn);
+            this.panelMethod_5_p_encrypt.Controls.Add(this.panelMethod_5_p_encrypt_out);
+            this.panelMethod_5_p_encrypt.Dock = System.Windows.Forms.DockStyle.Right;
+            this.panelMethod_5_p_encrypt.Location = new System.Drawing.Point(814, 46);
+            this.panelMethod_5_p_encrypt.Name = "panelMethod_5_p_encrypt";
+            this.panelMethod_5_p_encrypt.Size = new System.Drawing.Size(286, 484);
+            this.panelMethod_5_p_encrypt.TabIndex = 5;
+            // 
+            // panelMethod_5_p_encrypt_in
+            // 
+            this.panelMethod_5_p_encrypt_in.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.panelMethod_5_p_encrypt_in.Enabled = false;
+            this.panelMethod_5_p_encrypt_in.Font = new System.Drawing.Font("Impact", 14.25F);
+            this.panelMethod_5_p_encrypt_in.ForeColor = System.Drawing.Color.Silver;
+            this.panelMethod_5_p_encrypt_in.Location = new System.Drawing.Point(0, 0);
+            this.panelMethod_5_p_encrypt_in.MaxLength = 9999;
+            this.panelMethod_5_p_encrypt_in.Multiline = true;
+            this.panelMethod_5_p_encrypt_in.Name = "panelMethod_5_p_encrypt_in";
+            this.panelMethod_5_p_encrypt_in.Size = new System.Drawing.Size(286, 194);
+            this.panelMethod_5_p_encrypt_in.TabIndex = 7;
+            this.panelMethod_5_p_encrypt_in.Text = "Введите сообщение, которое надо зашифровать";
+            this.panelMethod_5_p_encrypt_in.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // panelMethod_5_p_encrypt_btn
+            // 
+            this.panelMethod_5_p_encrypt_btn.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.panelMethod_5_p_encrypt_btn.Enabled = false;
+            this.panelMethod_5_p_encrypt_btn.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold);
+            this.panelMethod_5_p_encrypt_btn.Location = new System.Drawing.Point(0, 194);
+            this.panelMethod_5_p_encrypt_btn.Name = "panelMethod_5_p_encrypt_btn";
+            this.panelMethod_5_p_encrypt_btn.Size = new System.Drawing.Size(286, 52);
+            this.panelMethod_5_p_encrypt_btn.TabIndex = 6;
+            this.panelMethod_5_p_encrypt_btn.Text = "Зашифровать";
+            this.panelMethod_5_p_encrypt_btn.UseVisualStyleBackColor = true;
+            // 
+            // panelMethod_5_p_encrypt_out
+            // 
+            this.panelMethod_5_p_encrypt_out.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.panelMethod_5_p_encrypt_out.Enabled = false;
+            this.panelMethod_5_p_encrypt_out.Font = new System.Drawing.Font("Impact", 14.25F);
+            this.panelMethod_5_p_encrypt_out.ForeColor = System.Drawing.Color.Black;
+            this.panelMethod_5_p_encrypt_out.Location = new System.Drawing.Point(0, 246);
+            this.panelMethod_5_p_encrypt_out.MaxLength = 9999;
+            this.panelMethod_5_p_encrypt_out.Multiline = true;
+            this.panelMethod_5_p_encrypt_out.Name = "panelMethod_5_p_encrypt_out";
+            this.panelMethod_5_p_encrypt_out.Size = new System.Drawing.Size(286, 238);
+            this.panelMethod_5_p_encrypt_out.TabIndex = 1;
+            this.panelMethod_5_p_encrypt_out.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // panelMethod_5_p_up
+            // 
+            this.panelMethod_5_p_up.Controls.Add(this.panelMethod_5_p_up_text);
+            this.panelMethod_5_p_up.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panelMethod_5_p_up.Location = new System.Drawing.Point(0, 0);
+            this.panelMethod_5_p_up.Name = "panelMethod_5_p_up";
+            this.panelMethod_5_p_up.Size = new System.Drawing.Size(1100, 46);
+            this.panelMethod_5_p_up.TabIndex = 4;
+            // 
+            // panelMethod_5_p_up_text
+            // 
+            this.panelMethod_5_p_up_text.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panelMethod_5_p_up_text.Font = new System.Drawing.Font("Impact", 20.25F, System.Drawing.FontStyle.Bold);
+            this.panelMethod_5_p_up_text.Location = new System.Drawing.Point(0, 0);
+            this.panelMethod_5_p_up_text.Name = "panelMethod_5_p_up_text";
+            this.panelMethod_5_p_up_text.Size = new System.Drawing.Size(1100, 46);
+            this.panelMethod_5_p_up_text.TabIndex = 0;
+            this.panelMethod_5_p_up_text.Text = "Шифр двойной перестановки";
+            this.panelMethod_5_p_up_text.TextAlign = System.Drawing.ContentAlignment.TopCenter;
+            // 
             // panelMethod_4
             // 
             this.panelMethod_4.Controls.Add(this.panelMethod_4_p_table);
             this.panelMethod_4.Controls.Add(this.panelMethod_4_p_encrypt);
             this.panelMethod_4.Controls.Add(this.panelMethod_4_p_generate_table);
             this.panelMethod_4.Controls.Add(this.panelMethod_4_p_label);
-            this.panelMethod_4.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panelMethod_4.Enabled = false;
-            this.panelMethod_4.Location = new System.Drawing.Point(0, 0);
+            this.panelMethod_4.Location = new System.Drawing.Point(1500, 0);
             this.panelMethod_4.MaximumSize = new System.Drawing.Size(1100, 530);
             this.panelMethod_4.MinimumSize = new System.Drawing.Size(1100, 530);
             this.panelMethod_4.Name = "panelMethod_4";
@@ -399,16 +543,28 @@ namespace lab_1_2
             this.panelMethod_4_p_table.Size = new System.Drawing.Size(259, 484);
             this.panelMethod_4_p_table.TabIndex = 3;
             // 
+            // panelMethod_4_p_table_label
+            // 
+            this.panelMethod_4_p_table_label.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panelMethod_4_p_table_label.Font = new System.Drawing.Font("Impact", 14.25F);
+            this.panelMethod_4_p_table_label.Location = new System.Drawing.Point(0, 0);
+            this.panelMethod_4_p_table_label.MaximumSize = new System.Drawing.Size(259, 484);
+            this.panelMethod_4_p_table_label.MinimumSize = new System.Drawing.Size(259, 484);
+            this.panelMethod_4_p_table_label.Name = "panelMethod_4_p_table_label";
+            this.panelMethod_4_p_table_label.Size = new System.Drawing.Size(259, 484);
+            this.panelMethod_4_p_table_label.TabIndex = 2;
+            this.panelMethod_4_p_table_label.Text = resources.GetString("panelMethod_4_p_table_label.Text");
+            // 
             // panelMethod_4_p_table_dataGrid
             // 
-            dataGridViewCellStyle7.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle7.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle7.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            dataGridViewCellStyle7.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle7.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle7.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle7.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.panelMethod_4_p_table_dataGrid.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle7;
+            dataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle4.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            dataGridViewCellStyle4.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle4.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle4.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle4.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.panelMethod_4_p_table_dataGrid.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle4;
             this.panelMethod_4_p_table_dataGrid.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.panelMethod_4_p_table_dataGrid.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.panelMethod_4_p_table_dataGrid_Column_1,
@@ -485,11 +641,11 @@ namespace lab_1_2
             this.panelMethod_4_p_encrypt_in.Enabled = false;
             this.panelMethod_4_p_encrypt_in.Font = new System.Drawing.Font("Impact", 14.25F);
             this.panelMethod_4_p_encrypt_in.ForeColor = System.Drawing.Color.Silver;
-            this.panelMethod_4_p_encrypt_in.Location = new System.Drawing.Point(0, -5);
+            this.panelMethod_4_p_encrypt_in.Location = new System.Drawing.Point(0, 28);
             this.panelMethod_4_p_encrypt_in.MaxLength = 9999;
             this.panelMethod_4_p_encrypt_in.Multiline = true;
             this.panelMethod_4_p_encrypt_in.Name = "panelMethod_4_p_encrypt_in";
-            this.panelMethod_4_p_encrypt_in.Size = new System.Drawing.Size(842, 125);
+            this.panelMethod_4_p_encrypt_in.Size = new System.Drawing.Size(842, 92);
             this.panelMethod_4_p_encrypt_in.TabIndex = 7;
             this.panelMethod_4_p_encrypt_in.Text = "Введите сообщение, которое надо зашифровать";
             this.panelMethod_4_p_encrypt_in.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -715,6 +871,16 @@ namespace lab_1_2
             this.panelMethod_4_p_generate_table_p_lang.Name = "panelMethod_4_p_generate_table_p_lang";
             this.panelMethod_4_p_generate_table_p_lang.Size = new System.Drawing.Size(226, 114);
             this.panelMethod_4_p_generate_table_p_lang.TabIndex = 1;
+            // 
+            // panelMethod_4_add_label_1
+            // 
+            this.panelMethod_4_add_label_1.AutoSize = true;
+            this.panelMethod_4_add_label_1.Font = new System.Drawing.Font("Microsoft Sans Serif", 5F);
+            this.panelMethod_4_add_label_1.Location = new System.Drawing.Point(7, 89);
+            this.panelMethod_4_add_label_1.Name = "panelMethod_4_add_label_1";
+            this.panelMethod_4_add_label_1.Size = new System.Drawing.Size(0, 7);
+            this.panelMethod_4_add_label_1.TabIndex = 2;
+            this.panelMethod_4_add_label_1.Visible = false;
             // 
             // panelMethod_4_p_generate_table_p_lang_RU
             // 
@@ -1350,14 +1516,14 @@ namespace lab_1_2
             this.panelMethod_2_dataGridView.BackgroundColor = System.Drawing.SystemColors.ButtonFace;
             this.panelMethod_2_dataGridView.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.panelMethod_2_dataGridView.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.None;
-            dataGridViewCellStyle8.Alignment = System.Windows.Forms.DataGridViewContentAlignment.TopCenter;
-            dataGridViewCellStyle8.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle8.Font = new System.Drawing.Font("Impact", 14.25F);
-            dataGridViewCellStyle8.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle8.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle8.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle8.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.panelMethod_2_dataGridView.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle8;
+            dataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.TopCenter;
+            dataGridViewCellStyle5.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle5.Font = new System.Drawing.Font("Impact", 14.25F);
+            dataGridViewCellStyle5.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle5.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle5.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle5.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.panelMethod_2_dataGridView.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle5;
             this.panelMethod_2_dataGridView.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.panelMethod_2_dataGridView.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.panelMethod_2_lang,
@@ -1394,14 +1560,14 @@ namespace lab_1_2
             this.panelMethod_2_Column31,
             this.panelMethod_2_Column32,
             this.panelMethod_2_Column33});
-            dataGridViewCellStyle9.Alignment = System.Windows.Forms.DataGridViewContentAlignment.TopCenter;
-            dataGridViewCellStyle9.BackColor = System.Drawing.SystemColors.Window;
-            dataGridViewCellStyle9.Font = new System.Drawing.Font("Impact", 14.25F);
-            dataGridViewCellStyle9.ForeColor = System.Drawing.SystemColors.ControlText;
-            dataGridViewCellStyle9.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle9.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle9.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.panelMethod_2_dataGridView.DefaultCellStyle = dataGridViewCellStyle9;
+            dataGridViewCellStyle6.Alignment = System.Windows.Forms.DataGridViewContentAlignment.TopCenter;
+            dataGridViewCellStyle6.BackColor = System.Drawing.SystemColors.Window;
+            dataGridViewCellStyle6.Font = new System.Drawing.Font("Impact", 14.25F);
+            dataGridViewCellStyle6.ForeColor = System.Drawing.SystemColors.ControlText;
+            dataGridViewCellStyle6.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle6.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle6.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.panelMethod_2_dataGridView.DefaultCellStyle = dataGridViewCellStyle6;
             this.panelMethod_2_dataGridView.Dock = System.Windows.Forms.DockStyle.Top;
             this.panelMethod_2_dataGridView.Location = new System.Drawing.Point(0, 160);
             this.panelMethod_2_dataGridView.Name = "panelMethod_2_dataGridView";
@@ -2070,27 +2236,340 @@ namespace lab_1_2
     "\n\r\n\r\n\r\nДля начала работы выберите нужный метод из списка";
             this.panelMainRight_l1.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             // 
-            // panelMethod_4_add_label_1
+            // panelMethod_5_p_keys_key_1
             // 
-            this.panelMethod_4_add_label_1.AutoSize = true;
-            this.panelMethod_4_add_label_1.Font = new System.Drawing.Font("Microsoft Sans Serif", 5F);
-            this.panelMethod_4_add_label_1.Location = new System.Drawing.Point(7, 89);
-            this.panelMethod_4_add_label_1.Name = "panelMethod_4_add_label_1";
-            this.panelMethod_4_add_label_1.Size = new System.Drawing.Size(0, 7);
-            this.panelMethod_4_add_label_1.TabIndex = 2;
-            this.panelMethod_4_add_label_1.Visible = false;
+            this.panelMethod_5_p_keys_key_1.Dock = System.Windows.Forms.DockStyle.Left;
+            this.panelMethod_5_p_keys_key_1.Enabled = false;
+            this.panelMethod_5_p_keys_key_1.Font = new System.Drawing.Font("Impact", 14.25F);
+            this.panelMethod_5_p_keys_key_1.ForeColor = System.Drawing.Color.Silver;
+            this.panelMethod_5_p_keys_key_1.Location = new System.Drawing.Point(0, 0);
+            this.panelMethod_5_p_keys_key_1.MaximumSize = new System.Drawing.Size(407, 50);
+            this.panelMethod_5_p_keys_key_1.MaxLength = 25;
+            this.panelMethod_5_p_keys_key_1.MinimumSize = new System.Drawing.Size(407, 50);
+            this.panelMethod_5_p_keys_key_1.Multiline = true;
+            this.panelMethod_5_p_keys_key_1.Name = "panelMethod_5_p_keys_key_1";
+            this.panelMethod_5_p_keys_key_1.Size = new System.Drawing.Size(407, 50);
+            this.panelMethod_5_p_keys_key_1.TabIndex = 10;
+            this.panelMethod_5_p_keys_key_1.Text = "Введите секретный ключ";
+            this.panelMethod_5_p_keys_key_1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // panelMethod_4_p_table_label
+            // panelMethod_5_p_keys_key_2
             // 
-            this.panelMethod_4_p_table_label.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panelMethod_4_p_table_label.Font = new System.Drawing.Font("Impact", 14.25F);
-            this.panelMethod_4_p_table_label.Location = new System.Drawing.Point(0, 0);
-            this.panelMethod_4_p_table_label.MaximumSize = new System.Drawing.Size(259, 484);
-            this.panelMethod_4_p_table_label.MinimumSize = new System.Drawing.Size(259, 484);
-            this.panelMethod_4_p_table_label.Name = "panelMethod_4_p_table_label";
-            this.panelMethod_4_p_table_label.Size = new System.Drawing.Size(259, 484);
-            this.panelMethod_4_p_table_label.TabIndex = 2;
-            this.panelMethod_4_p_table_label.Text = resources.GetString("panelMethod_4_p_table_label.Text");
+            this.panelMethod_5_p_keys_key_2.Dock = System.Windows.Forms.DockStyle.Left;
+            this.panelMethod_5_p_keys_key_2.Enabled = false;
+            this.panelMethod_5_p_keys_key_2.Font = new System.Drawing.Font("Impact", 14.25F);
+            this.panelMethod_5_p_keys_key_2.ForeColor = System.Drawing.Color.Silver;
+            this.panelMethod_5_p_keys_key_2.Location = new System.Drawing.Point(407, 0);
+            this.panelMethod_5_p_keys_key_2.MaximumSize = new System.Drawing.Size(407, 50);
+            this.panelMethod_5_p_keys_key_2.MaxLength = 25;
+            this.panelMethod_5_p_keys_key_2.Multiline = true;
+            this.panelMethod_5_p_keys_key_2.Name = "panelMethod_5_p_keys_key_2";
+            this.panelMethod_5_p_keys_key_2.Size = new System.Drawing.Size(407, 50);
+            this.panelMethod_5_p_keys_key_2.TabIndex = 11;
+            this.panelMethod_5_p_keys_key_2.Text = "Введите секретный ключ";
+            this.panelMethod_5_p_keys_key_2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // panelMethod_5_p_tsble
+            // 
+            this.panelMethod_5_p_tsble.Controls.Add(this.panelMethod_5_p_tsble_dataGrid);
+            this.panelMethod_5_p_tsble.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panelMethod_5_p_tsble.Location = new System.Drawing.Point(0, 146);
+            this.panelMethod_5_p_tsble.Name = "panelMethod_5_p_tsble";
+            this.panelMethod_5_p_tsble.Size = new System.Drawing.Size(814, 384);
+            this.panelMethod_5_p_tsble.TabIndex = 7;
+            // 
+            // panelMethod_5_p_tsble_dataGrid
+            // 
+            this.panelMethod_5_p_tsble_dataGrid.AllowUserToAddRows = false;
+            this.panelMethod_5_p_tsble_dataGrid.AllowUserToDeleteRows = false;
+            this.panelMethod_5_p_tsble_dataGrid.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
+            this.panelMethod_5_p_tsble_dataGrid.AutoSizeRowsMode = System.Windows.Forms.DataGridViewAutoSizeRowsMode.DisplayedCells;
+            this.panelMethod_5_p_tsble_dataGrid.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.panelMethod_5_p_tsble_dataGrid.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.panelMethod_5_p_tsble_dataGrid_Column_1,
+            this.panelMethod_5_p_tsble_dataGrid_Column_2,
+            this.panelMethod_5_p_tsble_dataGrid_Column_3,
+            this.panelMethod_5_p_tsble_dataGrid_Column_4,
+            this.panelMethod_5_p_tsble_dataGrid_Column_5,
+            this.panelMethod_5_p_tsble_dataGrid_Column_6,
+            this.panelMethod_5_p_tsble_dataGrid_Column_7,
+            this.panelMethod_5_p_tsble_dataGrid_Column_8,
+            this.panelMethod_5_p_tsble_dataGrid_Column_9,
+            this.panelMethod_5_p_tsble_dataGrid_Column_10,
+            this.panelMethod_5_p_tsble_dataGrid_Column_11,
+            this.panelMethod_5_p_tsble_dataGrid_Column_12,
+            this.panelMethod_5_p_tsble_dataGrid_Column_13,
+            this.panelMethod_5_p_tsble_dataGrid_Column_14,
+            this.panelMethod_5_p_tsble_dataGrid_Column_15,
+            this.panelMethod_5_p_tsble_dataGrid_Column_16,
+            this.panelMethod_5_p_tsble_dataGrid_Column_17,
+            this.panelMethod_5_p_tsble_dataGrid_Column_18,
+            this.panelMethod_5_p_tsble_dataGrid_Column_19,
+            this.panelMethod_5_p_tsble_dataGrid_Column_20,
+            this.panelMethod_5_p_tsble_dataGrid_Column_21,
+            this.panelMethod_5_p_tsble_dataGrid_Column_22,
+            this.panelMethod_5_p_tsble_dataGrid_Column_23,
+            this.panelMethod_5_p_tsble_dataGrid_Column_24,
+            this.panelMethod_5_p_tsble_dataGrid_Column_25});
+            this.panelMethod_5_p_tsble_dataGrid.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panelMethod_5_p_tsble_dataGrid.Location = new System.Drawing.Point(0, 0);
+            this.panelMethod_5_p_tsble_dataGrid.Name = "panelMethod_5_p_tsble_dataGrid";
+            this.panelMethod_5_p_tsble_dataGrid.ReadOnly = true;
+            this.panelMethod_5_p_tsble_dataGrid.Size = new System.Drawing.Size(814, 384);
+            this.panelMethod_5_p_tsble_dataGrid.TabIndex = 0;
+            // 
+            // panelMethod_5_p_tsble_dataGrid_Column_1
+            // 
+            this.panelMethod_5_p_tsble_dataGrid_Column_1.HeaderText = " ";
+            this.panelMethod_5_p_tsble_dataGrid_Column_1.Name = "panelMethod_5_p_tsble_dataGrid_Column_1";
+            this.panelMethod_5_p_tsble_dataGrid_Column_1.ReadOnly = true;
+            // 
+            // panelMethod_5_p_tsble_dataGrid_Column_2
+            // 
+            this.panelMethod_5_p_tsble_dataGrid_Column_2.HeaderText = " ";
+            this.panelMethod_5_p_tsble_dataGrid_Column_2.Name = "panelMethod_5_p_tsble_dataGrid_Column_2";
+            this.panelMethod_5_p_tsble_dataGrid_Column_2.ReadOnly = true;
+            // 
+            // panelMethod_5_p_tsble_dataGrid_Column_3
+            // 
+            this.panelMethod_5_p_tsble_dataGrid_Column_3.HeaderText = " ";
+            this.panelMethod_5_p_tsble_dataGrid_Column_3.Name = "panelMethod_5_p_tsble_dataGrid_Column_3";
+            this.panelMethod_5_p_tsble_dataGrid_Column_3.ReadOnly = true;
+            // 
+            // panelMethod_5_p_tsble_dataGrid_Column_4
+            // 
+            this.panelMethod_5_p_tsble_dataGrid_Column_4.HeaderText = " ";
+            this.panelMethod_5_p_tsble_dataGrid_Column_4.Name = "panelMethod_5_p_tsble_dataGrid_Column_4";
+            this.panelMethod_5_p_tsble_dataGrid_Column_4.ReadOnly = true;
+            // 
+            // panelMethod_5_p_tsble_dataGrid_Column_5
+            // 
+            this.panelMethod_5_p_tsble_dataGrid_Column_5.HeaderText = " ";
+            this.panelMethod_5_p_tsble_dataGrid_Column_5.Name = "panelMethod_5_p_tsble_dataGrid_Column_5";
+            this.panelMethod_5_p_tsble_dataGrid_Column_5.ReadOnly = true;
+            // 
+            // panelMethod_5_p_tsble_dataGrid_Column_6
+            // 
+            this.panelMethod_5_p_tsble_dataGrid_Column_6.HeaderText = " ";
+            this.panelMethod_5_p_tsble_dataGrid_Column_6.Name = "panelMethod_5_p_tsble_dataGrid_Column_6";
+            this.panelMethod_5_p_tsble_dataGrid_Column_6.ReadOnly = true;
+            // 
+            // panelMethod_5_p_tsble_dataGrid_Column_7
+            // 
+            this.panelMethod_5_p_tsble_dataGrid_Column_7.HeaderText = " ";
+            this.panelMethod_5_p_tsble_dataGrid_Column_7.Name = "panelMethod_5_p_tsble_dataGrid_Column_7";
+            this.panelMethod_5_p_tsble_dataGrid_Column_7.ReadOnly = true;
+            // 
+            // panelMethod_5_p_tsble_dataGrid_Column_8
+            // 
+            this.panelMethod_5_p_tsble_dataGrid_Column_8.HeaderText = " ";
+            this.panelMethod_5_p_tsble_dataGrid_Column_8.Name = "panelMethod_5_p_tsble_dataGrid_Column_8";
+            this.panelMethod_5_p_tsble_dataGrid_Column_8.ReadOnly = true;
+            // 
+            // panelMethod_5_p_tsble_dataGrid_Column_9
+            // 
+            this.panelMethod_5_p_tsble_dataGrid_Column_9.HeaderText = " ";
+            this.panelMethod_5_p_tsble_dataGrid_Column_9.Name = "panelMethod_5_p_tsble_dataGrid_Column_9";
+            this.panelMethod_5_p_tsble_dataGrid_Column_9.ReadOnly = true;
+            // 
+            // panelMethod_5_p_tsble_dataGrid_Column_10
+            // 
+            this.panelMethod_5_p_tsble_dataGrid_Column_10.HeaderText = " ";
+            this.panelMethod_5_p_tsble_dataGrid_Column_10.Name = "panelMethod_5_p_tsble_dataGrid_Column_10";
+            this.panelMethod_5_p_tsble_dataGrid_Column_10.ReadOnly = true;
+            // 
+            // panelMethod_5_p_tsble_dataGrid_Column_11
+            // 
+            this.panelMethod_5_p_tsble_dataGrid_Column_11.HeaderText = " ";
+            this.panelMethod_5_p_tsble_dataGrid_Column_11.Name = "panelMethod_5_p_tsble_dataGrid_Column_11";
+            this.panelMethod_5_p_tsble_dataGrid_Column_11.ReadOnly = true;
+            // 
+            // panelMethod_5_p_tsble_dataGrid_Column_12
+            // 
+            this.panelMethod_5_p_tsble_dataGrid_Column_12.HeaderText = " ";
+            this.panelMethod_5_p_tsble_dataGrid_Column_12.Name = "panelMethod_5_p_tsble_dataGrid_Column_12";
+            this.panelMethod_5_p_tsble_dataGrid_Column_12.ReadOnly = true;
+            // 
+            // panelMethod_5_p_tsble_dataGrid_Column_13
+            // 
+            this.panelMethod_5_p_tsble_dataGrid_Column_13.HeaderText = " ";
+            this.panelMethod_5_p_tsble_dataGrid_Column_13.Name = "panelMethod_5_p_tsble_dataGrid_Column_13";
+            this.panelMethod_5_p_tsble_dataGrid_Column_13.ReadOnly = true;
+            // 
+            // panelMethod_5_p_tsble_dataGrid_Column_14
+            // 
+            this.panelMethod_5_p_tsble_dataGrid_Column_14.HeaderText = " ";
+            this.panelMethod_5_p_tsble_dataGrid_Column_14.Name = "panelMethod_5_p_tsble_dataGrid_Column_14";
+            this.panelMethod_5_p_tsble_dataGrid_Column_14.ReadOnly = true;
+            // 
+            // panelMethod_5_p_tsble_dataGrid_Column_15
+            // 
+            this.panelMethod_5_p_tsble_dataGrid_Column_15.HeaderText = " ";
+            this.panelMethod_5_p_tsble_dataGrid_Column_15.Name = "panelMethod_5_p_tsble_dataGrid_Column_15";
+            this.panelMethod_5_p_tsble_dataGrid_Column_15.ReadOnly = true;
+            // 
+            // panelMethod_5_p_tsble_dataGrid_Column_16
+            // 
+            this.panelMethod_5_p_tsble_dataGrid_Column_16.HeaderText = " ";
+            this.panelMethod_5_p_tsble_dataGrid_Column_16.Name = "panelMethod_5_p_tsble_dataGrid_Column_16";
+            this.panelMethod_5_p_tsble_dataGrid_Column_16.ReadOnly = true;
+            // 
+            // panelMethod_5_p_tsble_dataGrid_Column_17
+            // 
+            this.panelMethod_5_p_tsble_dataGrid_Column_17.HeaderText = " ";
+            this.panelMethod_5_p_tsble_dataGrid_Column_17.Name = "panelMethod_5_p_tsble_dataGrid_Column_17";
+            this.panelMethod_5_p_tsble_dataGrid_Column_17.ReadOnly = true;
+            // 
+            // panelMethod_5_p_tsble_dataGrid_Column_18
+            // 
+            this.panelMethod_5_p_tsble_dataGrid_Column_18.HeaderText = " ";
+            this.panelMethod_5_p_tsble_dataGrid_Column_18.Name = "panelMethod_5_p_tsble_dataGrid_Column_18";
+            this.panelMethod_5_p_tsble_dataGrid_Column_18.ReadOnly = true;
+            // 
+            // panelMethod_5_p_tsble_dataGrid_Column_19
+            // 
+            this.panelMethod_5_p_tsble_dataGrid_Column_19.HeaderText = " ";
+            this.panelMethod_5_p_tsble_dataGrid_Column_19.Name = "panelMethod_5_p_tsble_dataGrid_Column_19";
+            this.panelMethod_5_p_tsble_dataGrid_Column_19.ReadOnly = true;
+            // 
+            // panelMethod_5_p_tsble_dataGrid_Column_20
+            // 
+            this.panelMethod_5_p_tsble_dataGrid_Column_20.HeaderText = " ";
+            this.panelMethod_5_p_tsble_dataGrid_Column_20.Name = "panelMethod_5_p_tsble_dataGrid_Column_20";
+            this.panelMethod_5_p_tsble_dataGrid_Column_20.ReadOnly = true;
+            // 
+            // panelMethod_5_p_tsble_dataGrid_Column_21
+            // 
+            this.panelMethod_5_p_tsble_dataGrid_Column_21.HeaderText = " ";
+            this.panelMethod_5_p_tsble_dataGrid_Column_21.Name = "panelMethod_5_p_tsble_dataGrid_Column_21";
+            this.panelMethod_5_p_tsble_dataGrid_Column_21.ReadOnly = true;
+            // 
+            // panelMethod_5_p_tsble_dataGrid_Column_22
+            // 
+            this.panelMethod_5_p_tsble_dataGrid_Column_22.HeaderText = " ";
+            this.panelMethod_5_p_tsble_dataGrid_Column_22.Name = "panelMethod_5_p_tsble_dataGrid_Column_22";
+            this.panelMethod_5_p_tsble_dataGrid_Column_22.ReadOnly = true;
+            // 
+            // panelMethod_5_p_tsble_dataGrid_Column_23
+            // 
+            this.panelMethod_5_p_tsble_dataGrid_Column_23.HeaderText = " ";
+            this.panelMethod_5_p_tsble_dataGrid_Column_23.Name = "panelMethod_5_p_tsble_dataGrid_Column_23";
+            this.panelMethod_5_p_tsble_dataGrid_Column_23.ReadOnly = true;
+            // 
+            // panelMethod_5_p_tsble_dataGrid_Column_24
+            // 
+            this.panelMethod_5_p_tsble_dataGrid_Column_24.HeaderText = " ";
+            this.panelMethod_5_p_tsble_dataGrid_Column_24.Name = "panelMethod_5_p_tsble_dataGrid_Column_24";
+            this.panelMethod_5_p_tsble_dataGrid_Column_24.ReadOnly = true;
+            // 
+            // panelMethod_5_p_tsble_dataGrid_Column_25
+            // 
+            this.panelMethod_5_p_tsble_dataGrid_Column_25.HeaderText = " ";
+            this.panelMethod_5_p_tsble_dataGrid_Column_25.Name = "panelMethod_5_p_tsble_dataGrid_Column_25";
+            this.panelMethod_5_p_tsble_dataGrid_Column_25.ReadOnly = true;
+            // 
+            // panelMethod_5_btn_next_slide
+            // 
+            this.panelMethod_5_btn_next_slide.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.panelMethod_5_btn_next_slide.BackColor = System.Drawing.SystemColors.ControlDark;
+            this.panelMethod_5_btn_next_slide.Enabled = false;
+            this.panelMethod_5_btn_next_slide.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.panelMethod_5_btn_next_slide.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold);
+            this.panelMethod_5_btn_next_slide.Location = new System.Drawing.Point(765, 49);
+            this.panelMethod_5_btn_next_slide.Margin = new System.Windows.Forms.Padding(3, 20, 3, 3);
+            this.panelMethod_5_btn_next_slide.MaximumSize = new System.Drawing.Size(49, 49);
+            this.panelMethod_5_btn_next_slide.MinimumSize = new System.Drawing.Size(49, 49);
+            this.panelMethod_5_btn_next_slide.Name = "panelMethod_5_btn_next_slide";
+            this.panelMethod_5_btn_next_slide.Size = new System.Drawing.Size(49, 49);
+            this.panelMethod_5_btn_next_slide.TabIndex = 9;
+            this.panelMethod_5_btn_next_slide.Text = ">";
+            this.panelMethod_5_btn_next_slide.UseVisualStyleBackColor = false;
+            // 
+            // panelMethod_5_btn_back_slide
+            // 
+            this.panelMethod_5_btn_back_slide.BackColor = System.Drawing.SystemColors.ControlDark;
+            this.panelMethod_5_btn_back_slide.Enabled = false;
+            this.panelMethod_5_btn_back_slide.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.panelMethod_5_btn_back_slide.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold);
+            this.panelMethod_5_btn_back_slide.Location = new System.Drawing.Point(0, 49);
+            this.panelMethod_5_btn_back_slide.Margin = new System.Windows.Forms.Padding(3, 20, 3, 3);
+            this.panelMethod_5_btn_back_slide.MaximumSize = new System.Drawing.Size(49, 49);
+            this.panelMethod_5_btn_back_slide.MinimumSize = new System.Drawing.Size(49, 49);
+            this.panelMethod_5_btn_back_slide.Name = "panelMethod_5_btn_back_slide";
+            this.panelMethod_5_btn_back_slide.Size = new System.Drawing.Size(49, 49);
+            this.panelMethod_5_btn_back_slide.TabIndex = 14;
+            this.panelMethod_5_btn_back_slide.Text = "<";
+            this.panelMethod_5_btn_back_slide.UseVisualStyleBackColor = false;
+            this.panelMethod_5_btn_back_slide.Click += new System.EventHandler(this.panelMethod_5_btn_back_slide_Click);
+            // 
+            // panelMethod_5_p_slide_1
+            // 
+            this.panelMethod_5_p_slide_1.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.panelMethod_5_p_slide_1.BackColor = System.Drawing.Color.DimGray;
+            this.panelMethod_5_p_slide_1.Controls.Add(this.panelMethod_5_slide_label_1);
+            this.panelMethod_5_p_slide_1.Location = new System.Drawing.Point(50, 50);
+            this.panelMethod_5_p_slide_1.MaximumSize = new System.Drawing.Size(238, 49);
+            this.panelMethod_5_p_slide_1.MinimumSize = new System.Drawing.Size(238, 49);
+            this.panelMethod_5_p_slide_1.Name = "panelMethod_5_p_slide_1";
+            this.panelMethod_5_p_slide_1.Size = new System.Drawing.Size(238, 49);
+            this.panelMethod_5_p_slide_1.TabIndex = 16;
+            // 
+            // panelMethod_5_p_slide_2
+            // 
+            this.panelMethod_5_p_slide_2.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.panelMethod_5_p_slide_2.BackColor = System.Drawing.Color.DimGray;
+            this.panelMethod_5_p_slide_2.Controls.Add(this.panelMethod_5_slide_label_2);
+            this.panelMethod_5_p_slide_2.Location = new System.Drawing.Point(288, 50);
+            this.panelMethod_5_p_slide_2.MaximumSize = new System.Drawing.Size(238, 49);
+            this.panelMethod_5_p_slide_2.MinimumSize = new System.Drawing.Size(238, 49);
+            this.panelMethod_5_p_slide_2.Name = "panelMethod_5_p_slide_2";
+            this.panelMethod_5_p_slide_2.Size = new System.Drawing.Size(238, 49);
+            this.panelMethod_5_p_slide_2.TabIndex = 17;
+            // 
+            // panelMethod_5_p_slide_3
+            // 
+            this.panelMethod_5_p_slide_3.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.panelMethod_5_p_slide_3.BackColor = System.Drawing.Color.DimGray;
+            this.panelMethod_5_p_slide_3.Controls.Add(this.panelMethod_5_slide_label_3);
+            this.panelMethod_5_p_slide_3.Location = new System.Drawing.Point(526, 50);
+            this.panelMethod_5_p_slide_3.MaximumSize = new System.Drawing.Size(238, 49);
+            this.panelMethod_5_p_slide_3.MinimumSize = new System.Drawing.Size(238, 49);
+            this.panelMethod_5_p_slide_3.Name = "panelMethod_5_p_slide_3";
+            this.panelMethod_5_p_slide_3.Size = new System.Drawing.Size(238, 49);
+            this.panelMethod_5_p_slide_3.TabIndex = 18;
+            // 
+            // panelMethod_5_slide_label_1
+            // 
+            this.panelMethod_5_slide_label_1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panelMethod_5_slide_label_1.Font = new System.Drawing.Font("Impact", 14.25F);
+            this.panelMethod_5_slide_label_1.Location = new System.Drawing.Point(0, 0);
+            this.panelMethod_5_slide_label_1.Name = "panelMethod_5_slide_label_1";
+            this.panelMethod_5_slide_label_1.Size = new System.Drawing.Size(238, 49);
+            this.panelMethod_5_slide_label_1.TabIndex = 0;
+            this.panelMethod_5_slide_label_1.Text = "label1";
+            this.panelMethod_5_slide_label_1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // panelMethod_5_slide_label_2
+            // 
+            this.panelMethod_5_slide_label_2.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panelMethod_5_slide_label_2.Font = new System.Drawing.Font("Impact", 14.25F);
+            this.panelMethod_5_slide_label_2.Location = new System.Drawing.Point(0, 0);
+            this.panelMethod_5_slide_label_2.Name = "panelMethod_5_slide_label_2";
+            this.panelMethod_5_slide_label_2.Size = new System.Drawing.Size(238, 49);
+            this.panelMethod_5_slide_label_2.TabIndex = 0;
+            this.panelMethod_5_slide_label_2.Text = "label1";
+            this.panelMethod_5_slide_label_2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // panelMethod_5_slide_label_3
+            // 
+            this.panelMethod_5_slide_label_3.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panelMethod_5_slide_label_3.Font = new System.Drawing.Font("Impact", 14.25F);
+            this.panelMethod_5_slide_label_3.Location = new System.Drawing.Point(0, 0);
+            this.panelMethod_5_slide_label_3.Name = "panelMethod_5_slide_label_3";
+            this.panelMethod_5_slide_label_3.Size = new System.Drawing.Size(238, 49);
+            this.panelMethod_5_slide_label_3.TabIndex = 0;
+            this.panelMethod_5_slide_label_3.Text = "label1";
+            this.panelMethod_5_slide_label_3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // MainForm
             // 
@@ -2108,6 +2587,12 @@ namespace lab_1_2
             this.panelMainLeft.ResumeLayout(false);
             this.panelMainLeft.PerformLayout();
             this.panelMainRight.ResumeLayout(false);
+            this.panelMethod_5.ResumeLayout(false);
+            this.panelMethod_5_p_keys.ResumeLayout(false);
+            this.panelMethod_5_p_keys.PerformLayout();
+            this.panelMethod_5_p_encrypt.ResumeLayout(false);
+            this.panelMethod_5_p_encrypt.PerformLayout();
+            this.panelMethod_5_p_up.ResumeLayout(false);
             this.panelMethod_4.ResumeLayout(false);
             this.panelMethod_4_p_table.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.panelMethod_4_p_table_dataGrid)).EndInit();
@@ -2152,6 +2637,11 @@ namespace lab_1_2
             this.panelMethod_2_input_data_text.ResumeLayout(false);
             this.panelMethod_1.ResumeLayout(false);
             this.panelMethod_1.PerformLayout();
+            this.panelMethod_5_p_tsble.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.panelMethod_5_p_tsble_dataGrid)).EndInit();
+            this.panelMethod_5_p_slide_1.ResumeLayout(false);
+            this.panelMethod_5_p_slide_2.ResumeLayout(false);
+            this.panelMethod_5_p_slide_3.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -2315,6 +2805,50 @@ namespace lab_1_2
         private DataGridViewTextBoxColumn panelMethod_4_p_table_dataGrid_Column_5;
         private Label panelMethod_4_add_label_1;
         private Label panelMethod_4_p_table_label;
+        private Panel panelMethod_5_p_keys;
+        private Panel panelMethod_5_p_encrypt;
+        private TextBox panelMethod_5_p_encrypt_in;
+        private Button panelMethod_5_p_encrypt_btn;
+        private TextBox panelMethod_5_p_encrypt_out;
+        private Panel panelMethod_5_p_up;
+        private Label panelMethod_5_p_up_text;
+        private Panel panelMethod_5_p_tsble;
+        private DataGridView panelMethod_5_p_tsble_dataGrid;
+        private DataGridViewTextBoxColumn panelMethod_5_p_tsble_dataGrid_Column_1;
+        private DataGridViewTextBoxColumn panelMethod_5_p_tsble_dataGrid_Column_2;
+        private DataGridViewTextBoxColumn panelMethod_5_p_tsble_dataGrid_Column_3;
+        private DataGridViewTextBoxColumn panelMethod_5_p_tsble_dataGrid_Column_4;
+        private DataGridViewTextBoxColumn panelMethod_5_p_tsble_dataGrid_Column_5;
+        private DataGridViewTextBoxColumn panelMethod_5_p_tsble_dataGrid_Column_6;
+        private DataGridViewTextBoxColumn panelMethod_5_p_tsble_dataGrid_Column_7;
+        private DataGridViewTextBoxColumn panelMethod_5_p_tsble_dataGrid_Column_8;
+        private DataGridViewTextBoxColumn panelMethod_5_p_tsble_dataGrid_Column_9;
+        private DataGridViewTextBoxColumn panelMethod_5_p_tsble_dataGrid_Column_10;
+        private DataGridViewTextBoxColumn panelMethod_5_p_tsble_dataGrid_Column_11;
+        private DataGridViewTextBoxColumn panelMethod_5_p_tsble_dataGrid_Column_12;
+        private DataGridViewTextBoxColumn panelMethod_5_p_tsble_dataGrid_Column_13;
+        private DataGridViewTextBoxColumn panelMethod_5_p_tsble_dataGrid_Column_14;
+        private DataGridViewTextBoxColumn panelMethod_5_p_tsble_dataGrid_Column_15;
+        private DataGridViewTextBoxColumn panelMethod_5_p_tsble_dataGrid_Column_16;
+        private DataGridViewTextBoxColumn panelMethod_5_p_tsble_dataGrid_Column_17;
+        private DataGridViewTextBoxColumn panelMethod_5_p_tsble_dataGrid_Column_18;
+        private DataGridViewTextBoxColumn panelMethod_5_p_tsble_dataGrid_Column_19;
+        private DataGridViewTextBoxColumn panelMethod_5_p_tsble_dataGrid_Column_20;
+        private DataGridViewTextBoxColumn panelMethod_5_p_tsble_dataGrid_Column_21;
+        private DataGridViewTextBoxColumn panelMethod_5_p_tsble_dataGrid_Column_22;
+        private DataGridViewTextBoxColumn panelMethod_5_p_tsble_dataGrid_Column_23;
+        private DataGridViewTextBoxColumn panelMethod_5_p_tsble_dataGrid_Column_24;
+        private DataGridViewTextBoxColumn panelMethod_5_p_tsble_dataGrid_Column_25;
+        private Panel panelMethod_5_p_slide_3;
+        private Label panelMethod_5_slide_label_3;
+        private Panel panelMethod_5_p_slide_2;
+        private Label panelMethod_5_slide_label_2;
+        private Panel panelMethod_5_p_slide_1;
+        private Label panelMethod_5_slide_label_1;
+        private Button panelMethod_5_btn_back_slide;
+        private TextBox panelMethod_5_p_keys_key_2;
+        private TextBox panelMethod_5_p_keys_key_1;
+        private Button panelMethod_5_btn_next_slide;
     }
 }
 

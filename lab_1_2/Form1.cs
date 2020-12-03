@@ -204,6 +204,9 @@ namespace lab_1_2
             }
         }
 
-        
+        private void panelMethod_5_btn_back_slide_Click(object sender, EventArgs e)
+        {
+
+        }
     } 
 }
