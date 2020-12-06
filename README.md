@@ -1,5 +1,7 @@
-# cryptography
-
+# Лабораторные работы по криптографии
+## Используемые IDE
+- Visual Studio
+- PyCharm
 ### Как установить проект(GitHub Desktop):
 1. Войти в аккаунт (если не вошли)
 2. Нажимаем File >> Clone Repository... >> URL
