@@ -45,33 +45,34 @@ namespace lab_1_2
             this.panelMainLeft_l1 = new System.Windows.Forms.Label();
             this.panelMainRight = new System.Windows.Forms.Panel();
             this.panelMethod_5 = new System.Windows.Forms.Panel();
-            this.panelMethod_5_p_tsble = new System.Windows.Forms.Panel();
-            this.panelMethod_5_p_tsble_dataGrid = new System.Windows.Forms.DataGridView();
-            this.panelMethod_5_p_tsble_dataGrid_Column_1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.panelMethod_5_p_tsble_dataGrid_Column_2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.panelMethod_5_p_tsble_dataGrid_Column_3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.panelMethod_5_p_tsble_dataGrid_Column_4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.panelMethod_5_p_tsble_dataGrid_Column_5 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.panelMethod_5_p_tsble_dataGrid_Column_6 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.panelMethod_5_p_tsble_dataGrid_Column_7 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.panelMethod_5_p_tsble_dataGrid_Column_8 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.panelMethod_5_p_tsble_dataGrid_Column_9 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.panelMethod_5_p_tsble_dataGrid_Column_10 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.panelMethod_5_p_tsble_dataGrid_Column_11 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.panelMethod_5_p_tsble_dataGrid_Column_12 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.panelMethod_5_p_tsble_dataGrid_Column_13 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.panelMethod_5_p_tsble_dataGrid_Column_14 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.panelMethod_5_p_tsble_dataGrid_Column_15 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.panelMethod_5_p_tsble_dataGrid_Column_16 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.panelMethod_5_p_tsble_dataGrid_Column_17 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.panelMethod_5_p_tsble_dataGrid_Column_18 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.panelMethod_5_p_tsble_dataGrid_Column_19 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.panelMethod_5_p_tsble_dataGrid_Column_20 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.panelMethod_5_p_tsble_dataGrid_Column_21 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.panelMethod_5_p_tsble_dataGrid_Column_22 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.panelMethod_5_p_tsble_dataGrid_Column_23 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.panelMethod_5_p_tsble_dataGrid_Column_24 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.panelMethod_5_p_tsble_dataGrid_Column_25 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.panelMethod_5_p_table = new System.Windows.Forms.Panel();
+            this.panelMethod_5_p_table_dataGrid = new System.Windows.Forms.DataGridView();
+            this.panelMethod_5_p_table_dataGrid_Column_1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.panelMethod_5_p_table_dataGrid_Column_2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.panelMethod_5_p_table_dataGrid_Column_3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.panelMethod_5_p_table_dataGrid_Column_4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.panelMethod_5_p_table_dataGrid_Column_5 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.panelMethod_5_p_table_dataGrid_Column_6 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.panelMethod_5_p_table_dataGrid_Column_7 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.panelMethod_5_p_table_dataGrid_Column_8 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.panelMethod_5_p_table_dataGrid_Column_9 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.panelMethod_5_p_table_dataGrid_Column_10 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.panelMethod_5_p_table_dataGrid_Column_11 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.panelMethod_5_p_table_dataGrid_Column_12 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.panelMethod_5_p_table_dataGrid_Column_13 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.panelMethod_5_p_table_dataGrid_Column_14 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.panelMethod_5_p_table_dataGrid_Column_15 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.panelMethod_5_p_table_dataGrid_Column_16 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.panelMethod_5_p_table_dataGrid_Column_17 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.panelMethod_5_p_table_dataGrid_Column_18 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.panelMethod_5_p_table_dataGrid_Column_19 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.panelMethod_5_p_table_dataGrid_Column_20 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.panelMethod_5_p_table_dataGrid_Column_21 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.panelMethod_5_p_table_dataGrid_Column_22 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.panelMethod_5_p_table_dataGrid_Column_23 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.panelMethod_5_p_table_dataGrid_Column_24 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.panelMethod_5_p_table_dataGrid_Column_25 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.panelMethod_5_p_table_dataGrid_Column_26 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.panelMethod_5_p_keys = new System.Windows.Forms.Panel();
             this.panelMethod_5_p_slide_3 = new System.Windows.Forms.Panel();
             this.panelMethod_5_slide_label_3 = new System.Windows.Forms.Label();
@@ -239,8 +240,8 @@ namespace lab_1_2
             this.panelMainLeft.SuspendLayout();
             this.panelMainRight.SuspendLayout();
             this.panelMethod_5.SuspendLayout();
-            this.panelMethod_5_p_tsble.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.panelMethod_5_p_tsble_dataGrid)).BeginInit();
+            this.panelMethod_5_p_table.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.panelMethod_5_p_table_dataGrid)).BeginInit();
             this.panelMethod_5_p_keys.SuspendLayout();
             this.panelMethod_5_p_slide_3.SuspendLayout();
             this.panelMethod_5_p_slide_2.SuspendLayout();
@@ -418,7 +419,7 @@ namespace lab_1_2
             // 
             // panelMethod_5
             // 
-            this.panelMethod_5.Controls.Add(this.panelMethod_5_p_tsble);
+            this.panelMethod_5.Controls.Add(this.panelMethod_5_p_table);
             this.panelMethod_5.Controls.Add(this.panelMethod_5_p_keys);
             this.panelMethod_5.Controls.Add(this.panelMethod_5_p_encrypt);
             this.panelMethod_5.Controls.Add(this.panelMethod_5_p_up);
@@ -432,204 +433,239 @@ namespace lab_1_2
             this.panelMethod_5.TabIndex = 1;
             this.panelMethod_5.Visible = false;
             // 
-            // panelMethod_5_p_tsble
+            // panelMethod_5_p_table
             // 
-            this.panelMethod_5_p_tsble.Controls.Add(this.panelMethod_5_p_tsble_dataGrid);
-            this.panelMethod_5_p_tsble.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panelMethod_5_p_tsble.Location = new System.Drawing.Point(0, 146);
-            this.panelMethod_5_p_tsble.Name = "panelMethod_5_p_tsble";
-            this.panelMethod_5_p_tsble.Size = new System.Drawing.Size(814, 384);
-            this.panelMethod_5_p_tsble.TabIndex = 7;
+            this.panelMethod_5_p_table.Controls.Add(this.panelMethod_5_p_table_dataGrid);
+            this.panelMethod_5_p_table.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panelMethod_5_p_table.Location = new System.Drawing.Point(0, 146);
+            this.panelMethod_5_p_table.Name = "panelMethod_5_p_table";
+            this.panelMethod_5_p_table.Size = new System.Drawing.Size(814, 384);
+            this.panelMethod_5_p_table.TabIndex = 7;
             // 
-            // panelMethod_5_p_tsble_dataGrid
+            // panelMethod_5_p_table_dataGrid
             // 
-            this.panelMethod_5_p_tsble_dataGrid.AllowUserToAddRows = false;
-            this.panelMethod_5_p_tsble_dataGrid.AllowUserToDeleteRows = false;
-            this.panelMethod_5_p_tsble_dataGrid.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
-            this.panelMethod_5_p_tsble_dataGrid.AutoSizeRowsMode = System.Windows.Forms.DataGridViewAutoSizeRowsMode.DisplayedCells;
-            this.panelMethod_5_p_tsble_dataGrid.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.panelMethod_5_p_tsble_dataGrid.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.panelMethod_5_p_tsble_dataGrid_Column_1,
-            this.panelMethod_5_p_tsble_dataGrid_Column_2,
-            this.panelMethod_5_p_tsble_dataGrid_Column_3,
-            this.panelMethod_5_p_tsble_dataGrid_Column_4,
-            this.panelMethod_5_p_tsble_dataGrid_Column_5,
-            this.panelMethod_5_p_tsble_dataGrid_Column_6,
-            this.panelMethod_5_p_tsble_dataGrid_Column_7,
-            this.panelMethod_5_p_tsble_dataGrid_Column_8,
-            this.panelMethod_5_p_tsble_dataGrid_Column_9,
-            this.panelMethod_5_p_tsble_dataGrid_Column_10,
-            this.panelMethod_5_p_tsble_dataGrid_Column_11,
-            this.panelMethod_5_p_tsble_dataGrid_Column_12,
-            this.panelMethod_5_p_tsble_dataGrid_Column_13,
-            this.panelMethod_5_p_tsble_dataGrid_Column_14,
-            this.panelMethod_5_p_tsble_dataGrid_Column_15,
-            this.panelMethod_5_p_tsble_dataGrid_Column_16,
-            this.panelMethod_5_p_tsble_dataGrid_Column_17,
-            this.panelMethod_5_p_tsble_dataGrid_Column_18,
-            this.panelMethod_5_p_tsble_dataGrid_Column_19,
-            this.panelMethod_5_p_tsble_dataGrid_Column_20,
-            this.panelMethod_5_p_tsble_dataGrid_Column_21,
-            this.panelMethod_5_p_tsble_dataGrid_Column_22,
-            this.panelMethod_5_p_tsble_dataGrid_Column_23,
-            this.panelMethod_5_p_tsble_dataGrid_Column_24,
-            this.panelMethod_5_p_tsble_dataGrid_Column_25});
-            this.panelMethod_5_p_tsble_dataGrid.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panelMethod_5_p_tsble_dataGrid.Location = new System.Drawing.Point(0, 0);
-            this.panelMethod_5_p_tsble_dataGrid.Name = "panelMethod_5_p_tsble_dataGrid";
-            this.panelMethod_5_p_tsble_dataGrid.ReadOnly = true;
-            this.panelMethod_5_p_tsble_dataGrid.Size = new System.Drawing.Size(814, 384);
-            this.panelMethod_5_p_tsble_dataGrid.TabIndex = 0;
+            this.panelMethod_5_p_table_dataGrid.AllowUserToAddRows = false;
+            this.panelMethod_5_p_table_dataGrid.AllowUserToDeleteRows = false;
+            this.panelMethod_5_p_table_dataGrid.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
+            this.panelMethod_5_p_table_dataGrid.AutoSizeRowsMode = System.Windows.Forms.DataGridViewAutoSizeRowsMode.DisplayedCells;
+            this.panelMethod_5_p_table_dataGrid.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.panelMethod_5_p_table_dataGrid.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.panelMethod_5_p_table_dataGrid_Column_1,
+            this.panelMethod_5_p_table_dataGrid_Column_2,
+            this.panelMethod_5_p_table_dataGrid_Column_3,
+            this.panelMethod_5_p_table_dataGrid_Column_4,
+            this.panelMethod_5_p_table_dataGrid_Column_5,
+            this.panelMethod_5_p_table_dataGrid_Column_6,
+            this.panelMethod_5_p_table_dataGrid_Column_7,
+            this.panelMethod_5_p_table_dataGrid_Column_8,
+            this.panelMethod_5_p_table_dataGrid_Column_9,
+            this.panelMethod_5_p_table_dataGrid_Column_10,
+            this.panelMethod_5_p_table_dataGrid_Column_11,
+            this.panelMethod_5_p_table_dataGrid_Column_12,
+            this.panelMethod_5_p_table_dataGrid_Column_13,
+            this.panelMethod_5_p_table_dataGrid_Column_14,
+            this.panelMethod_5_p_table_dataGrid_Column_15,
+            this.panelMethod_5_p_table_dataGrid_Column_16,
+            this.panelMethod_5_p_table_dataGrid_Column_17,
+            this.panelMethod_5_p_table_dataGrid_Column_18,
+            this.panelMethod_5_p_table_dataGrid_Column_19,
+            this.panelMethod_5_p_table_dataGrid_Column_20,
+            this.panelMethod_5_p_table_dataGrid_Column_21,
+            this.panelMethod_5_p_table_dataGrid_Column_22,
+            this.panelMethod_5_p_table_dataGrid_Column_23,
+            this.panelMethod_5_p_table_dataGrid_Column_24,
+            this.panelMethod_5_p_table_dataGrid_Column_25,
+            this.panelMethod_5_p_table_dataGrid_Column_26});
+            this.panelMethod_5_p_table_dataGrid.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panelMethod_5_p_table_dataGrid.Enabled = false;
+            this.panelMethod_5_p_table_dataGrid.Location = new System.Drawing.Point(0, 0);
+            this.panelMethod_5_p_table_dataGrid.Name = "panelMethod_5_p_table_dataGrid";
+            this.panelMethod_5_p_table_dataGrid.ReadOnly = true;
+            this.panelMethod_5_p_table_dataGrid.Size = new System.Drawing.Size(814, 384);
+            this.panelMethod_5_p_table_dataGrid.TabIndex = 0;
             // 
-            // panelMethod_5_p_tsble_dataGrid_Column_1
+            // panelMethod_5_p_table_dataGrid_Column_1
             // 
-            this.panelMethod_5_p_tsble_dataGrid_Column_1.HeaderText = " ";
-            this.panelMethod_5_p_tsble_dataGrid_Column_1.Name = "panelMethod_5_p_tsble_dataGrid_Column_1";
-            this.panelMethod_5_p_tsble_dataGrid_Column_1.ReadOnly = true;
+            this.panelMethod_5_p_table_dataGrid_Column_1.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.panelMethod_5_p_table_dataGrid_Column_1.HeaderText = " ";
+            this.panelMethod_5_p_table_dataGrid_Column_1.Name = "panelMethod_5_p_table_dataGrid_Column_1";
+            this.panelMethod_5_p_table_dataGrid_Column_1.ReadOnly = true;
+            this.panelMethod_5_p_table_dataGrid_Column_1.Visible = false;
             // 
-            // panelMethod_5_p_tsble_dataGrid_Column_2
+            // panelMethod_5_p_table_dataGrid_Column_2
             // 
-            this.panelMethod_5_p_tsble_dataGrid_Column_2.HeaderText = " ";
-            this.panelMethod_5_p_tsble_dataGrid_Column_2.Name = "panelMethod_5_p_tsble_dataGrid_Column_2";
-            this.panelMethod_5_p_tsble_dataGrid_Column_2.ReadOnly = true;
+            this.panelMethod_5_p_table_dataGrid_Column_2.HeaderText = " ";
+            this.panelMethod_5_p_table_dataGrid_Column_2.Name = "panelMethod_5_p_table_dataGrid_Column_2";
+            this.panelMethod_5_p_table_dataGrid_Column_2.ReadOnly = true;
+            this.panelMethod_5_p_table_dataGrid_Column_2.Visible = false;
             // 
-            // panelMethod_5_p_tsble_dataGrid_Column_3
+            // panelMethod_5_p_table_dataGrid_Column_3
             // 
-            this.panelMethod_5_p_tsble_dataGrid_Column_3.HeaderText = " ";
-            this.panelMethod_5_p_tsble_dataGrid_Column_3.Name = "panelMethod_5_p_tsble_dataGrid_Column_3";
-            this.panelMethod_5_p_tsble_dataGrid_Column_3.ReadOnly = true;
+            this.panelMethod_5_p_table_dataGrid_Column_3.HeaderText = " ";
+            this.panelMethod_5_p_table_dataGrid_Column_3.Name = "panelMethod_5_p_table_dataGrid_Column_3";
+            this.panelMethod_5_p_table_dataGrid_Column_3.ReadOnly = true;
+            this.panelMethod_5_p_table_dataGrid_Column_3.Visible = false;
             // 
-            // panelMethod_5_p_tsble_dataGrid_Column_4
+            // panelMethod_5_p_table_dataGrid_Column_4
             // 
-            this.panelMethod_5_p_tsble_dataGrid_Column_4.HeaderText = " ";
-            this.panelMethod_5_p_tsble_dataGrid_Column_4.Name = "panelMethod_5_p_tsble_dataGrid_Column_4";
-            this.panelMethod_5_p_tsble_dataGrid_Column_4.ReadOnly = true;
+            this.panelMethod_5_p_table_dataGrid_Column_4.HeaderText = " ";
+            this.panelMethod_5_p_table_dataGrid_Column_4.Name = "panelMethod_5_p_table_dataGrid_Column_4";
+            this.panelMethod_5_p_table_dataGrid_Column_4.ReadOnly = true;
+            this.panelMethod_5_p_table_dataGrid_Column_4.Visible = false;
             // 
-            // panelMethod_5_p_tsble_dataGrid_Column_5
+            // panelMethod_5_p_table_dataGrid_Column_5
             // 
-            this.panelMethod_5_p_tsble_dataGrid_Column_5.HeaderText = " ";
-            this.panelMethod_5_p_tsble_dataGrid_Column_5.Name = "panelMethod_5_p_tsble_dataGrid_Column_5";
-            this.panelMethod_5_p_tsble_dataGrid_Column_5.ReadOnly = true;
+            this.panelMethod_5_p_table_dataGrid_Column_5.HeaderText = " ";
+            this.panelMethod_5_p_table_dataGrid_Column_5.Name = "panelMethod_5_p_table_dataGrid_Column_5";
+            this.panelMethod_5_p_table_dataGrid_Column_5.ReadOnly = true;
+            this.panelMethod_5_p_table_dataGrid_Column_5.Visible = false;
             // 
-            // panelMethod_5_p_tsble_dataGrid_Column_6
+            // panelMethod_5_p_table_dataGrid_Column_6
             // 
-            this.panelMethod_5_p_tsble_dataGrid_Column_6.HeaderText = " ";
-            this.panelMethod_5_p_tsble_dataGrid_Column_6.Name = "panelMethod_5_p_tsble_dataGrid_Column_6";
-            this.panelMethod_5_p_tsble_dataGrid_Column_6.ReadOnly = true;
+            this.panelMethod_5_p_table_dataGrid_Column_6.HeaderText = " ";
+            this.panelMethod_5_p_table_dataGrid_Column_6.Name = "panelMethod_5_p_table_dataGrid_Column_6";
+            this.panelMethod_5_p_table_dataGrid_Column_6.ReadOnly = true;
+            this.panelMethod_5_p_table_dataGrid_Column_6.Visible = false;
             // 
-            // panelMethod_5_p_tsble_dataGrid_Column_7
+            // panelMethod_5_p_table_dataGrid_Column_7
             // 
-            this.panelMethod_5_p_tsble_dataGrid_Column_7.HeaderText = " ";
-            this.panelMethod_5_p_tsble_dataGrid_Column_7.Name = "panelMethod_5_p_tsble_dataGrid_Column_7";
-            this.panelMethod_5_p_tsble_dataGrid_Column_7.ReadOnly = true;
+            this.panelMethod_5_p_table_dataGrid_Column_7.HeaderText = " ";
+            this.panelMethod_5_p_table_dataGrid_Column_7.Name = "panelMethod_5_p_table_dataGrid_Column_7";
+            this.panelMethod_5_p_table_dataGrid_Column_7.ReadOnly = true;
+            this.panelMethod_5_p_table_dataGrid_Column_7.Visible = false;
             // 
-            // panelMethod_5_p_tsble_dataGrid_Column_8
+            // panelMethod_5_p_table_dataGrid_Column_8
             // 
-            this.panelMethod_5_p_tsble_dataGrid_Column_8.HeaderText = " ";
-            this.panelMethod_5_p_tsble_dataGrid_Column_8.Name = "panelMethod_5_p_tsble_dataGrid_Column_8";
-            this.panelMethod_5_p_tsble_dataGrid_Column_8.ReadOnly = true;
+            this.panelMethod_5_p_table_dataGrid_Column_8.HeaderText = " ";
+            this.panelMethod_5_p_table_dataGrid_Column_8.Name = "panelMethod_5_p_table_dataGrid_Column_8";
+            this.panelMethod_5_p_table_dataGrid_Column_8.ReadOnly = true;
+            this.panelMethod_5_p_table_dataGrid_Column_8.Visible = false;
             // 
-            // panelMethod_5_p_tsble_dataGrid_Column_9
+            // panelMethod_5_p_table_dataGrid_Column_9
             // 
-            this.panelMethod_5_p_tsble_dataGrid_Column_9.HeaderText = " ";
-            this.panelMethod_5_p_tsble_dataGrid_Column_9.Name = "panelMethod_5_p_tsble_dataGrid_Column_9";
-            this.panelMethod_5_p_tsble_dataGrid_Column_9.ReadOnly = true;
+            this.panelMethod_5_p_table_dataGrid_Column_9.HeaderText = " ";
+            this.panelMethod_5_p_table_dataGrid_Column_9.Name = "panelMethod_5_p_table_dataGrid_Column_9";
+            this.panelMethod_5_p_table_dataGrid_Column_9.ReadOnly = true;
+            this.panelMethod_5_p_table_dataGrid_Column_9.Visible = false;
             // 
-            // panelMethod_5_p_tsble_dataGrid_Column_10
+            // panelMethod_5_p_table_dataGrid_Column_10
             // 
-            this.panelMethod_5_p_tsble_dataGrid_Column_10.HeaderText = " ";
-            this.panelMethod_5_p_tsble_dataGrid_Column_10.Name = "panelMethod_5_p_tsble_dataGrid_Column_10";
-            this.panelMethod_5_p_tsble_dataGrid_Column_10.ReadOnly = true;
+            this.panelMethod_5_p_table_dataGrid_Column_10.HeaderText = " ";
+            this.panelMethod_5_p_table_dataGrid_Column_10.Name = "panelMethod_5_p_table_dataGrid_Column_10";
+            this.panelMethod_5_p_table_dataGrid_Column_10.ReadOnly = true;
+            this.panelMethod_5_p_table_dataGrid_Column_10.Visible = false;
             // 
-            // panelMethod_5_p_tsble_dataGrid_Column_11
+            // panelMethod_5_p_table_dataGrid_Column_11
             // 
-            this.panelMethod_5_p_tsble_dataGrid_Column_11.HeaderText = " ";
-            this.panelMethod_5_p_tsble_dataGrid_Column_11.Name = "panelMethod_5_p_tsble_dataGrid_Column_11";
-            this.panelMethod_5_p_tsble_dataGrid_Column_11.ReadOnly = true;
+            this.panelMethod_5_p_table_dataGrid_Column_11.HeaderText = " ";
+            this.panelMethod_5_p_table_dataGrid_Column_11.Name = "panelMethod_5_p_table_dataGrid_Column_11";
+            this.panelMethod_5_p_table_dataGrid_Column_11.ReadOnly = true;
+            this.panelMethod_5_p_table_dataGrid_Column_11.Visible = false;
             // 
-            // panelMethod_5_p_tsble_dataGrid_Column_12
+            // panelMethod_5_p_table_dataGrid_Column_12
             // 
-            this.panelMethod_5_p_tsble_dataGrid_Column_12.HeaderText = " ";
-            this.panelMethod_5_p_tsble_dataGrid_Column_12.Name = "panelMethod_5_p_tsble_dataGrid_Column_12";
-            this.panelMethod_5_p_tsble_dataGrid_Column_12.ReadOnly = true;
+            this.panelMethod_5_p_table_dataGrid_Column_12.HeaderText = " ";
+            this.panelMethod_5_p_table_dataGrid_Column_12.Name = "panelMethod_5_p_table_dataGrid_Column_12";
+            this.panelMethod_5_p_table_dataGrid_Column_12.ReadOnly = true;
+            this.panelMethod_5_p_table_dataGrid_Column_12.Visible = false;
             // 
-            // panelMethod_5_p_tsble_dataGrid_Column_13
+            // panelMethod_5_p_table_dataGrid_Column_13
             // 
-            this.panelMethod_5_p_tsble_dataGrid_Column_13.HeaderText = " ";
-            this.panelMethod_5_p_tsble_dataGrid_Column_13.Name = "panelMethod_5_p_tsble_dataGrid_Column_13";
-            this.panelMethod_5_p_tsble_dataGrid_Column_13.ReadOnly = true;
+            this.panelMethod_5_p_table_dataGrid_Column_13.HeaderText = " ";
+            this.panelMethod_5_p_table_dataGrid_Column_13.Name = "panelMethod_5_p_table_dataGrid_Column_13";
+            this.panelMethod_5_p_table_dataGrid_Column_13.ReadOnly = true;
+            this.panelMethod_5_p_table_dataGrid_Column_13.Visible = false;
             // 
-            // panelMethod_5_p_tsble_dataGrid_Column_14
+            // panelMethod_5_p_table_dataGrid_Column_14
             // 
-            this.panelMethod_5_p_tsble_dataGrid_Column_14.HeaderText = " ";
-            this.panelMethod_5_p_tsble_dataGrid_Column_14.Name = "panelMethod_5_p_tsble_dataGrid_Column_14";
-            this.panelMethod_5_p_tsble_dataGrid_Column_14.ReadOnly = true;
+            this.panelMethod_5_p_table_dataGrid_Column_14.HeaderText = " ";
+            this.panelMethod_5_p_table_dataGrid_Column_14.Name = "panelMethod_5_p_table_dataGrid_Column_14";
+            this.panelMethod_5_p_table_dataGrid_Column_14.ReadOnly = true;
+            this.panelMethod_5_p_table_dataGrid_Column_14.Visible = false;
             // 
-            // panelMethod_5_p_tsble_dataGrid_Column_15
+            // panelMethod_5_p_table_dataGrid_Column_15
             // 
-            this.panelMethod_5_p_tsble_dataGrid_Column_15.HeaderText = " ";
-            this.panelMethod_5_p_tsble_dataGrid_Column_15.Name = "panelMethod_5_p_tsble_dataGrid_Column_15";
-            this.panelMethod_5_p_tsble_dataGrid_Column_15.ReadOnly = true;
+            this.panelMethod_5_p_table_dataGrid_Column_15.HeaderText = " ";
+            this.panelMethod_5_p_table_dataGrid_Column_15.Name = "panelMethod_5_p_table_dataGrid_Column_15";
+            this.panelMethod_5_p_table_dataGrid_Column_15.ReadOnly = true;
+            this.panelMethod_5_p_table_dataGrid_Column_15.Visible = false;
             // 
-            // panelMethod_5_p_tsble_dataGrid_Column_16
+            // panelMethod_5_p_table_dataGrid_Column_16
             // 
-            this.panelMethod_5_p_tsble_dataGrid_Column_16.HeaderText = " ";
-            this.panelMethod_5_p_tsble_dataGrid_Column_16.Name = "panelMethod_5_p_tsble_dataGrid_Column_16";
-            this.panelMethod_5_p_tsble_dataGrid_Column_16.ReadOnly = true;
+            this.panelMethod_5_p_table_dataGrid_Column_16.HeaderText = " ";
+            this.panelMethod_5_p_table_dataGrid_Column_16.Name = "panelMethod_5_p_table_dataGrid_Column_16";
+            this.panelMethod_5_p_table_dataGrid_Column_16.ReadOnly = true;
+            this.panelMethod_5_p_table_dataGrid_Column_16.Visible = false;
             // 
-            // panelMethod_5_p_tsble_dataGrid_Column_17
+            // panelMethod_5_p_table_dataGrid_Column_17
             // 
-            this.panelMethod_5_p_tsble_dataGrid_Column_17.HeaderText = " ";
-            this.panelMethod_5_p_tsble_dataGrid_Column_17.Name = "panelMethod_5_p_tsble_dataGrid_Column_17";
-            this.panelMethod_5_p_tsble_dataGrid_Column_17.ReadOnly = true;
+            this.panelMethod_5_p_table_dataGrid_Column_17.HeaderText = " ";
+            this.panelMethod_5_p_table_dataGrid_Column_17.Name = "panelMethod_5_p_table_dataGrid_Column_17";
+            this.panelMethod_5_p_table_dataGrid_Column_17.ReadOnly = true;
+            this.panelMethod_5_p_table_dataGrid_Column_17.Visible = false;
             // 
-            // panelMethod_5_p_tsble_dataGrid_Column_18
+            // panelMethod_5_p_table_dataGrid_Column_18
             // 
-            this.panelMethod_5_p_tsble_dataGrid_Column_18.HeaderText = " ";
-            this.panelMethod_5_p_tsble_dataGrid_Column_18.Name = "panelMethod_5_p_tsble_dataGrid_Column_18";
-            this.panelMethod_5_p_tsble_dataGrid_Column_18.ReadOnly = true;
+            this.panelMethod_5_p_table_dataGrid_Column_18.HeaderText = " ";
+            this.panelMethod_5_p_table_dataGrid_Column_18.Name = "panelMethod_5_p_table_dataGrid_Column_18";
+            this.panelMethod_5_p_table_dataGrid_Column_18.ReadOnly = true;
+            this.panelMethod_5_p_table_dataGrid_Column_18.Visible = false;
             // 
-            // panelMethod_5_p_tsble_dataGrid_Column_19
+            // panelMethod_5_p_table_dataGrid_Column_19
             // 
-            this.panelMethod_5_p_tsble_dataGrid_Column_19.HeaderText = " ";
-            this.panelMethod_5_p_tsble_dataGrid_Column_19.Name = "panelMethod_5_p_tsble_dataGrid_Column_19";
-            this.panelMethod_5_p_tsble_dataGrid_Column_19.ReadOnly = true;
+            this.panelMethod_5_p_table_dataGrid_Column_19.HeaderText = " ";
+            this.panelMethod_5_p_table_dataGrid_Column_19.Name = "panelMethod_5_p_table_dataGrid_Column_19";
+            this.panelMethod_5_p_table_dataGrid_Column_19.ReadOnly = true;
+            this.panelMethod_5_p_table_dataGrid_Column_19.Visible = false;
             // 
-            // panelMethod_5_p_tsble_dataGrid_Column_20
+            // panelMethod_5_p_table_dataGrid_Column_20
             // 
-            this.panelMethod_5_p_tsble_dataGrid_Column_20.HeaderText = " ";
-            this.panelMethod_5_p_tsble_dataGrid_Column_20.Name = "panelMethod_5_p_tsble_dataGrid_Column_20";
-            this.panelMethod_5_p_tsble_dataGrid_Column_20.ReadOnly = true;
+            this.panelMethod_5_p_table_dataGrid_Column_20.HeaderText = " ";
+            this.panelMethod_5_p_table_dataGrid_Column_20.Name = "panelMethod_5_p_table_dataGrid_Column_20";
+            this.panelMethod_5_p_table_dataGrid_Column_20.ReadOnly = true;
+            this.panelMethod_5_p_table_dataGrid_Column_20.Visible = false;
             // 
-            // panelMethod_5_p_tsble_dataGrid_Column_21
+            // panelMethod_5_p_table_dataGrid_Column_21
             // 
-            this.panelMethod_5_p_tsble_dataGrid_Column_21.HeaderText = " ";
-            this.panelMethod_5_p_tsble_dataGrid_Column_21.Name = "panelMethod_5_p_tsble_dataGrid_Column_21";
-            this.panelMethod_5_p_tsble_dataGrid_Column_21.ReadOnly = true;
+            this.panelMethod_5_p_table_dataGrid_Column_21.HeaderText = " ";
+            this.panelMethod_5_p_table_dataGrid_Column_21.Name = "panelMethod_5_p_table_dataGrid_Column_21";
+            this.panelMethod_5_p_table_dataGrid_Column_21.ReadOnly = true;
+            this.panelMethod_5_p_table_dataGrid_Column_21.Visible = false;
             // 
-            // panelMethod_5_p_tsble_dataGrid_Column_22
+            // panelMethod_5_p_table_dataGrid_Column_22
             // 
-            this.panelMethod_5_p_tsble_dataGrid_Column_22.HeaderText = " ";
-            this.panelMethod_5_p_tsble_dataGrid_Column_22.Name = "panelMethod_5_p_tsble_dataGrid_Column_22";
-            this.panelMethod_5_p_tsble_dataGrid_Column_22.ReadOnly = true;
+            this.panelMethod_5_p_table_dataGrid_Column_22.HeaderText = " ";
+            this.panelMethod_5_p_table_dataGrid_Column_22.Name = "panelMethod_5_p_table_dataGrid_Column_22";
+            this.panelMethod_5_p_table_dataGrid_Column_22.ReadOnly = true;
+            this.panelMethod_5_p_table_dataGrid_Column_22.Visible = false;
             // 
-            // panelMethod_5_p_tsble_dataGrid_Column_23
+            // panelMethod_5_p_table_dataGrid_Column_23
             // 
-            this.panelMethod_5_p_tsble_dataGrid_Column_23.HeaderText = " ";
-            this.panelMethod_5_p_tsble_dataGrid_Column_23.Name = "panelMethod_5_p_tsble_dataGrid_Column_23";
-            this.panelMethod_5_p_tsble_dataGrid_Column_23.ReadOnly = true;
+            this.panelMethod_5_p_table_dataGrid_Column_23.HeaderText = " ";
+            this.panelMethod_5_p_table_dataGrid_Column_23.Name = "panelMethod_5_p_table_dataGrid_Column_23";
+            this.panelMethod_5_p_table_dataGrid_Column_23.ReadOnly = true;
+            this.panelMethod_5_p_table_dataGrid_Column_23.Visible = false;
             // 
-            // panelMethod_5_p_tsble_dataGrid_Column_24
+            // panelMethod_5_p_table_dataGrid_Column_24
             // 
-            this.panelMethod_5_p_tsble_dataGrid_Column_24.HeaderText = " ";
-            this.panelMethod_5_p_tsble_dataGrid_Column_24.Name = "panelMethod_5_p_tsble_dataGrid_Column_24";
-            this.panelMethod_5_p_tsble_dataGrid_Column_24.ReadOnly = true;
+            this.panelMethod_5_p_table_dataGrid_Column_24.HeaderText = " ";
+            this.panelMethod_5_p_table_dataGrid_Column_24.Name = "panelMethod_5_p_table_dataGrid_Column_24";
+            this.panelMethod_5_p_table_dataGrid_Column_24.ReadOnly = true;
+            this.panelMethod_5_p_table_dataGrid_Column_24.Visible = false;
             // 
-            // panelMethod_5_p_tsble_dataGrid_Column_25
+            // panelMethod_5_p_table_dataGrid_Column_25
             // 
-            this.panelMethod_5_p_tsble_dataGrid_Column_25.HeaderText = " ";
-            this.panelMethod_5_p_tsble_dataGrid_Column_25.Name = "panelMethod_5_p_tsble_dataGrid_Column_25";
-            this.panelMethod_5_p_tsble_dataGrid_Column_25.ReadOnly = true;
+            this.panelMethod_5_p_table_dataGrid_Column_25.HeaderText = " ";
+            this.panelMethod_5_p_table_dataGrid_Column_25.Name = "panelMethod_5_p_table_dataGrid_Column_25";
+            this.panelMethod_5_p_table_dataGrid_Column_25.ReadOnly = true;
+            this.panelMethod_5_p_table_dataGrid_Column_25.Visible = false;
+            // 
+            // panelMethod_5_p_table_dataGrid_Column_26
+            // 
+            this.panelMethod_5_p_table_dataGrid_Column_26.HeaderText = " ";
+            this.panelMethod_5_p_table_dataGrid_Column_26.Name = "panelMethod_5_p_table_dataGrid_Column_26";
+            this.panelMethod_5_p_table_dataGrid_Column_26.ReadOnly = true;
+            this.panelMethod_5_p_table_dataGrid_Column_26.Visible = false;
             // 
             // panelMethod_5_p_keys
             // 
@@ -651,6 +687,7 @@ namespace lab_1_2
             this.panelMethod_5_p_slide_3.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.panelMethod_5_p_slide_3.BackColor = System.Drawing.Color.DimGray;
             this.panelMethod_5_p_slide_3.Controls.Add(this.panelMethod_5_slide_label_3);
+            this.panelMethod_5_p_slide_3.Enabled = false;
             this.panelMethod_5_p_slide_3.Location = new System.Drawing.Point(526, 50);
             this.panelMethod_5_p_slide_3.MaximumSize = new System.Drawing.Size(238, 49);
             this.panelMethod_5_p_slide_3.MinimumSize = new System.Drawing.Size(238, 49);
@@ -678,6 +715,7 @@ namespace lab_1_2
             this.panelMethod_5_p_slide_2.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.panelMethod_5_p_slide_2.BackColor = System.Drawing.Color.DimGray;
             this.panelMethod_5_p_slide_2.Controls.Add(this.panelMethod_5_slide_label_2);
+            this.panelMethod_5_p_slide_2.Enabled = false;
             this.panelMethod_5_p_slide_2.Location = new System.Drawing.Point(288, 50);
             this.panelMethod_5_p_slide_2.MaximumSize = new System.Drawing.Size(238, 49);
             this.panelMethod_5_p_slide_2.MinimumSize = new System.Drawing.Size(238, 49);
@@ -704,6 +742,7 @@ namespace lab_1_2
             this.panelMethod_5_p_slide_1.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.panelMethod_5_p_slide_1.BackColor = System.Drawing.Color.DimGray;
             this.panelMethod_5_p_slide_1.Controls.Add(this.panelMethod_5_slide_label_1);
+            this.panelMethod_5_p_slide_1.Enabled = false;
             this.panelMethod_5_p_slide_1.Location = new System.Drawing.Point(50, 50);
             this.panelMethod_5_p_slide_1.MaximumSize = new System.Drawing.Size(238, 49);
             this.panelMethod_5_p_slide_1.MinimumSize = new System.Drawing.Size(238, 49);
@@ -728,6 +767,7 @@ namespace lab_1_2
             // panelMethod_5_btn_back_slide
             // 
             this.panelMethod_5_btn_back_slide.BackColor = System.Drawing.SystemColors.ControlDark;
+            this.panelMethod_5_btn_back_slide.Enabled = false;
             this.panelMethod_5_btn_back_slide.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.panelMethod_5_btn_back_slide.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Bold);
             this.panelMethod_5_btn_back_slide.Location = new System.Drawing.Point(0, 49);
@@ -780,6 +820,7 @@ namespace lab_1_2
             // 
             this.panelMethod_5_btn_next_slide.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.panelMethod_5_btn_next_slide.BackColor = System.Drawing.SystemColors.ControlDark;
+            this.panelMethod_5_btn_next_slide.Enabled = false;
             this.panelMethod_5_btn_next_slide.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.panelMethod_5_btn_next_slide.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.panelMethod_5_btn_next_slide.Location = new System.Drawing.Point(765, 49);
@@ -808,6 +849,7 @@ namespace lab_1_2
             // panelMethod_5_p_encrypt_in
             // 
             this.panelMethod_5_p_encrypt_in.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.panelMethod_5_p_encrypt_in.Enabled = false;
             this.panelMethod_5_p_encrypt_in.Font = new System.Drawing.Font("Impact", 14.25F);
             this.panelMethod_5_p_encrypt_in.ForeColor = System.Drawing.Color.Silver;
             this.panelMethod_5_p_encrypt_in.Location = new System.Drawing.Point(0, 0);
@@ -2613,8 +2655,8 @@ namespace lab_1_2
             this.panelMainLeft.PerformLayout();
             this.panelMainRight.ResumeLayout(false);
             this.panelMethod_5.ResumeLayout(false);
-            this.panelMethod_5_p_tsble.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.panelMethod_5_p_tsble_dataGrid)).EndInit();
+            this.panelMethod_5_p_table.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.panelMethod_5_p_table_dataGrid)).EndInit();
             this.panelMethod_5_p_keys.ResumeLayout(false);
             this.panelMethod_5_p_keys.PerformLayout();
             this.panelMethod_5_p_slide_3.ResumeLayout(false);
@@ -2837,33 +2879,8 @@ namespace lab_1_2
         private TextBox panelMethod_5_p_encrypt_out;
         private Panel panelMethod_5_p_up;
         private Label panelMethod_5_p_up_text;
-        private Panel panelMethod_5_p_tsble;
-        private DataGridView panelMethod_5_p_tsble_dataGrid;
-        private DataGridViewTextBoxColumn panelMethod_5_p_tsble_dataGrid_Column_1;
-        private DataGridViewTextBoxColumn panelMethod_5_p_tsble_dataGrid_Column_2;
-        private DataGridViewTextBoxColumn panelMethod_5_p_tsble_dataGrid_Column_3;
-        private DataGridViewTextBoxColumn panelMethod_5_p_tsble_dataGrid_Column_4;
-        private DataGridViewTextBoxColumn panelMethod_5_p_tsble_dataGrid_Column_5;
-        private DataGridViewTextBoxColumn panelMethod_5_p_tsble_dataGrid_Column_6;
-        private DataGridViewTextBoxColumn panelMethod_5_p_tsble_dataGrid_Column_7;
-        private DataGridViewTextBoxColumn panelMethod_5_p_tsble_dataGrid_Column_8;
-        private DataGridViewTextBoxColumn panelMethod_5_p_tsble_dataGrid_Column_9;
-        private DataGridViewTextBoxColumn panelMethod_5_p_tsble_dataGrid_Column_10;
-        private DataGridViewTextBoxColumn panelMethod_5_p_tsble_dataGrid_Column_11;
-        private DataGridViewTextBoxColumn panelMethod_5_p_tsble_dataGrid_Column_12;
-        private DataGridViewTextBoxColumn panelMethod_5_p_tsble_dataGrid_Column_13;
-        private DataGridViewTextBoxColumn panelMethod_5_p_tsble_dataGrid_Column_14;
-        private DataGridViewTextBoxColumn panelMethod_5_p_tsble_dataGrid_Column_15;
-        private DataGridViewTextBoxColumn panelMethod_5_p_tsble_dataGrid_Column_16;
-        private DataGridViewTextBoxColumn panelMethod_5_p_tsble_dataGrid_Column_17;
-        private DataGridViewTextBoxColumn panelMethod_5_p_tsble_dataGrid_Column_18;
-        private DataGridViewTextBoxColumn panelMethod_5_p_tsble_dataGrid_Column_19;
-        private DataGridViewTextBoxColumn panelMethod_5_p_tsble_dataGrid_Column_20;
-        private DataGridViewTextBoxColumn panelMethod_5_p_tsble_dataGrid_Column_21;
-        private DataGridViewTextBoxColumn panelMethod_5_p_tsble_dataGrid_Column_22;
-        private DataGridViewTextBoxColumn panelMethod_5_p_tsble_dataGrid_Column_23;
-        private DataGridViewTextBoxColumn panelMethod_5_p_tsble_dataGrid_Column_24;
-        private DataGridViewTextBoxColumn panelMethod_5_p_tsble_dataGrid_Column_25;
+        private Panel panelMethod_5_p_table;
+        private DataGridView panelMethod_5_p_table_dataGrid;
         private Panel panelMethod_5_p_slide_3;
         private Label panelMethod_5_slide_label_3;
         private Panel panelMethod_5_p_slide_2;
@@ -2875,6 +2892,32 @@ namespace lab_1_2
         private TextBox panelMethod_5_p_keys_key_1;
         private Button panelMethod_5_btn_next_slide;
         private Label panelMethod_5_addLabel;
+        private DataGridViewTextBoxColumn panelMethod_5_p_table_dataGrid_Column_1;
+        private DataGridViewTextBoxColumn panelMethod_5_p_table_dataGrid_Column_2;
+        private DataGridViewTextBoxColumn panelMethod_5_p_table_dataGrid_Column_3;
+        private DataGridViewTextBoxColumn panelMethod_5_p_table_dataGrid_Column_4;
+        private DataGridViewTextBoxColumn panelMethod_5_p_table_dataGrid_Column_5;
+        private DataGridViewTextBoxColumn panelMethod_5_p_table_dataGrid_Column_6;
+        private DataGridViewTextBoxColumn panelMethod_5_p_table_dataGrid_Column_7;
+        private DataGridViewTextBoxColumn panelMethod_5_p_table_dataGrid_Column_8;
+        private DataGridViewTextBoxColumn panelMethod_5_p_table_dataGrid_Column_9;
+        private DataGridViewTextBoxColumn panelMethod_5_p_table_dataGrid_Column_10;
+        private DataGridViewTextBoxColumn panelMethod_5_p_table_dataGrid_Column_11;
+        private DataGridViewTextBoxColumn panelMethod_5_p_table_dataGrid_Column_12;
+        private DataGridViewTextBoxColumn panelMethod_5_p_table_dataGrid_Column_13;
+        private DataGridViewTextBoxColumn panelMethod_5_p_table_dataGrid_Column_14;
+        private DataGridViewTextBoxColumn panelMethod_5_p_table_dataGrid_Column_15;
+        private DataGridViewTextBoxColumn panelMethod_5_p_table_dataGrid_Column_16;
+        private DataGridViewTextBoxColumn panelMethod_5_p_table_dataGrid_Column_17;
+        private DataGridViewTextBoxColumn panelMethod_5_p_table_dataGrid_Column_18;
+        private DataGridViewTextBoxColumn panelMethod_5_p_table_dataGrid_Column_19;
+        private DataGridViewTextBoxColumn panelMethod_5_p_table_dataGrid_Column_20;
+        private DataGridViewTextBoxColumn panelMethod_5_p_table_dataGrid_Column_21;
+        private DataGridViewTextBoxColumn panelMethod_5_p_table_dataGrid_Column_22;
+        private DataGridViewTextBoxColumn panelMethod_5_p_table_dataGrid_Column_23;
+        private DataGridViewTextBoxColumn panelMethod_5_p_table_dataGrid_Column_24;
+        private DataGridViewTextBoxColumn panelMethod_5_p_table_dataGrid_Column_25;
+        private DataGridViewTextBoxColumn panelMethod_5_p_table_dataGrid_Column_26;
     }
 }
 
