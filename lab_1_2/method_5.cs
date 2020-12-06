@@ -12,7 +12,7 @@ namespace lab_1_2
 {
     public partial class MainForm : Form
     {
-        private void panelMethod_5_p_keys_key_1_Leave(object sender, EventArgs e)
+        private void PanelMethod_5_p_keys_key_1_Leave(object sender, EventArgs e)
         {
             if(panelMethod_5_p_keys_key_1.Text == "")
             {
@@ -21,7 +21,7 @@ namespace lab_1_2
             }
             if(panelMethod_5_p_keys_key_1.Text != "Введите секретный ключ" && panelMethod_5_p_keys_key_2.Text != "Введите секретный ключ")
             {
-                panelMethod_5_change_status_enable_onother_elements(true);
+                PanelMethod_5_change_status_enable_onother_elements(true);
                 panelMethod_5_p_encrypt_in.MaxLength = panelMethod_5_p_keys_key_1.Text.Length * panelMethod_5_p_keys_key_2.Text.Length;
                 if(panelMethod_5_p_encrypt_in.Text.Length < panelMethod_5_p_keys_key_1.Text.Length * panelMethod_5_p_keys_key_2.Text.Length)
                 {
@@ -34,7 +34,7 @@ namespace lab_1_2
             }
             else
             {
-                panelMethod_5_change_status_enable_onother_elements(false);
+                PanelMethod_5_change_status_enable_onother_elements(false);
             }
             if(this.panelMethod_5_p_keys_key_1.Text != "Введите секретный ключ")
             {
@@ -78,13 +78,13 @@ namespace lab_1_2
                         this.panelMethod_5_p_keys_key_1.Text = text;
                     }
                 }
-                panelMethod_5_view_count_column(this.panelMethod_5_p_keys_key_1.Text.Length+1);
+                PanelMethod_5_view_count_column(this.panelMethod_5_p_keys_key_1.Text.Length+1);
             }
 
         }
 
 
-        private void panelMethod_5_view_count_column(int length)
+        private void PanelMethod_5_view_count_column(int length)
         {
             var pos = 1;
             // выключаем все колонки
@@ -161,7 +161,7 @@ namespace lab_1_2
         }
 
 
-        private void panelMethod_5_p_keys_key_2_Leave(object sender, EventArgs e)
+        private void PanelMethod_5_p_keys_key_2_Leave(object sender, EventArgs e)
         {
             if (panelMethod_5_p_keys_key_2.Text == "")
             {
@@ -170,7 +170,7 @@ namespace lab_1_2
             }
             if (panelMethod_5_p_keys_key_1.Text != "Введите секретный ключ" && panelMethod_5_p_keys_key_2.Text != "Введите секретный ключ")
             {
-                panelMethod_5_change_status_enable_onother_elements(true);
+                PanelMethod_5_change_status_enable_onother_elements(true);
 
                 panelMethod_5_p_encrypt_in.MaxLength = panelMethod_5_p_keys_key_1.Text.Length * panelMethod_5_p_keys_key_2.Text.Length;
                 if (panelMethod_5_p_encrypt_in.Text.Length < panelMethod_5_p_keys_key_1.Text.Length * panelMethod_5_p_keys_key_2.Text.Length)
@@ -184,7 +184,7 @@ namespace lab_1_2
             }
             else 
             {
-                panelMethod_5_change_status_enable_onother_elements(false);
+                PanelMethod_5_change_status_enable_onother_elements(false);
             }
             if (this.panelMethod_5_p_keys_key_2.Text != "Введите секретный ключ")
             {
@@ -231,7 +231,7 @@ namespace lab_1_2
         }
 
 
-        private void panelMethod_5_p_encrypt_in_Leave(object sender, EventArgs e)
+        private void PanelMethod_5_p_encrypt_in_Leave(object sender, EventArgs e)
         {
             if (panelMethod_5_p_encrypt_in.Text == "")
             {
@@ -261,7 +261,7 @@ namespace lab_1_2
         }
 
 
-        private void panelMethod_5_p_keys_key_1_Enter(object sender, EventArgs e)
+        private void PanelMethod_5_p_keys_key_1_Enter(object sender, EventArgs e)
         {
             if (panelMethod_5_p_keys_key_1.Text == "Введите секретный ключ")
             {
@@ -271,7 +271,7 @@ namespace lab_1_2
         }
 
 
-        private void panelMethod_5_p_keys_key_2_Enter(object sender, EventArgs e)
+        private void PanelMethod_5_p_keys_key_2_Enter(object sender, EventArgs e)
         {
             if (panelMethod_5_p_keys_key_2.Text == "Введите секретный ключ")
             {
@@ -281,7 +281,7 @@ namespace lab_1_2
         }
 
 
-        private void panelMethod_5_p_encrypt_in_Enter(object sender, EventArgs e)
+        private void PanelMethod_5_p_encrypt_in_Enter(object sender, EventArgs e)
         {
             if (panelMethod_5_p_encrypt_in.Text == "Введите сообщение, которое надо зашифровать" || panelMethod_5_p_encrypt_in.Text.Replace(" ", "") == "Введитесообщение,котороенадозашифровать" || panelMethod_5_p_encrypt_in.Text.Replace("_", "") == "Введитесообщение,котороенадозашифровать")
             {
@@ -293,7 +293,7 @@ namespace lab_1_2
         }
 
 
-        private void panelMethod_5_add_row_to_table(List<string> row)
+        private void PanelMethod_5_add_row_to_table(List<string> row)
         {
             var count_Elem = row.Count;
             switch(count_Elem)
@@ -358,7 +358,7 @@ namespace lab_1_2
         }
 
 
-        private void panelMethod_5_btn_back_slide_Click(object sender, EventArgs e)
+        private void PanelMethod_5_btn_back_slide_Click(object sender, EventArgs e)
         {
             int Num_Slide = Convert.ToInt32(panelMethod_5_addLabel.Text.ToLower());
             Num_Slide--;
@@ -366,72 +366,72 @@ namespace lab_1_2
             this.panelMethod_5_addLabel.Text = Convert.ToString(Num_Slide);
             switch (Num_Slide)
             {
-                case 1: panelMethod_5_generate_table(1); break;
-                case 2: panelMethod_5_generate_table(2); break;
-                case 3: panelMethod_5_generate_table(3); break;
+                case 1: PanelMethod_5_generate_table(1); break;
+                case 2: PanelMethod_5_generate_table(2); break;
+                case 3: PanelMethod_5_generate_table(3); break;
             }
-            panelMethod_5_select_slide(Num_Slide);
+            PanelMethod_5_select_slide(Num_Slide);
         }
 
 
-        private void panelMethod_5_slide_label_1_MouseEnter(object sender, EventArgs e)
+        private void PanelMethod_5_slide_label_1_MouseEnter(object sender, EventArgs e)
         {
             panelMethod_5_slide_label_1.BackColor = System.Drawing.Color.Gray;
         }
 
 
-        private void panelMethod_5_slide_label_2_MouseEnter(object sender, EventArgs e)
+        private void PanelMethod_5_slide_label_2_MouseEnter(object sender, EventArgs e)
         {
             panelMethod_5_slide_label_2.BackColor = System.Drawing.Color.Gray;
         }
 
 
-        private void panelMethod_5_slide_label_3_MouseEnter(object sender, EventArgs e)
+        private void PanelMethod_5_slide_label_3_MouseEnter(object sender, EventArgs e)
         {
             panelMethod_5_slide_label_3.BackColor = System.Drawing.Color.Gray;
         }
 
 
-        private void panelMethod_5_slide_label_1_MouseLeave(object sender, EventArgs e)
+        private void PanelMethod_5_slide_label_1_MouseLeave(object sender, EventArgs e)
         {
             panelMethod_5_slide_label_1.BackColor = System.Drawing.Color.DimGray;
         }
 
 
-        private void panelMethod_5_slide_label_2_MouseLeave(object sender, EventArgs e)
+        private void PanelMethod_5_slide_label_2_MouseLeave(object sender, EventArgs e)
         {
             panelMethod_5_slide_label_2.BackColor = System.Drawing.Color.DimGray;
         }
 
 
-        private void panelMethod_5_slide_label_3_MouseLeave(object sender, EventArgs e)
+        private void PanelMethod_5_slide_label_3_MouseLeave(object sender, EventArgs e)
         {
             panelMethod_5_slide_label_3.BackColor = System.Drawing.Color.DimGray;
         }
 
 
-        private void panelMethod_5_slide_label_1_Click(object sender, EventArgs e)
+        private void PanelMethod_5_slide_label_1_Click(object sender, EventArgs e)
         {
-            panelMethod_5_generate_table(1);
-            panelMethod_5_select_slide(1);
+            PanelMethod_5_generate_table(1);
+            PanelMethod_5_select_slide(1);
         }
 
 
-        private void panelMethod_5_slide_label_2_Click(object sender, EventArgs e)
+        private void PanelMethod_5_slide_label_2_Click(object sender, EventArgs e)
         {
-            panelMethod_5_generate_table(2);
-            panelMethod_5_select_slide(2);
+            PanelMethod_5_generate_table(2);
+            PanelMethod_5_select_slide(2);
         }
 
 
-        private void panelMethod_5_slide_label_3_Click(object sender, EventArgs e)
+        private void PanelMethod_5_slide_label_3_Click(object sender, EventArgs e)
         {
-            panelMethod_5_generate_table(3);
-            panelMethod_5_select_slide(3);
+            PanelMethod_5_generate_table(3);
+            PanelMethod_5_select_slide(3);
         }
 
 
-        private void panelMethod_5_btn_next_slide_Click(object sender, EventArgs e)
+        private void PanelMethod_5_btn_next_slide_Click(object sender, EventArgs e)
         {
             int Num_Slide = Convert.ToInt32(panelMethod_5_addLabel.Text.ToLower());
             Num_Slide++;
@@ -439,11 +439,11 @@ namespace lab_1_2
             this.panelMethod_5_addLabel.Text = Convert.ToString(Num_Slide);
             switch(Num_Slide)
             {
-                case 1: panelMethod_5_generate_table(1); break;
-                case 2: panelMethod_5_generate_table(2); break;
-                case 3: panelMethod_5_generate_table(3); break;
+                case 1: PanelMethod_5_generate_table(1); break;
+                case 2: PanelMethod_5_generate_table(2); break;
+                case 3: PanelMethod_5_generate_table(3); break;
             }
-            panelMethod_5_select_slide(Num_Slide);
+            PanelMethod_5_select_slide(Num_Slide);
         }
 
 
@@ -471,7 +471,7 @@ namespace lab_1_2
         }
 
 
-        private void panelMethod_5_generate_table(int v)
+        private void PanelMethod_5_generate_table(int v)
         {
             panelMethod_5_p_table_dataGrid.Rows.Clear();
             if (panelMethod_5_p_encrypt_in.Text.Length < panelMethod_5_p_keys_key_1.Text.Length * panelMethod_5_p_keys_key_2.Text.Length)
@@ -687,11 +687,12 @@ namespace lab_1_2
             //    Table.Insert(i, tmp[i].ToString());
             foreach (var _row in rows)
             {
-                panelMethod_5_add_row_to_table(_row);
+                PanelMethod_5_add_row_to_table(_row);
             }
         }
 
-        private void panelMethod_5_change_status_enable_onother_elements(bool v)
+
+        private void PanelMethod_5_change_status_enable_onother_elements(bool v)
         {
             this.panelMethod_5_btn_back_slide.Enabled = v;
             this.panelMethod_5_btn_next_slide.Enabled = v;
@@ -702,7 +703,8 @@ namespace lab_1_2
             this.panelMethod_5_p_encrypt_in.Enabled = v;
         }
 
-        private void panelMethod_5_select_slide(int num_Slide)
+
+        private void PanelMethod_5_select_slide(int num_Slide)
         {
             panelMethod_5_slide_label_1.BackColor = System.Drawing.Color.DimGray;
             panelMethod_5_slide_label_2.BackColor = System.Drawing.Color.DimGray;
@@ -736,14 +738,14 @@ namespace lab_1_2
         }
 
 
-        private void panelMethod_5_p_encrypt_btn_Click(object sender, EventArgs e)
+        private void PanelMethod_5_p_encrypt_btn_Click(object sender, EventArgs e)
         {
             panelMethod_5_p_encrypt_out.Text = "";
             // создаём таблцу
             List<List<string>> table;
             // записываем инфу в таблицу
             {
-                List<string> row = new List<string>() { };
+                List<string> row;
                 // создаём вторую таблицу
                 List<List<string>> Second_rows = new List<List<string>>() { };
                 // записываев информацию в 2 таблицу

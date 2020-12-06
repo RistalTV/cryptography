@@ -706,9 +706,9 @@ namespace lab_1_2
             this.panelMethod_5_slide_label_3.TabIndex = 0;
             this.panelMethod_5_slide_label_3.Text = "Перестановка строк / Итог";
             this.panelMethod_5_slide_label_3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.panelMethod_5_slide_label_3.Click += new System.EventHandler(this.panelMethod_5_slide_label_3_Click);
-            this.panelMethod_5_slide_label_3.MouseEnter += new System.EventHandler(this.panelMethod_5_slide_label_3_MouseEnter);
-            this.panelMethod_5_slide_label_3.MouseLeave += new System.EventHandler(this.panelMethod_5_slide_label_3_MouseLeave);
+            this.panelMethod_5_slide_label_3.Click += new System.EventHandler(this.PanelMethod_5_slide_label_3_Click);
+            this.panelMethod_5_slide_label_3.MouseEnter += new System.EventHandler(this.PanelMethod_5_slide_label_3_MouseEnter);
+            this.panelMethod_5_slide_label_3.MouseLeave += new System.EventHandler(this.PanelMethod_5_slide_label_3_MouseLeave);
             // 
             // panelMethod_5_p_slide_2
             // 
@@ -733,9 +733,9 @@ namespace lab_1_2
             this.panelMethod_5_slide_label_2.TabIndex = 0;
             this.panelMethod_5_slide_label_2.Text = "Перестановка столбцов      /";
             this.panelMethod_5_slide_label_2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.panelMethod_5_slide_label_2.Click += new System.EventHandler(this.panelMethod_5_slide_label_2_Click);
-            this.panelMethod_5_slide_label_2.MouseEnter += new System.EventHandler(this.panelMethod_5_slide_label_2_MouseEnter);
-            this.panelMethod_5_slide_label_2.MouseLeave += new System.EventHandler(this.panelMethod_5_slide_label_2_MouseLeave);
+            this.panelMethod_5_slide_label_2.Click += new System.EventHandler(this.PanelMethod_5_slide_label_2_Click);
+            this.panelMethod_5_slide_label_2.MouseEnter += new System.EventHandler(this.PanelMethod_5_slide_label_2_MouseEnter);
+            this.panelMethod_5_slide_label_2.MouseLeave += new System.EventHandler(this.PanelMethod_5_slide_label_2_MouseLeave);
             // 
             // panelMethod_5_p_slide_1
             // 
@@ -760,9 +760,9 @@ namespace lab_1_2
             this.panelMethod_5_slide_label_1.TabIndex = 0;
             this.panelMethod_5_slide_label_1.Text = "Исходная таблица            /";
             this.panelMethod_5_slide_label_1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.panelMethod_5_slide_label_1.Click += new System.EventHandler(this.panelMethod_5_slide_label_1_Click);
-            this.panelMethod_5_slide_label_1.MouseEnter += new System.EventHandler(this.panelMethod_5_slide_label_1_MouseEnter);
-            this.panelMethod_5_slide_label_1.MouseLeave += new System.EventHandler(this.panelMethod_5_slide_label_1_MouseLeave);
+            this.panelMethod_5_slide_label_1.Click += new System.EventHandler(this.PanelMethod_5_slide_label_1_Click);
+            this.panelMethod_5_slide_label_1.MouseEnter += new System.EventHandler(this.PanelMethod_5_slide_label_1_MouseEnter);
+            this.panelMethod_5_slide_label_1.MouseLeave += new System.EventHandler(this.PanelMethod_5_slide_label_1_MouseLeave);
             // 
             // panelMethod_5_btn_back_slide
             // 
@@ -779,7 +779,7 @@ namespace lab_1_2
             this.panelMethod_5_btn_back_slide.TabIndex = 14;
             this.panelMethod_5_btn_back_slide.Text = "<";
             this.panelMethod_5_btn_back_slide.UseVisualStyleBackColor = false;
-            this.panelMethod_5_btn_back_slide.Click += new System.EventHandler(this.panelMethod_5_btn_back_slide_Click);
+            this.panelMethod_5_btn_back_slide.Click += new System.EventHandler(this.PanelMethod_5_btn_back_slide_Click);
             // 
             // panelMethod_5_p_keys_key_2
             // 
@@ -795,8 +795,8 @@ namespace lab_1_2
             this.panelMethod_5_p_keys_key_2.TabIndex = 11;
             this.panelMethod_5_p_keys_key_2.Text = "Введите секретный ключ";
             this.panelMethod_5_p_keys_key_2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.panelMethod_5_p_keys_key_2.Enter += new System.EventHandler(this.panelMethod_5_p_keys_key_2_Enter);
-            this.panelMethod_5_p_keys_key_2.Leave += new System.EventHandler(this.panelMethod_5_p_keys_key_2_Leave);
+            this.panelMethod_5_p_keys_key_2.Enter += new System.EventHandler(this.PanelMethod_5_p_keys_key_2_Enter);
+            this.panelMethod_5_p_keys_key_2.Leave += new System.EventHandler(this.PanelMethod_5_p_keys_key_2_Leave);
             // 
             // panelMethod_5_p_keys_key_1
             // 
@@ -813,8 +813,8 @@ namespace lab_1_2
             this.panelMethod_5_p_keys_key_1.TabIndex = 10;
             this.panelMethod_5_p_keys_key_1.Text = "Введите секретный ключ";
             this.panelMethod_5_p_keys_key_1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.panelMethod_5_p_keys_key_1.Enter += new System.EventHandler(this.panelMethod_5_p_keys_key_1_Enter);
-            this.panelMethod_5_p_keys_key_1.Leave += new System.EventHandler(this.panelMethod_5_p_keys_key_1_Leave);
+            this.panelMethod_5_p_keys_key_1.Enter += new System.EventHandler(this.PanelMethod_5_p_keys_key_1_Enter);
+            this.panelMethod_5_p_keys_key_1.Leave += new System.EventHandler(this.PanelMethod_5_p_keys_key_1_Leave);
             // 
             // panelMethod_5_btn_next_slide
             // 
@@ -833,7 +833,7 @@ namespace lab_1_2
             this.panelMethod_5_btn_next_slide.Text = ">";
             this.panelMethod_5_btn_next_slide.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             this.panelMethod_5_btn_next_slide.UseVisualStyleBackColor = false;
-            this.panelMethod_5_btn_next_slide.Click += new System.EventHandler(this.panelMethod_5_btn_next_slide_Click);
+            this.panelMethod_5_btn_next_slide.Click += new System.EventHandler(this.PanelMethod_5_btn_next_slide_Click);
             // 
             // panelMethod_5_p_encrypt
             // 
@@ -860,8 +860,8 @@ namespace lab_1_2
             this.panelMethod_5_p_encrypt_in.TabIndex = 7;
             this.panelMethod_5_p_encrypt_in.Text = "Введите сообщение, которое надо зашифровать";
             this.panelMethod_5_p_encrypt_in.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.panelMethod_5_p_encrypt_in.Enter += new System.EventHandler(this.panelMethod_5_p_encrypt_in_Enter);
-            this.panelMethod_5_p_encrypt_in.Leave += new System.EventHandler(this.panelMethod_5_p_encrypt_in_Leave);
+            this.panelMethod_5_p_encrypt_in.Enter += new System.EventHandler(this.PanelMethod_5_p_encrypt_in_Enter);
+            this.panelMethod_5_p_encrypt_in.Leave += new System.EventHandler(this.PanelMethod_5_p_encrypt_in_Leave);
             // 
             // panelMethod_5_p_encrypt_btn
             // 
@@ -873,7 +873,7 @@ namespace lab_1_2
             this.panelMethod_5_p_encrypt_btn.TabIndex = 6;
             this.panelMethod_5_p_encrypt_btn.Text = "Зашифровать";
             this.panelMethod_5_p_encrypt_btn.UseVisualStyleBackColor = true;
-            this.panelMethod_5_p_encrypt_btn.Click += new System.EventHandler(this.panelMethod_5_p_encrypt_btn_Click);
+            this.panelMethod_5_p_encrypt_btn.Click += new System.EventHandler(this.PanelMethod_5_p_encrypt_btn_Click);
             // 
             // panelMethod_5_p_encrypt_out
             // 
@@ -2382,7 +2382,7 @@ namespace lab_1_2
             // 
             // panelMethod_2_pictureBoxHelp
             // 
-            this.panelMethod_2_pictureBoxHelp.Image = global::lab_1_2.Properties.Resources.help_64x64;
+            this.panelMethod_2_pictureBoxHelp.Image = global::lab_1.Properties.Resources.help_64x64;
             this.panelMethod_2_pictureBoxHelp.Location = new System.Drawing.Point(484, 0);
             this.panelMethod_2_pictureBoxHelp.Name = "panelMethod_2_pictureBoxHelp";
             this.panelMethod_2_pictureBoxHelp.Size = new System.Drawing.Size(32, 32);
