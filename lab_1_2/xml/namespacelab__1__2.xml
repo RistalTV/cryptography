@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.20" xml:lang="en-US">
+  <compounddef id="namespacelab__1__2" kind="namespace" language="C#">
+    <compoundname>lab_1_2</compoundname>
+    <innerclass refid="classlab__1__2_1_1_main_form" prot="public">lab_1_2::MainForm</innerclass>
+    <innerclass refid="classlab__1__2_1_1_program" prot="public">lab_1_2::Program</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Form1.cs" line="11" column="1"/>
+  </compounddef>
+</doxygen>

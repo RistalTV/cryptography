@@ -1,0 +1,153 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.20" xml:lang="en-US">
+  <compounddef id="structlab__1__2_1_1_main_form_1_1_bigramms" kind="struct" language="C#" prot="public">
+    <compoundname>lab_1_2::MainForm::Bigramms</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="structlab__1__2_1_1_main_form_1_1_bigramms_1a50c7c25a606ac81b1a1e0dc76575b409" prot="private" static="no" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string lab_1_2.MainForm.Bigramms.a</definition>
+        <argsstring></argsstring>
+        <name>a</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="method_3.cs" line="14" column="37" bodyfile="method_3.cs" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structlab__1__2_1_1_main_form_1_1_bigramms_1ad743ad040bbbbd46a60c64534f92473e" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string lab_1_2.MainForm.Bigramms.b</definition>
+        <argsstring></argsstring>
+        <name>b</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="method_3.cs" line="15" column="28" bodyfile="method_3.cs" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structlab__1__2_1_1_main_form_1_1_bigramms_1a2a9a8dd32c13a44e49d1bc8e3f7b7bda" prot="private" static="no" mutable="no">
+        <type>readonly bool</type>
+        <definition>readonly bool lab_1_2.MainForm.Bigramms.Count</definition>
+        <argsstring></argsstring>
+        <name>Count</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="method_3.cs" line="16" column="35" bodyfile="method_3.cs" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structlab__1__2_1_1_main_form_1_1_bigramms_1a9f26e58d4a9484b2b9e745af784a338b" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string lab_1_2.MainForm.Bigramms.A</definition>
+        <argsstring></argsstring>
+        <name>A</name>
+        <initializer>=&gt; a</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="method_3.cs" line="28" column="27" bodyfile="method_3.cs" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structlab__1__2_1_1_main_form_1_1_bigramms_1a4408fb8fe8f27e1dfa60b4c255ee5077" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string lab_1_2.MainForm.Bigramms.B</definition>
+        <argsstring></argsstring>
+        <name>B</name>
+        <initializer>=&gt; b</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="method_3.cs" line="29" column="27" bodyfile="method_3.cs" bodystart="29" bodyend="-1"/>
+        <referencedby refid="structlab__1__2_1_1_main_form_1_1_bigramms_1a0f1019d1381db2972ac314c34c059b0d" compoundref="method__3_8cs" startline="25" endline="26">lab_1_2.MainForm.Bigramms.SetB</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="structlab__1__2_1_1_main_form_1_1_bigramms_1aba6b0645406e0ae218fe7ba2dc565838" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool lab_1_2.MainForm.Bigramms.Full</definition>
+        <argsstring></argsstring>
+        <name>Full</name>
+        <initializer>=&gt; Count</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="method_3.cs" line="30" column="25" bodyfile="method_3.cs" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="structlab__1__2_1_1_main_form_1_1_bigramms_1a4584ccd69eb6b5c0df7553df09314d71" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>lab_1_2.MainForm.Bigramms.Bigramms</definition>
+        <argsstring>(string a, string b, bool count=true)</argsstring>
+        <name>Bigramms</name>
+        <param>
+          <type>string</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>b</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>count</declname>
+          <defval>true</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="method_3.cs" line="18" column="20" bodyfile="method_3.cs" bodystart="18" bodyend="23"/>
+      </memberdef>
+      <memberdef kind="function" id="structlab__1__2_1_1_main_form_1_1_bigramms_1a0f1019d1381db2972ac314c34c059b0d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void lab_1_2.MainForm.Bigramms.SetB</definition>
+        <argsstring>(string B)</argsstring>
+        <name>SetB</name>
+        <param>
+          <type>string</type>
+          <declname>B</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="method_3.cs" line="25" column="25" bodyfile="method_3.cs" bodystart="25" bodyend="26"/>
+        <references refid="structlab__1__2_1_1_main_form_1_1_bigramms_1a4408fb8fe8f27e1dfa60b4c255ee5077" compoundref="method__3_8cs" startline="29">lab_1_2.MainForm.Bigramms.B</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="method_3.cs" line="12" column="15" bodyfile="method_3.cs" bodystart="13" bodyend="31"/>
+    <listofallmembers>
+      <member refid="structlab__1__2_1_1_main_form_1_1_bigramms_1a50c7c25a606ac81b1a1e0dc76575b409" prot="private" virt="non-virtual"><scope>lab_1_2::MainForm::Bigramms</scope><name>a</name></member>
+      <member refid="structlab__1__2_1_1_main_form_1_1_bigramms_1a9f26e58d4a9484b2b9e745af784a338b" prot="public" virt="non-virtual"><scope>lab_1_2::MainForm::Bigramms</scope><name>A</name></member>
+      <member refid="structlab__1__2_1_1_main_form_1_1_bigramms_1ad743ad040bbbbd46a60c64534f92473e" prot="private" virt="non-virtual"><scope>lab_1_2::MainForm::Bigramms</scope><name>b</name></member>
+      <member refid="structlab__1__2_1_1_main_form_1_1_bigramms_1a4408fb8fe8f27e1dfa60b4c255ee5077" prot="public" virt="non-virtual"><scope>lab_1_2::MainForm::Bigramms</scope><name>B</name></member>
+      <member refid="structlab__1__2_1_1_main_form_1_1_bigramms_1a4584ccd69eb6b5c0df7553df09314d71" prot="public" virt="non-virtual"><scope>lab_1_2::MainForm::Bigramms</scope><name>Bigramms</name></member>
+      <member refid="structlab__1__2_1_1_main_form_1_1_bigramms_1a2a9a8dd32c13a44e49d1bc8e3f7b7bda" prot="private" virt="non-virtual"><scope>lab_1_2::MainForm::Bigramms</scope><name>Count</name></member>
+      <member refid="structlab__1__2_1_1_main_form_1_1_bigramms_1aba6b0645406e0ae218fe7ba2dc565838" prot="public" virt="non-virtual"><scope>lab_1_2::MainForm::Bigramms</scope><name>Full</name></member>
+      <member refid="structlab__1__2_1_1_main_form_1_1_bigramms_1a0f1019d1381db2972ac314c34c059b0d" prot="public" virt="non-virtual"><scope>lab_1_2::MainForm::Bigramms</scope><name>SetB</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,80 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.20" xml:lang="en-US">
+  <compounddef id="classlab__1__2_1_1_main_form_1_1_list___rows___comparer" kind="class" language="C#" prot="private">
+    <compoundname>lab_1_2::MainForm::List_Rows_Comparer</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">IComparer&lt; List&lt; string &gt;&gt;</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classlab__1__2_1_1_main_form_1_1_list___rows___comparer_1a6011578362bd55366e5661d7d4e0d6f1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int lab_1_2.MainForm.List_Rows_Comparer.Compare</definition>
+        <argsstring>(List&lt; string &gt; p1, List&lt; string &gt; p2)</argsstring>
+        <name>Compare</name>
+        <param>
+          <type>List&lt; string &gt;</type>
+          <declname>p1</declname>
+        </param>
+        <param>
+          <type>List&lt; string &gt;</type>
+          <declname>p2</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="method_5.cs" line="452" column="24" bodyfile="method_5.cs" bodystart="452" bodyend="460"/>
+      </memberdef>
+      <memberdef kind="function" id="classlab__1__2_1_1_main_form_1_1_list___rows___comparer_1acdafd7e0db6c06e41f86d773dc67a095" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int lab_1_2.MainForm.List_Rows_Comparer.Compare</definition>
+        <argsstring>(List&lt; List&lt; string &gt;&gt; p1, List&lt; List&lt; string &gt;&gt; p2)</argsstring>
+        <name>Compare</name>
+        <param>
+          <type>List&lt; List&lt; string &gt;&gt;</type>
+          <declname>p1</declname>
+        </param>
+        <param>
+          <type>List&lt; List&lt; string &gt;&gt;</type>
+          <declname>p2</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="method_5.cs" line="461" column="24" bodyfile="method_5.cs" bodystart="461" bodyend="469"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>lab_1_2.MainForm.List_Rows_Comparer</label>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>IComparer&lt; List&lt; string &gt;&gt;</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>lab_1_2.MainForm.List_Rows_Comparer</label>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>IComparer&lt; List&lt; string &gt;&gt;</label>
+      </node>
+    </collaborationgraph>
+    <location file="method_5.cs" line="450" column="9" bodyfile="method_5.cs" bodystart="451" bodyend="471"/>
+    <listofallmembers>
+      <member refid="classlab__1__2_1_1_main_form_1_1_list___rows___comparer_1a6011578362bd55366e5661d7d4e0d6f1" prot="public" virt="non-virtual"><scope>lab_1_2::MainForm::List_Rows_Comparer</scope><name>Compare</name></member>
+      <member refid="classlab__1__2_1_1_main_form_1_1_list___rows___comparer_1acdafd7e0db6c06e41f86d773dc67a095" prot="public" virt="non-virtual"><scope>lab_1_2::MainForm::List_Rows_Comparer</scope><name>Compare</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>
