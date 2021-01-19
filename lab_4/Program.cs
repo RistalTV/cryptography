@@ -18,7 +18,14 @@ namespace lab_4
             Console.WriteLine("                                                Лабораторная работа №4");
             Console.WriteLine("                          Выполнили: Скребнев Леонид, Чернуцкая Екатерина, Кутузов Леонид");
             Console.WriteLine("=====================================================================================================================");
-            A_Abonent.PrintLog($"ИСходное сообщение: {text}", true);
+            Console.WriteLine("Введите m = ");
+            text = Convert.ToString(Console.ReadLine());
+            Console.WriteLine("Введите p = ");
+            p = Convert.ToInt32(Console.ReadLine());
+                     
+            
+            A_Abonent.PrintLog($"\nИСходное сообщение: {text}", true);
+
 
             //Этап 1
             A_Abonent.SetP(p);//Абонент А выбирает Р
