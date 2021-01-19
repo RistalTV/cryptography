@@ -1,0 +1,78 @@
+\doxysection{lab\+\_\+1\+\_\+2.\+Main\+Form Class Reference}
+\label{classlab__1__2_1_1_main_form}\index{lab\_1\_2.MainForm@{lab\_1\_2.MainForm}}
+
+
+Inheritance diagram for lab\+\_\+1\+\_\+2.\+Main\+Form\+:
+% FIG 0
+
+
+Collaboration diagram for lab\+\_\+1\+\_\+2.\+Main\+Form\+:
+% FIG 1
+\doxysubsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+struct \textbf{ Bigramms}
+\end{DoxyCompactItemize}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\textbf{ Main\+Form} ()
+\end{DoxyCompactItemize}
+\doxysubsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+override void \textbf{ Dispose} (bool disposing)
+\begin{DoxyCompactList}\small\item\em Освободить все используемые ресурсы. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+
+
+Definition at line 13 of file Form1.\+cs.
+
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\label{classlab__1__2_1_1_main_form_abacc905cabdfcee1f838b39370f2d7a8}} 
+\index{lab\_1\_2.MainForm@{lab\_1\_2.MainForm}!MainForm@{MainForm}}
+\index{MainForm@{MainForm}!lab\_1\_2.MainForm@{lab\_1\_2.MainForm}}
+\doxysubsubsection{MainForm()}
+{\footnotesize\ttfamily lab\+\_\+1\+\_\+2.\+Main\+Form.\+Main\+Form (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Definition at line 15 of file Form1.\+cs.
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\label{classlab__1__2_1_1_main_form_a7e79cb2c2eb561160ae637d8e08fa0f1}} 
+\index{lab\_1\_2.MainForm@{lab\_1\_2.MainForm}!Dispose@{Dispose}}
+\index{Dispose@{Dispose}!lab\_1\_2.MainForm@{lab\_1\_2.MainForm}}
+\doxysubsubsection{Dispose()}
+{\footnotesize\ttfamily override void lab\+\_\+1\+\_\+2.\+Main\+Form.\+Dispose (\begin{DoxyParamCaption}\item[{bool}]{disposing }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+Освободить все используемые ресурсы. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em disposing} & истинно, если управляемый ресурс должен быть удален; иначе ложно.\\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 16 of file Form1.\+Designer.\+cs.
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+\textbf{ Form1.\+cs}\item 
+\textbf{ Form1.\+Designer.\+cs}\item 
+\textbf{ method\+\_\+1.\+cs}\item 
+\textbf{ method\+\_\+2.\+cs}\item 
+\textbf{ method\+\_\+3.\+cs}\item 
+\textbf{ method\+\_\+4.\+cs}\item 
+\textbf{ method\+\_\+5.\+cs}\end{DoxyCompactItemize}

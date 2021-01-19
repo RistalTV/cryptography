@@ -1,0 +1,13 @@
+C:\projects\cryptography\lab_1_2\bin\Debug\lab_1_2.exe.config
+C:\projects\cryptography\lab_1_2\bin\Debug\lab_1_2.exe
+C:\projects\cryptography\lab_1_2\bin\Debug\lab_1_2.pdb
+C:\projects\cryptography\lab_1_2\obj\Debug\lab_1_2.MainForm.resources
+C:\projects\cryptography\lab_1_2\obj\Debug\lab_1_2.Properties.Resources.resources
+C:\projects\cryptography\lab_1_2\obj\Debug\lab_1_2.csproj.GenerateResource.cache
+C:\projects\cryptography\lab_1_2\obj\Debug\lab_1_2.csproj.CoreCompileInputs.cache
+C:\projects\cryptography\lab_1_2\obj\Debug\lab_1_2.exe
+C:\projects\cryptography\lab_1_2\obj\Debug\lab_1_2.pdb
+C:\projects\cryptography\lab_1_2\bin\Debug\ru\lab_1_2.resources.dll
+C:\projects\cryptography\lab_1_2\obj\Debug\lab_1_2.MainForm.ru.resources
+C:\projects\cryptography\lab_1_2\obj\Debug\ru\lab_1_2.resources.dll
+C:\projects\cryptography\lab_1_2\obj\Debug\lab_1_2.csprojAssemblyReference.cache

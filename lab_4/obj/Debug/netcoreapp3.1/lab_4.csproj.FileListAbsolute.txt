@@ -1,0 +1,13 @@
+C:\projects\cryptography\lab_4\bin\Debug\netcoreapp3.1\lab_4.exe
+C:\projects\cryptography\lab_4\bin\Debug\netcoreapp3.1\lab_4.deps.json
+C:\projects\cryptography\lab_4\bin\Debug\netcoreapp3.1\lab_4.runtimeconfig.json
+C:\projects\cryptography\lab_4\bin\Debug\netcoreapp3.1\lab_4.runtimeconfig.dev.json
+C:\projects\cryptography\lab_4\bin\Debug\netcoreapp3.1\lab_4.dll
+C:\projects\cryptography\lab_4\bin\Debug\netcoreapp3.1\lab_4.pdb
+C:\projects\cryptography\lab_4\obj\Debug\netcoreapp3.1\lab_4.csprojAssemblyReference.cache
+C:\projects\cryptography\lab_4\obj\Debug\netcoreapp3.1\lab_4.csproj.CoreCompileInputs.cache
+C:\projects\cryptography\lab_4\obj\Debug\netcoreapp3.1\lab_4.AssemblyInfoInputs.cache
+C:\projects\cryptography\lab_4\obj\Debug\netcoreapp3.1\lab_4.AssemblyInfo.cs
+C:\projects\cryptography\lab_4\obj\Debug\netcoreapp3.1\lab_4.dll
+C:\projects\cryptography\lab_4\obj\Debug\netcoreapp3.1\lab_4.pdb
+C:\projects\cryptography\lab_4\obj\Debug\netcoreapp3.1\lab_4.genruntimeconfig.cache
