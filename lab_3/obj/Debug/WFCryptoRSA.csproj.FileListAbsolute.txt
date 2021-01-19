@@ -1,0 +1,10 @@
+C:\projects\cryptography\lab_3\bin\Debug\WFCryptoRSA.exe.config
+C:\projects\cryptography\lab_3\bin\Debug\WFCryptoRSA.exe
+C:\projects\cryptography\lab_3\bin\Debug\WFCryptoRSA.pdb
+C:\projects\cryptography\lab_3\obj\Debug\WFCryptoRSA.csprojAssemblyReference.cache
+C:\projects\cryptography\lab_3\obj\Debug\WFCryptoRSA.Form1.resources
+C:\projects\cryptography\lab_3\obj\Debug\WFCryptoRSA.Properties.Resources.resources
+C:\projects\cryptography\lab_3\obj\Debug\WFCryptoRSA.csproj.GenerateResource.cache
+C:\projects\cryptography\lab_3\obj\Debug\WFCryptoRSA.csproj.CoreCompileInputs.cache
+C:\projects\cryptography\lab_3\obj\Debug\WFCryptoRSA.exe
+C:\projects\cryptography\lab_3\obj\Debug\WFCryptoRSA.pdb
